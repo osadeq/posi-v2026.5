@@ -1,0 +1,18 @@
+{
+  "question": "<p><span >Donnez la formule pour calculer le <strong>montant de la TVA</strong> pour la cellule en cours (<strong>B5</strong>) du tableau suivant.</span></p>\n<p><span >Toutes les autres formules des cellules de <strong>B6 à B9</strong> seront copiées/collées de <strong>B5</strong>, de sorte qu’elles gardent la liaison avec la cellule <strong>B2 </strong>(Taux de TVA).</span></p>\n<p><span ><img src=\"/images/bq/POSI-XLS-N2-Q26-1.png\" width=\"635\" height=\"340\"></span></p>",
+  "reponses": {
+    "A": "<p ><strong>=A5 * B2</strong></p>",
+    "B": "<p ><strong>=$A$5 * $B$2</strong></p>",
+    "C": "<p ><strong>=$A$5 * B2</strong></p>",
+    "D": "<p ><strong>=A5 * $B$2</strong></p>",
+    "E": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

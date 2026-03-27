@@ -1,0 +1,17 @@
+{
+  "question": "<p>J'ai créé un tableau croisé dynamique et je modifie des données dans le tableau source.</p>\n<p>Que va-t-il se passer dans le tableau croisé dynamique ?</p>",
+  "reponses": {
+    "A": "<p><span>Les données du tableau croisé dynamique seront mises à jour systématiquement.</span></p>",
+    "B": "<p><span>Je dois actualiser manuellement le tableau croisé dynamique pour qu'il prenne en compte les nouvelles modifications.</span></p>",
+    "C": "<p><span>Excel affichera un message proposant l'actualisation du tableau croisé dynamique.</span></p>",
+    "D": "<p><span>Je ne sais pas.</span></p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D4-N2-C3]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

@@ -1,0 +1,17 @@
+{
+  "question": "<p >Quelle est l'extension par défaut d'Excel ?</p>",
+  "reponses": {
+    "A": "<p>.TXT</p>",
+    "B": "<p>.CSV</p>",
+    "C": "<p>.XLSX</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D1-N1-C2]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

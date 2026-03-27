@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importer - Dashboard TOSA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2563EB; --primary-dark: #1D4ED8; --secondary: #10B981; --bg-main: #F8FAFC; --bg-card: #FFFFFF; --bg-gray: #F1F5F9; --text-main: #1E293B; --text-muted: #64748B; --border: #E2E8F0; --radius: 0.5rem; --radius-lg: 0.75rem; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-main); color: var(--text-main); min-height: 100vh; }
+        .header { background: var(--bg-card); border-bottom: 1px solid var(--border); padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
+        .header-inner { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .logo-icon { width: 36px; height: 36px; background: var(--primary); color: white; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-weight: 700; }
+        .nav { display: flex; gap: 1rem; }
+        .nav a { color: var(--text-muted); text-decoration: none; padding: 0.5rem 1rem; border-radius: var(--radius); font-weight: 500; }
+        .nav a:hover, .nav a.active { background: var(--bg-gray); color: var(--primary); }
+        .main-content { padding: 2rem 0; }
+        h1 { font-size: 1.875rem; margin-bottom: 1rem; }
+        .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+        .card-body { padding: 2rem; }
+        .form-group { margin-bottom: 1.5rem; }
+        .form-label { display: block; font-weight: 500; margin-bottom: 0.5rem; }
+        .form-input, .form-select { width: 100%; padding: 0.75rem; border: 1px solid var(--border); border-radius: var(--radius); font-size: 1rem; }
+        .form-help { font-size: 0.875rem; color: var(--text-muted); margin-top: 0.5rem; }
+        .drop-zone { border: 2px dashed var(--border); border-radius: var(--radius-lg); padding: 3rem; text-align: center; transition: all 0.2s; cursor: pointer; }
+        .drop-zone:hover, .drop-zone.dragover { border-color: var(--primary); background: rgba(37, 99, 235, 0.05); }
+        .drop-zone-icon { font-size: 3rem; margin-bottom: 1rem; }
+        .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; font-weight: 600; border: none; border-radius: var(--radius); cursor: pointer; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-dark); }
+        .btn-block { width: 100%; }
+        .alert { padding: 1rem; border-radius: var(--radius); margin-bottom: 1rem; }
+        .alert-info { background: #DBEAFE; color: #1E40AF; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="/" class="logo">
+                <div class="logo-icon">D</div>
+                <span>Dashboard TOSA</span>
+            </a>
+            <nav class="nav">
+                <a href="/">Accueil</a>
+                <a href="/candidats">Candidats</a>
+                <a href="/tests">Tests</a>
+                <a href="/programmes">Programmes</a>
+                <a href="/importer" class="active">Importer</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <h1>Importer des tests</h1>
+            <p class="text-muted mb-lg">Importez des tests remplis par des candidats en dehors de la webapp</p>
+            
+            <div class="card">
+                <div class="card-body">
+                    <div class="alert alert-info">
+                        <strong>Format CSV attendu :</strong><br>
+                        colonnes: nom, prenom, email, formation, niveau, type_test, reponse_1, reponse_2, ...
+                    </div>
+                    
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label class="form-label">Fichier CSV</label>
+                            <div class="drop-zone" id="drop-zone">
+                                <div class="drop-zone-icon">📁</div>
+                                <p>Glissez-déposez un fichier CSV ici</p>
+                                <p class="form-help">ou cliquez pour sélectionner</p>
+                                <input type="file" name="fichier" accept=".csv" style="display: none;" id="file-input">
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Importer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        const dropZone = document.getElementById('drop-zone');
+        const fileInput = document.getElementById('file-input');
+        
+        dropZone.addEventListener('click', () => fileInput.click());
+        
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.classList.add('dragover');
+        });
+        
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.classList.remove('dragover');
+        });
+        
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('dragover');
+            if (e.dataTransfer.files.length) {
+                fileInput.files = e.dataTransfer.files;
+            }
+        });
+        
+        fileInput.addEventListener('change', () => {
+            if (fileInput.files.length) {
+                dropZone.querySelector('p').textContent = 'Fichier sélectionné: ' + fileInput.files[0].name;
+            }
+        });
+    </script>
+</body>
+</html>

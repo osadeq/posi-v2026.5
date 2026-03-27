@@ -1,0 +1,19 @@
+{
+  "question": "<p >La cellule F4 contient la formule =SOMME(B4:E4) et elle a été dupliquée sur les autres cellules de la colonne Totaux. Je souhaite insérer une colonne <b>Mercredi</b> entre les colonnes <b>Mardi</b> et <b>Jeudi</b>. Quelle va être la conséquence sur les formules de la colonne Totaux ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q17-1.png\" width=\"615\" height=\"272\"></p>",
+  "reponses": {
+    "A": "<p >Les formules seront erronées. Mais il me suffira de recréer la première formule de la colonne pour qu’Excel corrige automatiquement toutes les autres formules de la colonne.</p>",
+    "B": "<p >Les formules seront automatiquement corrigées.</p>",
+    "C": "<p >Aucune conséquence du fait qu’Excel refusera l’insertion de la colonne à cause des formules. Pour réaliser cette opération, la seule solution serait de déplacer les colonnes de D à F d’une colonne vers la droite.</p>",
+    "D": "<p >Le résultat des formules sera une erreur de type #REF!</p>",
+    "E": "<p >Le résultat des formules sera une erreur de type #VALEUR!</p>",
+    "F": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C4]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

@@ -1,0 +1,17 @@
+{
+  "question": "<p><span >Nous souhaitons modifier la mise en forme conditionnelle de la colonne « Température », pour appliquer une échelle à deux couleurs : le bleu pour les températures les plus froides et le rouge pour les chaudes. Comment procéder ? </span></p>\n<p><span ><img src=\"/images/bq/POSI-XLS-N2-Q19-1.png\" width=\"751\" height=\"394\"></span></p>",
+  "reponses": {
+    "A": "<p >En choisissant le 4<sup>ième</sup> type de règle : « Appliquer une mise en forme uniquement aux valeurs au-dessus ou en-dessous de la moyenne »</p>",
+    "B": "<p >En changeant le style de mise en forme</p>",
+    "C": "<p >En utilisant une formule pour déterminer pour quelles cellules le forme sera appliqué</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C7]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

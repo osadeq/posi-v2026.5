@@ -1,0 +1,18 @@
+{
+  "question": "<p >Dans l'exemple suivant, quelles commandes ai-je utilisé pour appliquer le nouveau format ?</p>\n<p >1. Au départ, les colonnes<strong> A et F</strong> étaient en <b><i>Italique </i></b>comme présenté ici :</p>\n<p><img src=\"/images/bq/POSI-XLS-N1-Q16-1.png\"></p>\n<p >2. Après application du nouveau format, le tableau se présente ainsi :</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q16-2.png\"></p>",
+  "reponses": {
+    "A": "<p>J’ai sélectionné les colonnes ciblées, puis j’ai cliqué sur les boutons <img src=\"/images/bq/POSI-XLS-N1-Q16-R1-1.png\">, puis sur <img src=\"/images/bq/POSI-XLS-N1-Q16-R1-2.png\"></p>",
+    "B": "<p >J’ai utilisé les commandes « <strong>Copier/Coller les formats</strong>»</p>",
+    "C": "<p>J’ai appliqué une mise en forme conditionnelle</p>",
+    "D": "<p>J’ai sélectionné les colonnes ciblées, puis j’ai cliqué sur le bouton <img src=\"/images/bq/POSI-XLS-N1-Q16-R4-1.png\"></p>",
+    "E": "<p>Je ne sais pas.</p>"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

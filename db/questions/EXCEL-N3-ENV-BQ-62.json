@@ -1,0 +1,19 @@
+{
+  "question": "<p><span >L’information Référence circulaire s'est affichée sur la barre d’état. Quelle en est la signification ?</span></p>\n<p><span ><img src=\"/images/bq/POSI-XLS-N3-Q04-1.png\" width=\"737\" height=\"223\"></span></p>",
+  "reponses": {
+    "A": "<p >Une cellule du classeur contient une liaison avec un fichier externe.</p>",
+    "B": "<p >La feuille active contient un tableau croisé dynamique.</p>",
+    "C": "<p >Le classeur contient des macros.</p>",
+    "D": "<p >Une cellule du classeur contient une formule faisant référence à elle-même.</p>",
+    "E": "<p >La cellule E2 contient une fonction LOI.NORMALE.INVERSE().</p>",
+    "F": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D1-N3-C14]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

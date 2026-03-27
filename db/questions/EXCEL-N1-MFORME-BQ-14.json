@@ -1,0 +1,17 @@
+{
+  "question": "<p >Dans le tableau suivant, le titre « <strong>Ventes de la semaine</strong> » est centré horizontalement sur les colonnes de <strong>A à F</strong>. Comment a-t-on pu faire ça ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q15-1.png\" width=\"596\" height=\"309\"></p>",
+  "reponses": {
+    "A": "<p >On a utilisé l'alignement « <strong>Centré</strong> »</p>",
+    "B": "<p >Le titre est écrit dans la cellule <strong>C1</strong></p>",
+    "C": "<p >On a utilisé le format « <strong>Fusionner et center </strong>»</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

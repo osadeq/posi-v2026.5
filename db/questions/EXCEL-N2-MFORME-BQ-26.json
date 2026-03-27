@@ -1,0 +1,17 @@
+{
+  "question": "<p >Quel est le meilleur moyen pour analyser et effectuer des calculs de synthèse sur des données chiffrées ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q02-1.png\" width=\"704\" height=\"236\"></p>",
+  "reponses": {
+    "A": "<p ><strong>Graphique en courbe</strong></p>",
+    "B": "<p ><strong>Une extraction avec un filtre avancé</strong></p>",
+    "C": "<p ><strong>Tableaux croisés dynamiques</strong></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N2-C10]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

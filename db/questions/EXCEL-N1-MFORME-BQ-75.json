@@ -1,0 +1,18 @@
+{
+  "question": "<p>Comment mettre un texte en gras dans une cellule Excel ?</p>",
+  "reponses": {
+    "A": "<p>Je sélectionne la cellule et je clique sur le bouton <strong>G</strong> dans le ruban</p>",
+    "B": "<p>Je tape le texte en majuscules</p>",
+    "C": "<p>J'utilise le raccourci Ctrl+B</p>",
+    "D": "<p>Les réponses 1 et 3 sont correctes</p>",
+    "E": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

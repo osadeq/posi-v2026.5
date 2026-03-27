@@ -1,0 +1,17 @@
+{
+  "question": "<p ><span >Selon la figure suivante, dans<strong> le premier tableau à gauche</strong> nous avons calculé <strong>les dates de livraison pévisionnelles</strong> à partir <strong>des dates de commande</strong> et <strong>des délais de livraison</strong>.<br>Le calcul de ces dates prend en compte les jours ouvrés et les jours fériés présents dans le second tableau.</span></p>\n<p ><span >Quelle est la fonction Excel que nous avons utilisée pour ça ?</span></p>\n<p ><img src=\"/images/bq/POSI-XLS-N3-Q06-1.png\" width=\"722\" height=\"239\"></p>\n<p > </p>",
+  "reponses": {
+    "A": "<p >La fonction <strong>NB.JOURS.OUVRES</strong></p>",
+    "B": "<p>La fonction <strong>DATEVAL</strong></p>",
+    "C": "<p >La fonction <strong>SERIE.JOUR.OUVRE</strong></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N3-C1]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

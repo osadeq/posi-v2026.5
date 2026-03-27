@@ -1,0 +1,17 @@
+{
+  "question": "<p>Comment ajouter une nouvelle ligne dans un tableau Excel ?</p>",
+  "reponses": {
+    "A": "<p>Je clique sur le numéro de ligne, puis clic droit et 'Insérer'</p>",
+    "B": "<p>Je tape 'Nouvelle ligne' dans une cellule</p>",
+    "C": "<p>J'utilise le menu 'Fichier' puis 'Nouvelle ligne'</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D1-N1-C10]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

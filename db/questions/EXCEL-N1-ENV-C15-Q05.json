@@ -1,0 +1,17 @@
+{
+  "question": "Lorqu'on fait Clic droit > 'Insérer' sur une cellule isolée, que propose Excel ?",
+  "reponses": {
+    "A": "De supprimer la ligne correspondante.",
+    "B": "De décaler les cellules existantes vers le bas ou vers la droite.",
+    "C": "De dupliquer la feuille entière.",
+    "D": "De réinitialiser la couleur de la cellule."
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "L'insertion d'une cellule isolée oblige Excel à déplacer le reste des données environnantes sans toucher aux lignes.",
+  "competencesCibles": [
+    "EXCEL-N1-ENV-C15"
+  ],
+  "difficulty": 42,
+  "discrimination": 1.2,
+  "guessing": 0.25
+}

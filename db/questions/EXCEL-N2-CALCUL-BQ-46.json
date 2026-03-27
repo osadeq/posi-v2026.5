@@ -1,0 +1,19 @@
+{
+  "question": "<p><span >La cellule B1 se nomme Prix_par_Km. La cellule B4 contient la formule =$A4*Prix_par_km.<br>Si je copie cette cellule vers la droite en C4, quelle valeur affichera la cellule C4 ?</span></p>\n<p><img src=\"/images/bq/POSI-XLS-N2-Q22-1.png\" width=\"646\" height=\"378\"></p>",
+  "reponses": {
+    "A": "<p >158,76</p>",
+    "B": "<p >126,00</p>",
+    "C": "<p >0</p>",
+    "D": "<p >63</p>",
+    "E": "<p >La cellule affichera une erreur #REF!.</p>",
+    "F": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

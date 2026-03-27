@@ -1,0 +1,17 @@
+{
+  "question": "<p>Quelle est la différence entre une référence relative (A1) et une référence absolue ($A$1) ?</p>",
+  "reponses": {
+    "A": "<p>La référence absolue ne change pas quand on copie la formule</p>",
+    "B": "<p>La référence relative reste fixe lors de la copie</p>",
+    "C": "<p>Il n'y a aucune différence</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

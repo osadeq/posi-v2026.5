@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests reçus - Dashboard TOSA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2563EB; --primary-dark: #1D4ED8; --secondary: #10B981; --bg-main: #F8FAFC; --bg-card: #FFFFFF; --bg-gray: #F1F5F9; --text-main: #1E293B; --text-muted: #64748B; --border: #E2E8F0; --radius: 0.5rem; --radius-lg: 0.75rem; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-main); color: var(--text-main); min-height: 100vh; }
+        .header { background: var(--bg-card); border-bottom: 1px solid var(--border); padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        .header-inner { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .logo-icon { width: 36px; height: 36px; background: var(--primary); color: white; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-weight: 700; }
+        .nav { display: flex; gap: 1rem; }
+        .nav a { color: var(--text-muted); text-decoration: none; padding: 0.5rem 1rem; border-radius: var(--radius); font-weight: 500; }
+        .nav a:hover, .nav a.active { background: var(--bg-gray); color: var(--primary); }
+        .main-content { padding: 2rem 0; }
+        .page-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+        h1 { font-size: 1.875rem; }
+        .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+        .card-header { padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); font-weight: 600; display: flex; justify-content: space-between; align-items: center; }
+        .card-body { padding: 1.5rem; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 1rem; text-align: left; border-bottom: 1px solid var(--border); }
+        th { background: var(--bg-gray); font-weight: 600; color: var(--text-muted); font-size: 0.875rem; text-transform: uppercase; }
+        tr:hover td { background: var(--bg-gray); }
+        .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; font-weight: 600; border: none; border-radius: var(--radius); cursor: pointer; text-decoration: none; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-dark); }
+        .btn-secondary { background: var(--secondary); color: white; }
+        .btn-sm { padding: 0.25rem 0.75rem; font-size: 0.875rem; }
+        .badge { display: inline-block; padding: 0.25rem 0.75rem; font-size: 0.75rem; font-weight: 600; border-radius: 9999px; text-transform: uppercase; }
+        .badge-n1 { background: #DBEAFE; color: #1E40AF; }
+        .badge-n2 { background: #D1FAE5; color: #065F46; }
+        .badge-n3 { background: #FEF3C7; color: #92400E; }
+        .empty-state { text-align: center; padding: 3rem; color: var(--text-muted); }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="/" class="logo">
+                <div class="logo-icon">D</div>
+                <span>Dashboard TOSA</span>
+            </a>
+            <nav class="nav">
+                <a href="/">Accueil</a>
+                <a href="/candidats">Candidats</a>
+                <a href="/tests" class="active">Tests</a>
+                <a href="/programmes">Programmes</a>
+                <a href="/importer">Importer</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Tests reçus</h1>
+                <button class="btn btn-primary" onclick="chargerTests()">📥 Charger les tests</button>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <span>Liste des tests</span>
+                    <span id="test-count" style="color: var(--text-muted);">{{ tests|length }} tests</span>
+                </div>
+                <div class="card-body">
+                    {% if tests %}
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Candidat</th>
+                                <th>Formation</th>
+                                <th>Niveau</th>
+                                <th>Type</th>
+                                <th>Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for test in tests %}
+                            <tr>
+                                <td>{{ test.id }}</td>
+                                <td>{{ test.candidat.nom|default('-') }} {{ test.candidat.prenom|default('') }}</td>
+                                <td>{{ test.formation|upper }}</td>
+                                <td><span class="badge badge-{{ test.niveau }}">{{ test.niveau }}</span></td>
+                                <td>{{ test.type }}</td>
+                                <td>{{ test.timestamp[:10] if test.timestamp else '-' }}</td>
+                                <td>
+                                    <a href="/analyser/{{ test.id }}" class="btn btn-primary btn-sm">Analyser</a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    {% else %}
+                    <div class="empty-state">
+                        <h3>Aucun test reçu</h3>
+                        <p>Cliquez sur "Charger les tests" pour importer les tests soumis</p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        function chargerTests() {
+            fetch('/api/charger-tests')
+                .then(r => r.json())
+                .then(data => {
+                    alert('Tests importés: ' + data.count);
+                    location.reload();
+                });
+        }
+    </script>
+</body>
+</html>

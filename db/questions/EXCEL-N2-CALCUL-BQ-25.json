@@ -1,0 +1,17 @@
+{
+  "question": "<p >Pour associer les valeurs de 2 cellules <strong>B3 </strong>et <strong>C3 </strong>afin d'obtenir le résultat dans <strong>D3</strong>, quel signe (opérateur) doit-on utiliser ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q01-1.png\" width=\"641\" height=\"159\"></p>",
+  "reponses": {
+    "A": "<p ><strong>#</strong></p>",
+    "B": "<p ><strong>+</strong></p>",
+    "C": "<p ><strong>&</strong></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

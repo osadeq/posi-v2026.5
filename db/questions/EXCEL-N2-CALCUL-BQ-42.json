@@ -1,0 +1,17 @@
+{
+  "question": "<p><span >Comment est-ce que le symbole degré (°) a été défini comme unité de mesure dans la colonne « Température » ? </span></p>\n<p><span ><img src=\"/images/bq/POSI-XLS-N2-Q18-1.png\"></span></p>",
+  "reponses": {
+    "A": "<p >En saisissant le symbole degré (°) avec le clavier</p>",
+    "B": "<p >En créant le format personnalisé : 0°</p>",
+    "C": "<p >En créant le format personnalisé : 0_ <span > </span>°</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

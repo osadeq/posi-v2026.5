@@ -1,0 +1,17 @@
+{
+  "question": "<p >Comment obtient-on ce mode d’affichage ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q21-1.png\" width=\"651\" height=\"334\"></p>",
+  "reponses": {
+    "A": "<p >Dans l’onglet « <strong>Affichage </strong>» puis « <strong>Zoom sur la sélection</strong> »</p>",
+    "B": "<p >Dans l’onglet « <strong>Affichage </strong>» puis « <strong>Aperçu des sauts de page </strong>»</p>",
+    "C": "<p >Dans l’onglet « <strong>Affichage </strong>» puis «<strong> Mise en page</strong> »</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

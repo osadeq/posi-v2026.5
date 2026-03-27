@@ -1,0 +1,17 @@
+{
+  "question": "Quel est le rôle principal de la 'Poignée de recopie' (le petit carré noir en bas à droite de la cellule active) ?",
+  "reponses": {
+    "A": "Verrouiller la cellule pour empêcher sa suppression.",
+    "B": "Copier rapidement le contenu/formule de la cellule vers les cellules adjacentes en faisant glisser.",
+    "C": "Agrandir physiquement la taille de la cellule à l'écran.",
+    "D": "Insérer instantanément un graphique associé."
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "La poignée de recopie permet d'automatiser la recopie logique de vos données ou formules.",
+  "competencesCibles": [
+    "EXCEL-N2-ENV-C03"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.4,
+  "guessing": 0.25
+}

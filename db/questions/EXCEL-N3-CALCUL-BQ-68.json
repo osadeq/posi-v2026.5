@@ -1,0 +1,18 @@
+{
+  "question": "<p><span >Que fait la procédure VBA suivante :</span></p>\n<blockquote>\n<p  ><code><b><i><span lang=\"EN-US\" >Sub Procedure_1() </span></i></b></code></p>\n<p  ><code><span lang=\"EN-US\" >Dim Cellule As Range,<i> Total As Variant, Couleur As Integer</i></span></code></p>\n<p  ><code><i><span lang=\"EN-US\" >Couleur = 5 ‘bleu</span></i></code></p>\n<p  ><code><i><span lang=\"EN-US\" >Total = 0</span></i></code></p>\n<p  ><code><i><span lang=\"EN-US\" >For Each Cellule In Selection </span></i></code></p>\n<p  ><code><i><span lang=\"EN-US\" >If Cellule.Font.ColorIndex = Couleur Then </span></i></code></p>\n<p  ><code><i><span lang=\"EN-US\" >If IsNumeric(Cellule) Then Total = Total + Cellule.Value </span></i></code></p>\n<p  ><code><i><span lang=\"EN-US\" >End If </span></i></code></p>\n<p  ><code><i><span lang=\"EN-US\" >Next </span></i></code></p>\n<p  ><code><i><span >Range(\"Total_General\").Value = Total </span></i></code></p>\n<p ><b><i><span ><code>End</code></span></i></b><i><span ><code> Sub</code></span></i></p>\n</blockquote>",
+  "reponses": {
+    "A": "<p >Affiche la couleur bleue sur toutes les cellules sélectionnées </p>",
+    "B": "<p >Compte le nombre de cellules bleues et l’affiche dans la cellule nommée Total_General</p>",
+    "C": "<p >Calcule la somme des cellules sélectionnées</p>",
+    "D": "<p >Calcule la somme des cellules bleues qui se trouvent dans la sélection</p>",
+    "E": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N3-C5]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

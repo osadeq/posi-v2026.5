@@ -1,0 +1,18 @@
+{
+  "question": "<p >Quel est le type de ce graphique ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q11-1.png\"></p>",
+  "reponses": {
+    "A": "<p >Un secteur</p>",
+    "B": "<p >Une courbe</p>",
+    "C": "<p >Un radar</p>",
+    "D": "<p >Un histogramme</p>",
+    "E": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N2-C10]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

@@ -1,0 +1,18 @@
+{
+  "question": "<p >Dans quel cas Excel affiche automatiquement une date saisie sous le format abrégé suivant : Févr-23 ?</p>",
+  "reponses": {
+    "A": "<p >Quand on tape par exemple  : fevr 23</p>",
+    "B": "<p >Quand on tape par exemple  : 2/23</p>",
+    "C": "<p >Quand on tape par exemple  : février 2023</p>",
+    "D": "<p >Quand on tape par exemple  : 2-2023</p>",
+    "E": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C2]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

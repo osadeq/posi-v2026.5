@@ -1,0 +1,18 @@
+{
+  "question": "<p >Quelle fonction utiliser pour obtenir à la fois la date et l'heure ?</p>",
+  "reponses": {
+    "A": "<p >DATE</p>",
+    "B": "<p >TEMPS</p>",
+    "C": "<p >AUJOURDHUI</p>",
+    "D": "<p >MAINTENANT</p>",
+    "E": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C2]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

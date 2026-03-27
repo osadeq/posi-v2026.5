@@ -1,0 +1,17 @@
+{
+  "question": "<p >Comment a-t-on fait pour afficher<strong> les barres de données à l'intérieur des cellules</strong> de la colonne «<strong> Nb de voix</strong> »</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q17-1.png\"></p>",
+  "reponses": {
+    "A": "<p >En utilisant des graphiques <strong>Sparkline</strong></p>",
+    "B": "<p >En utilisant des <strong>formes de dessin</strong></p>",
+    "C": "<p >En utilisant une<strong> mise en forme conditionnelle</strong></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C7]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

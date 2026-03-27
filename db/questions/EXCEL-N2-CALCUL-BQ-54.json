@@ -1,0 +1,17 @@
+{
+  "question": "<p >Que se passera-t-il si je ne coche pas la case « <b><i>Mon tableau comporte des-entêtes</i></b> » dans le contexte suivant :</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q30-1.png\" width=\"740\" height=\"374\"></p>",
+  "reponses": {
+    "A": "<p >Le tableau ne sera pas créé.</p>",
+    "B": "<p >Aucun entête de page ne sera créé à l’impression de mon tableau</p>",
+    "C": "<p >Excel créera automatiquement des entêtes de colonnes pour ce tableau</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C7]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

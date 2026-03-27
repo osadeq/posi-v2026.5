@@ -1,0 +1,17 @@
+{
+  "question": "Dans l'onglet Accueil, que permet de faire la commande 'Mettre sous forme de tableau' sur une plage de données ?",
+  "reponses": {
+    "A": "Elle fige instantanément les volets de la ligne supérieure.",
+    "B": "Elle convertit la plage en Tableau structuré Excel (filtres intégrés, style automatisé, références variables fluides).",
+    "C": "Elle nettoie toutes les couleurs du document.",
+    "D": "Elle crée automatiquement un Graphique statique."
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "La mise sous forme de tableau (ou Tableau Officiel) est incontournable pour sécuriser un set de données.",
+  "competencesCibles": [
+    "EXCEL-N2-MFORME-C31"
+  ],
+  "difficulty": 55,
+  "discrimination": 1.4,
+  "guessing": 0.25
+}

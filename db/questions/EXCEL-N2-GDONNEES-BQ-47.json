@@ -1,0 +1,17 @@
+{
+  "question": "<p >Comment déplacer un tableau croisé dynamique se trouvant dans la feuille « Ventes » vers la feuille « Tableau de bord » ?</p>",
+  "reponses": {
+    "A": "<p >Avec Copier/Coller</p>",
+    "B": "<p >Avec Couper/Coller</p>",
+    "C": "<p >En sélectionnant le tableau croisé, puis choisir la commande « Déplacer le tableau croisé dynamique »</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D4-N2-C3]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

@@ -1,0 +1,17 @@
+{
+  "question": "Qu'est-ce qu'un 'Segment' (Slicer) pour un Tableau Croisé Dynamique ou Structuré ?",
+  "reponses": {
+    "A": "C'est une macro qui tronque les lignes de valeurs impaires.",
+    "B": "C'est un outil graphique interactif basé sur un champ de boutons pour filtrer vos données rapidement.",
+    "C": "C'est une nouvelle ligne de total automatiquement générée par Excel en bas.",
+    "D": "C'est un diagramme radar."
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Les Segments offrent un filtrage visuel par clics très ergonomique dans un tableau de bord.",
+  "competencesCibles": [
+    "EXCEL-N3-GDONNEES-C06"
+  ],
+  "difficulty": 65,
+  "discrimination": 1.6,
+  "guessing": 0.25
+}

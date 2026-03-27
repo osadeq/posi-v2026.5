@@ -1,0 +1,17 @@
+{
+  "question": "<p><span >Quel bouton a-t-on cliqué ici pour limiter l’affichage du graphique aux notes de Constance et de Charles  ?</span></p>\n<p><span ><img src=\"/images/bq/POSI-XLS-N2-Q06-1.png\" width=\"779\" height=\"410\"></span></p>",
+  "reponses": {
+    "A": "<p >Je peux utiliser l’onglet « <b>Données</b> » puis la commande « <b>Filtrer</b> »</p>",
+    "B": "<p >Je dois modifier la source de données du graphique (<b>Outils du graphique</b> + <b>Sélectionner des données</b>)</p>",
+    "C": "<p >Je clique sur le bouton « <b>Filtres du graphique</b> » pour appliquer les critères voulus</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N2-C10]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

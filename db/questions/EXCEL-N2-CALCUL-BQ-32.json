@@ -1,0 +1,17 @@
+{
+  "question": "<p>Voici un tableau à trier :</p>\n<p><img src=\"/images/bq/POSI-XLS-N2-Q08-1.png\" width=\"608\" height=\"354\"></p>\n<p >Pour réaliser <strong>le tri par \"Habitat\" et \"Locataire ou Propriétaire\"</strong>, j’ai utilisé <strong>la boite de dialogue du TRI</strong> suivante :</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q08-2.png\" width=\"718\" height=\"286\"></p>\n<p >Aidez-moi à la remplir.</p>",
+  "reponses": {
+    "A": "<p>Je sélectionne les deux cellules « <strong>HABITAT </strong>» et « <strong>LOCATAIRE OU PROPRIETAIRE</strong> », puis, <strong>je les glissent dans la boite de TRI</strong>.</p>",
+    "B": "<p >J’utilise le bouton « <strong>Ajouter un niveau</strong> » pour spécifier <strong>les critères de tri un par un</strong>.</p>",
+    "C": "<p >J’utilise le bouton « <strong>Copier un niveau </strong>» pour <strong>spécifier les critères de tri.</strong></p>",
+    "D": "<p >Je ne sais pas.</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

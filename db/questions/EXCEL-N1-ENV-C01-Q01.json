@@ -1,0 +1,17 @@
+{
+  "question": "Quelle est l'approche la plus directe pour ouvrir le menu d'ouverture d'un fichier existant ?",
+  "reponses": {
+    "A": "Cliquer sur l'onglet Fichier, puis Ouvrir.",
+    "B": "Cliquer sur l'onglet Affichage, puis Nouvel Onglet.",
+    "C": "Cliquer sur Insertion, puis Fichier existant.",
+    "D": "Cliquer sur Formules, puis Gestionnaire de fichiers."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Le menu Fichier (Backstage) regroupe toutes les opérations principales de gestion des documents.",
+  "competencesCibles": [
+    "EXCEL-N1-ENV-C01"
+  ],
+  "difficulty": 38,
+  "discrimination": 1.2,
+  "guessing": 0.25
+}

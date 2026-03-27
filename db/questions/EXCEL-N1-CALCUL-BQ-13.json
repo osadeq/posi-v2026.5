@@ -1,0 +1,18 @@
+{
+  "question": "<p >Comment peut-t-on écrire plusieurs lignes dans la même cellule ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q14-1.png\" width=\"615\" height=\"368\"></p>",
+  "reponses": {
+    "A": "<p >En appuyant sur la touche <strong>ENTREE </strong>à chaque fin de ligne saisie</p>",
+    "B": "<p >En appuyant sur les touches <strong>ALT+ENTREE</strong> à chaque fin de ligne saisie</p>",
+    "C": "<p >En appuyant sur les touches <strong>MAJ+ENTREE</strong> à chaque fin de ligne saisie</p>",
+    "D": "<p >En appuyant sur la touche <strong>FLECHE-BAS</strong> à chaque fin de ligne saisie</p>",
+    "E": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

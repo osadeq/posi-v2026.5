@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Adaptatif TOSA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .irt-info {
+            background: var(--bg-gray);
+            padding: 1rem;
+            border-radius: var(--radius);
+            margin-bottom: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .irt-stat {
+            text-align: center;
+        }
+        .irt-stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .irt-stat-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+        .question-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .question-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            background: var(--primary);
+            color: white;
+            font-weight: 700;
+            border-radius: var(--radius-full);
+            margin-right: 1rem;
+        }
+        .question-text {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        .question-answers {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        .answer-option {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: var(--bg-gray);
+            border: 2px solid transparent;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .answer-option:hover {
+            background: var(--bg-card);
+            border-color: var(--primary-light);
+        }
+        .answer-option.selected {
+            background: rgba(37, 99, 235, 0.1);
+            border-color: var(--primary);
+        }
+        .answer-letter {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: var(--bg-card);
+            border: 2px solid var(--border);
+            border-radius: var(--radius-full);
+            font-weight: 600;
+        }
+        .answer-option.selected .answer-letter {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+        .difficulty-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: var(--bg-gray);
+            border-radius: var(--radius);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+        /* Modal Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            justify-content: center;
+            align-items: center;
+            cursor: zoom-out;
+        }
+        .lightbox img {
+            max-width: 90vw;
+            max-height: 90vh;
+            border-radius: var(--radius);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            object-fit: contain;
+        }
+        .question-card img {
+            cursor: zoom-in;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.2s, border-color 0.2s;
+            margin: 0.5rem 0;
+        }
+        .question-card img:hover {
+            transform: scale(1.02);
+            border-color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container header-inner">
+                <a href="/" class="logo">
+                    <div class="logo-icon">T</div>
+                    <span>Test Adaptatif TOSA</span>
+                </a>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <!-- IRT History Chart -->
+                <div class="irt-info" style="display: block; padding: 1.5rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem;">
+                        <h4 style="margin: 0; color: var(--text);">Évolution de l'évaluation</h4>
+                        <div style="font-size: 0.9rem;">
+                            <span style="color: #16a34a; font-weight: 600; margin-right: 0.5rem;">{{ correct_count }} ✔ Exactes</span>
+                            <span style="color: #dc2626; font-weight: 600;">{{ wrong_count }} ✖ Fausses</span>
+                        </div>
+                    </div>
+                    <canvas id="thetaChart" height="70"></canvas>
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: {{ (progress / max_questions * 100)|round }}%"></div>
+                    </div>
+                    <div class="progress-text">
+                        <span>Question {{ progress + 1 }}</span>
+                                                <span>{{ confidence }}% confiance</span>
+                    </div>
+                </div>
+
+                <!-- Question -->
+                <form id="test-form">
+                    <div class="question-card">
+                        <div class="question-text">
+                            <span class="question-number">{{ progress + 1 }}</span>
+                            <span>{{ question.question | safe }}</span>
+                        </div>
+                        <span class="difficulty-badge">Difficulté: {{ question.difficulty }}%</span>
+                        
+                        <div class="question-answers mt-lg">
+                            {% for key, value in question.reponses.items() %}
+                            <label class="answer-option" data-question="{{ question._id }}">
+                                <input type="radio" name="reponse" value="{{ key }}" style="display:none;">
+                                <span class="answer-letter">{{ key }}</span>
+                                <span>{{ value | safe }}</span>
+                            </label>
+                            {% endfor %}
+                        </div>
+                        
+                        <!-- Mode Debug -->
+                        <div style="margin-top: 1.5rem; padding: 1rem; background-color: #fef08a; color: #9a3412; border-radius: var(--radius); font-size: 0.875rem;">
+                            <strong>🛠 Mode Debug Actif :</strong><br>
+                            Option correcte attendue : <strong style="font-size: 1rem;">{{ question.reponseCorrecte }}</strong><br>
+                            Explication : <em>{{ question.feedbackPedagogique }}</em>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center">
+                        <button type="button" class="btn btn-primary" onclick="submitAnswer()">Valider</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        
+        <!-- Lightbox Modal -->
+        <div id="image-lightbox" class="lightbox" onclick="this.style.display='none'">
+            <img id="lightbox-img" src="" alt="Zoom image">
+        </div>
+    </div>
+
+    <script>
+        let selectedAnswer = null;
+        const questionId = "{{ question._id }}";
+        const thetaHistory = {{ theta_history | tojson }};
+        const correctHistory = {{ correct_history | tojson }};
+        
+        // Setup image zoom functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            const lightbox = document.getElementById('image-lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            
+            document.querySelectorAll('.question-card img').forEach(img => {
+                img.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    lightboxImg.src = this.src;
+                    lightbox.style.display = 'flex';
+                });
+            });
+        });
+        
+        // Render Chart
+        const ctx = document.getElementById('thetaChart').getContext('2d');
+        const labels = thetaHistory.map((_, i) => i === 0 ? 'Départ' : `Q${i}`);
+        
+        const pointColors = correctHistory.map(c => 
+            c === null ? '#3b82f6' : (c === true ? '#22c55e' : '#ef4444')
+        );
+        
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Niveau Évalué (Theta)',
+                    data: thetaHistory,
+                    borderColor: '#3b82f6',
+                    backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                    borderWidth: 3,
+                    pointBackgroundColor: pointColors,
+                    pointBorderColor: '#ffffff',
+                    pointBorderWidth: 2,
+                    pointRadius: 6,
+                    pointHoverRadius: 8,
+                    fill: true,
+                    tension: 0.3
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                let val = context.parsed.y;
+                                if (val < -0.8) return 'Novice (' + val + ')';
+                                if (val < 0) return 'Débutant (' + val + ')';
+                                if (val < 1) return 'Intermédiaire (' + val + ')';
+                                return 'Avancé (' + val + ')';
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        min: -3,
+                        max: 3,
+                        ticks: {
+                            callback: function(value) {
+                                if (value === -3) return 'Novice';
+                                if (value === -0.8) return 'Débutant';
+                                if (value === 0) return 'Intermédiaire';
+                                if (value === 1) return 'Avancé';
+                                if (value === 3) return 'Expert';
+                                return null;
+                            },
+                            font: { weight: 'bold' }
+                        },
+                        grid: {
+                            color: function(context) {
+                                if ([-0.8, 0, 1].includes(context.tick.value)) {
+                                    return 'rgba(0,0,0,0.2)';
+                                }
+                                return 'rgba(0,0,0,0.05)';
+                            },
+                            lineWidth: function(context) {
+                                if ([-0.8, 0, 1].includes(context.tick.value)) {
+                                    return 2;
+                                }
+                                return 1;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Handle answer selection
+        document.querySelectorAll('.answer-option').forEach(option => {
+            option.addEventListener('click', function() {
+                document.querySelectorAll('.answer-option').forEach(o => o.classList.remove('selected'));
+                this.classList.add('selected');
+                this.querySelector('input').checked = true;
+                selectedAnswer = this.querySelector('input').value;
+            });
+        });
+
+        async function submitAnswer() {
+            if (!selectedAnswer) {
+                alert('Veuillez sélectionner une réponse');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/answer', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({
+                        questionId: questionId,
+                        answer: selectedAnswer
+                    })
+                });
+
+                const result = await response.json();
+
+                if (result.finished) {
+                    // Show results
+                    window.location.href = '/resultats';
+                } else {
+                    // Reload with next question
+                    window.location.reload();
+                }
+            } catch (error) {
+                alert('Erreur de connexion');
+                console.error(error);
+            }
+        }
+    </script>
+</body>
+</html>

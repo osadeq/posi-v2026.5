@@ -1,0 +1,17 @@
+{
+  "question": "Visuellement, à quoi correspond un graphique de type 'Histogramme' standard dans Excel ?",
+  "reponses": {
+    "A": "Une corbeille de répartition circulaire.",
+    "B": "Des barres verticales qui montrent la hauteur des valeurs.",
+    "C": "Une courbe continue dessinant une tendance temporelle.",
+    "D": "Des bulles dispersées sur deux axes."
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "L'histogramme classique affiche toujours des barres verticales.",
+  "competencesCibles": [
+    "EXCEL-N1-GDONNEES-C41"
+  ],
+  "difficulty": 46,
+  "discrimination": 1.2,
+  "guessing": 0.25
+}

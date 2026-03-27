@@ -1,0 +1,17 @@
+{
+  "question": "<p >Qu'est-ce-qui s'affiche si on saisit la formule =<b>C3</b> dans la cellule C2 ?</p>",
+  "reponses": {
+    "A": "<p >Un message d'erreur apparaît</p>",
+    "B": "<p >La valeur de C2 reste la même</p>",
+    "C": "<p >On obtient la valeur de C3 en C2</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

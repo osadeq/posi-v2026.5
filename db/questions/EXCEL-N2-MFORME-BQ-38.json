@@ -1,0 +1,17 @@
+{
+  "question": "<p >Qu'est-ce qu'une macro Excel ?</p>",
+  "reponses": {
+    "A": "<p >C'est une fonction qui permet de mettre plusieurs graphiques en opposition</p>",
+    "B": "<p >C'est une fonction qui permet d'appliquer plusieurs filtres en même temps sur une table</p>",
+    "C": "<p >C'est une fonction qui automatise une séquence d'actions ou de calculs récurrents et les exécute</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N2-C10]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

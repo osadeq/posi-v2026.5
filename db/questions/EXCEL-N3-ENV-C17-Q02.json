@@ -1,0 +1,17 @@
+{
+  "question": "Comment verrouiller une feuille de calcul afin d'empêcher un utilisateur d'effacer les cellules contenant des formules ?",
+  "reponses": {
+    "A": "Cacher physiquement le ruban.",
+    "B": "Il n'y a pas de protection sauf convertir le fichier en PDF / Lecture seule brute.",
+    "C": "Onglet 'Révision' > 'Protéger la feuille' (après avoir déverrouillé les cellules de saisie).",
+    "D": "Sélectionner tout et utiliser 'Cacher des données'."
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Protéger la feuille (via Révision) sécurise l'architecture et les formules d'un fichier Excel.",
+  "competencesCibles": [
+    "EXCEL-N3-ENV-C17"
+  ],
+  "difficulty": 59,
+  "discrimination": 1.6,
+  "guessing": 0.25
+}

@@ -1,0 +1,866 @@
+[
+  {
+    "id": "EXCEL-ATELIER",
+    "formationId": "EXCEL",
+    "type": "ATELIER_TUTORE_INDIVIDUALISE",
+    "titre": "Exploiter les fonctionnalités de Microsoft Excel pour la gestion et l'analyse des données (Tosa) - Atelier tutoré individualisé",
+    "duree": null,
+    "dureeNote": "Planifié par demi-journée de 3h30 ou journée entière de 7h",
+    "tarifHoraire": 45,
+    "objectifs": [
+      "Personnaliser et gérer l'environnement et les classeurs Excel",
+      "Concevoir et structurer des tableaux professionnels",
+      "Créer et structurer des formules de calcul simples et avancées",
+      "Mettre en forme, organiser et imprimer des tableaux",
+      "Exploiter et analyser des bases de données",
+      "Créer et personnaliser des graphiques illustrant les analyses",
+      "Exploiter et analyser des bases de données structurées",
+      "Produire des analyses visuelles et dynamiques avec des graphiques et tableaux croisés",
+      "Automatiser des tâches courantes grâce à des macros enregistrées"
+    ],
+    "themes": [
+      {
+        "id": "T01",
+        "titre": "Environnement Excel / Interface",
+        "description": "Présentation de l'interface et de ses zones, personnalisation du ruban, commentaires, options d'affichage",
+        "activites": [
+          "Présentation de l'interface et de ses zones (barre d'accès rapide, onglets, ruban, groupes)",
+          "Personnaliser les onglets du ruban",
+          "Créer et utiliser les commentaires",
+          "Modifier les options d'affichage (grilles, lignes de grille)",
+          "Gérer la compatibilité des fichiers entre versions"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-ENV-C04",
+          "EXCEL-N2-ENV-C01",
+          "EXCEL-N2-ENV-C02",
+          "EXCEL-N3-ENV-C10"
+        ]
+      },
+      {
+        "id": "T02",
+        "titre": "Gestion des fichiers",
+        "description": "Ouvrir, fermer, gérer les classeurs",
+        "activites": [
+          "Ouvrir et fermer l'application et les classeurs",
+          "Gérer les classeurs : renommer, déplacer, dupliquer"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-ENV-C01",
+          "EXCEL-N1-ENV-C02",
+          "EXCEL-N1-ENV-C03",
+          "EXCEL-N2-ENV-C04"
+        ]
+      },
+      {
+        "id": "T03",
+        "titre": "Mise en forme de tableaux",
+        "description": "Outils de base et avancés pour la mise en forme",
+        "activites": [
+          "Couper, copier, coller",
+          "Utiliser la poignée de recopie (séries incrémentées)",
+          "Insérer ou supprimer des lignes/colonnes ; ajuster largeurs/hauteurs ; masquer",
+          "Formater les nombres (décimales, milliers, dates, monnaie, pourcentages)",
+          "Police, taille, couleurs de remplissage",
+          "Alignements, orientation, fusion de cellules",
+          "Styles prédéfinis, trames, bordures",
+          "Reproduire la mise en forme",
+          "Retour à la ligne automatique ; formats personnalisés"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-ENV-C08",
+          "EXCEL-N1-ENV-C09",
+          "EXCEL-N1-ENV-C10",
+          "EXCEL-N1-MFORME-C19",
+          "EXCEL-N1-MFORME-C20",
+          "EXCEL-N1-MFORME-C21",
+          "EXCEL-N1-MFORME-C22",
+          "EXCEL-N1-MFORME-C23",
+          "EXCEL-N1-MFORME-C24",
+          "EXCEL-N1-MFORME-C25",
+          "EXCEL-N1-MFORME-C26",
+          "EXCEL-N2-MFORME-C20",
+          "EXCEL-N2-MFORME-C21",
+          "EXCEL-N2-MFORME-C22"
+        ]
+      },
+      {
+        "id": "T04",
+        "titre": "Mise en page et impression",
+        "description": "Paramètres d'impression et mise en page",
+        "activites": [
+          "Centrer un tableau dans la page",
+          "Ajuster pour l'impression ; zone d'impression",
+          "En-têtes et pieds de page, marges",
+          "Mise en page de données volumineuses (plusieurs pages)"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-ENV-C06",
+          "EXCEL-N1-ENV-C07",
+          "EXCEL-N2-ENV-C11",
+          "EXCEL-N2-ENV-C12"
+        ]
+      },
+      {
+        "id": "T05",
+        "titre": "Gérer les feuilles de calcul",
+        "description": "Opérations sur les feuilles",
+        "activites": [
+          "Insérer, supprimer, copier, déplacer, renommer une feuille"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-ENV-C04",
+          "EXCEL-N2-ENV-C05"
+        ]
+      },
+      {
+        "id": "T06",
+        "titre": "Mise en forme conditionnelle",
+        "description": "Règles de mise en forme avancées",
+        "activites": [
+          "Règles simples",
+          "Règles basées sur des formules",
+          "Copier/rechercher/supprimer les mises en forme conditionnelles"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-MFORME-C23",
+          "EXCEL-N2-MFORME-C23",
+          "EXCEL-N3-MFORME-C34"
+        ]
+      },
+      {
+        "id": "T07",
+        "titre": "Affichage",
+        "description": "Modes d'affichage et options",
+        "activites": [
+          "Afficher/Masquer le quadrillage",
+          "Utiliser les différents modes d'affichage",
+          "Personnaliser le zoom"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-ENV-C05",
+          "EXCEL-N3-ENV-C01",
+          "EXCEL-N3-ENV-C02"
+        ]
+      },
+      {
+        "id": "T08",
+        "titre": "Créer des formules de calcul",
+        "description": "Formules simples et avancées",
+        "activites": [
+          "Bonnes pratiques (références de cellules, opérateurs, parenthèses)",
+          "Identifier les erreurs (#NOM?, #DIV/0!, #####)",
+          "Références relatives et absolues",
+          "Fonctions : statistiques, conditionnelles, logiques, temps, recherche, texte, base de données",
+          "Arrondis, remplacement, nombres aléatoires",
+          "Documenter les formules avec des commentaires"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-CALCUL-C12",
+          "EXCEL-N1-CALCUL-C13",
+          "EXCEL-N1-CALCUL-C14",
+          "EXCEL-N1-CALCUL-C15",
+          "EXCEL-N1-CALCUL-C16",
+          "EXCEL-N1-CALCUL-C17",
+          "EXCEL-N2-CALCUL-C13",
+          "EXCEL-N2-CALCUL-C14",
+          "EXCEL-N2-CALCUL-C15",
+          "EXCEL-N2-CALCUL-C16",
+          "EXCEL-N2-CALCUL-C17",
+          "EXCEL-N2-CALCUL-C18",
+          "EXCEL-N2-CALCUL-C19",
+          "EXCEL-N3-CALCUL-C15",
+          "EXCEL-N3-CALCUL-C16",
+          "EXCEL-N3-CALCUL-C17",
+          "EXCEL-N3-CALCUL-C18",
+          "EXCEL-N3-CALCUL-C20",
+          "EXCEL-N3-CALCUL-C21",
+          "EXCEL-N3-CALCUL-C22",
+          "EXCEL-N3-CALCUL-C23",
+          "EXCEL-N3-CALCUL-C24",
+          "EXCEL-N3-CALCUL-C28"
+        ]
+      },
+      {
+        "id": "T09",
+        "titre": "Fonctions avancées",
+        "description": "Collages spéciaux, formats personnalisés, protection",
+        "activites": [
+          "Comprendre et utiliser les collages spéciaux",
+          "Appliquer les styles personnalisés",
+          "Créer et gérer des formats personnalisés",
+          "Auto-complétion avancée",
+          "Protéger une feuille ou un classeur"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-ENV-C06",
+          "EXCEL-N2-ENV-C07",
+          "EXCEL-N2-ENV-C08",
+          "EXCEL-N3-ENV-C12",
+          "EXCEL-N3-ENV-C13"
+        ]
+      },
+      {
+        "id": "T10",
+        "titre": "Graphiques et objets graphiques",
+        "description": "Création et personnalisation de graphiques",
+        "activites": [
+          "Créer et modifier des objets graphiques",
+          "Créer des graphiques de base",
+          "Personnaliser les couleurs, étiquettes et axes",
+          "Concevoir un graphique à deux axes"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-GDONNEES-C28",
+          "EXCEL-N1-GDONNEES-C29",
+          "EXCEL-N1-GDONNEES-C30",
+          "EXCEL-N1-GDONNEES-C31",
+          "EXCEL-N2-GDONNEES-C33",
+          "EXCEL-N3-GDONNEES-C58",
+          "EXCEL-N3-GDONNEES-C59",
+          "EXCEL-N3-GDONNEES-C60"
+        ]
+      },
+      {
+        "id": "T11",
+        "titre": "Exploiter une plage, liste ou tableau de données",
+        "description": "Gestion et analyse de données",
+        "activites": [
+          "Comprendre les plages, listes et tableaux structurés",
+          "Filtres et tris",
+          "Figer les volets",
+          "Nettoyage",
+          "Validation des données",
+          "Sous-totaux"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-GDONNEES-C27",
+          "EXCEL-N1-GDONNEES-C32",
+          "EXCEL-N1-GDONNEES-C33",
+          "EXCEL-N1-GDONNEES-C34",
+          "EXCEL-N2-GDONNEES-C37",
+          "EXCEL-N2-GDONNEES-C38",
+          "EXCEL-N2-GDONNEES-C39",
+          "EXCEL-N2-GDONNEES-C40",
+          "EXCEL-N2-GDONNEES-C41",
+          "EXCEL-N2-GDONNEES-C42",
+          "EXCEL-N2-GDONNEES-C43",
+          "EXCEL-N3-GDONNEES-C49",
+          "EXCEL-N3-GDONNEES-C50",
+          "EXCEL-N3-GDONNEES-C51",
+          "EXCEL-N3-GDONNEES-C52",
+          "EXCEL-N3-GDONNEES-C55",
+          "EXCEL-N3-GDONNEES-C56",
+          "EXCEL-N3-GDONNEES-C57",
+          "EXCEL-N3-GDONNEES-C67"
+        ]
+      },
+      {
+        "id": "T12",
+        "titre": "Tableau croisé dynamique",
+        "description": "Création et analyse avec TCD",
+        "activites": [
+          "Créer des TCD",
+          "Ajouter/supprimer champs",
+          "Segments",
+          "Graphique croisé dynamique",
+          "Actualiser les données"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-GDONNEES-C30",
+          "EXCEL-N2-GDONNEES-C35",
+          "EXCEL-N2-GDONNEES-C36",
+          "EXCEL-N2-GDONNEES-C37",
+          "EXCEL-N3-GDONNEES-C63",
+          "EXCEL-N3-GDONNEES-C64",
+          "EXCEL-N3-GDONNEES-C65",
+          "EXCEL-N3-GDONNEES-C66",
+          "EXCEL-N3-GDONNEES-C53"
+        ]
+      },
+      {
+        "id": "T13",
+        "titre": "Créer une macro simple",
+        "description": "Automatisation des tâches",
+        "activites": [
+          "Automatiser le nettoyage ou la transformation des données"
+        ],
+        "competencesCibles": [
+          "EXCEL-N3-ENV-C14"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXCEL-INIT",
+    "formationId": "EXCEL",
+    "type": "INITIATION",
+    "titre": "Exploiter les fonctionnalités de Microsoft Excel pour la gestion et l'analyse des données (Tosa) - Initiation",
+    "duree": 14,
+    "dureeNote": "2 jours (14h) + 1h de certification",
+    "tarifHoraire": 45,
+    "objectifs": [
+      "Utiliser l'interface d'Excel et gérer ses classeurs",
+      "Concevoir et structurer des tableaux professionnels",
+      "Mettre en forme et présenter ses données",
+      "Créer des formules de calcul simples et fiables",
+      "Illustrer leurs données avec des graphiques",
+      "Trier, filtrer et exploiter des listes de données",
+      "Réaliser une première analyse grâce aux tableaux croisés dynamiques"
+    ],
+    "themes": [
+      {
+        "id": "T01",
+        "titre": "Environnement Excel / Interface",
+        "description": "Présentation de l'interface du logiciel",
+        "activites": [
+          "Présentation de l'interface du logiciel et de ses différentes zones"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-ENV-C01",
+          "EXCEL-N1-ENV-C02",
+          "EXCEL-N1-ENV-C03",
+          "EXCEL-N1-ENV-C04"
+        ]
+      },
+      {
+        "id": "T02",
+        "titre": "Gestion des fichiers",
+        "description": "Ouvrir et fermer les classeurs",
+        "activites": [
+          "Ouvrir et fermer l'application, un classeur"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-ENV-C01",
+          "EXCEL-N1-ENV-C02"
+        ]
+      },
+      {
+        "id": "T03",
+        "titre": "Gérer et mettre en forme les cellules",
+        "description": "Outils de base et mise en forme",
+        "activites": [
+          "Couper, copier, coller",
+          "Poignée de recopie",
+          "Insérer/supprimer lignes/colonnes",
+          "Formater les nombres",
+          "Formater les dates, monnaie, pourcentages",
+          "Police, taille, couleur",
+          "Alignements, fusion de cellules",
+          "Styles prédéfinis"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-ENV-C08",
+          "EXCEL-N1-ENV-C09",
+          "EXCEL-N1-ENV-C10",
+          "EXCEL-N1-MFORME-C19",
+          "EXCEL-N1-MFORME-C20",
+          "EXCEL-N1-MFORME-C21",
+          "EXCEL-N1-MFORME-C22",
+          "EXCEL-N1-MFORME-C23",
+          "EXCEL-N1-MFORME-C24",
+          "EXCEL-N1-MFORME-C25",
+          "EXCEL-N1-MFORME-C26"
+        ]
+      },
+      {
+        "id": "T04",
+        "titre": "Mettre en page et Impression",
+        "description": "Paramètres d'impression",
+        "activites": [
+          "Centrer un tableau dans la page",
+          "Ajuster le tableau pour l'impression",
+          "Créer, modifier une zone d'impression"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-ENV-C06",
+          "EXCEL-N1-ENV-C07"
+        ]
+      },
+      {
+        "id": "T05",
+        "titre": "Mise en forme conditionnelle",
+        "description": "Règles simples",
+        "activites": [
+          "Appliquer des règles simples de mise en forme conditionnelle"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-MFORME-C23"
+        ]
+      },
+      {
+        "id": "T06",
+        "titre": "Affichage",
+        "description": "Modes d'affichage",
+        "activites": [
+          "Afficher/Masquer le quadrillage",
+          "Utiliser les différents modes d'affichage",
+          "Personnaliser le zoom"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-ENV-C04",
+          "EXCEL-N1-ENV-C05"
+        ]
+      },
+      {
+        "id": "T07",
+        "titre": "Créer des formules de calcul",
+        "description": "Formules simples et fonctions de base",
+        "activites": [
+          "Bonnes pratiques pour la création de formules",
+          "Créer des formules simples",
+          "Identifier les erreurs de calculs",
+          "Fonctions : SOMME, MOYENNE, MAX, NB",
+          "Fonction conditionnelle : SI",
+          "Fonction de recherche : RECHERCHEV"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-CALCUL-C12",
+          "EXCEL-N1-CALCUL-C14",
+          "EXCEL-N1-CALCUL-C15",
+          "EXCEL-N1-CALCUL-C16",
+          "EXCEL-N1-CALCUL-C17",
+          "EXCEL-N2-CALCUL-C18"
+        ]
+      },
+      {
+        "id": "T08",
+        "titre": "Créer des graphiques",
+        "description": "Graphiques de base",
+        "activites": [
+          "Créer et modifier des objets graphiques de base",
+          "Créer des graphiques de base"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-GDONNEES-C28",
+          "EXCEL-N1-GDONNEES-C29",
+          "EXCEL-N1-GDONNEES-C30",
+          "EXCEL-N1-GDONNEES-C31"
+        ]
+      },
+      {
+        "id": "T09",
+        "titre": "Exploiter une plage, liste ou tableau de données",
+        "description": "Gestion des données",
+        "activites": [
+          "Comprendre les plages, listes ou tableaux",
+          "Utiliser un tableau automatique",
+          "Utiliser les filtres",
+          "Appliquer un tri",
+          "Figer les volets",
+          "Opérations de nettoyage"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-GDONNEES-C27",
+          "EXCEL-N1-GDONNEES-C32",
+          "EXCEL-N1-GDONNEES-C33",
+          "EXCEL-N1-ENV-C05"
+        ]
+      },
+      {
+        "id": "T10",
+        "titre": "Tableau croisé dynamique",
+        "description": "TCD de base",
+        "activites": [
+          "Créer des tableaux croisés dynamiques de base",
+          "Ajouter et supprimer des champs",
+          "Utiliser des filtres et des tris de base"
+        ],
+        "competencesCibles": [
+          "EXCEL-N1-GDONNEES-C30",
+          "EXCEL-N2-GDONNEES-C35",
+          "EXCEL-N2-GDONNEES-C36"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXCEL-INTER",
+    "formationId": "EXCEL",
+    "type": "INTERMEDIAIRE",
+    "titre": "Exploiter les fonctionnalités de Microsoft Excel pour la gestion et l'analyse des données (Tosa) - Intermédiaire",
+    "duree": 14,
+    "dureeNote": "2 jours (14h) + 1h de certification",
+    "tarifHoraire": 45,
+    "objectifs": [
+      "Personnaliser et gérer efficacement leurs classeurs et leur environnement Excel",
+      "Créer et structurer des formules de calcul avancées",
+      "Mettre en forme, organiser et imprimir des tableaux professionnels",
+      "Exploiter et analyser des bases de données de manière efficace",
+      "Créer et personnaliser des graphiques illustrant leurs analyses",
+      "Utiliser les tableaux croisés dynamiques pour réaliser des analyses approfondies"
+    ],
+    "themes": [
+      {
+        "id": "T01",
+        "titre": "Environnement Excel / Interface",
+        "description": "Personnalisation du ruban et raccourcis clavier",
+        "activites": [
+          "Personnaliser les onglets du ruban",
+          "Utiliser les principaux raccourcis clavier",
+          "Créer et utiliser les commentaires",
+          "Synchroniser avec OneDrive",
+          "Modifier les options d'affichage"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-ENV-C01",
+          "EXCEL-N2-ENV-C02",
+          "EXCEL-N2-ENV-C03"
+        ]
+      },
+      {
+        "id": "T02",
+        "titre": "Gestion des fichiers",
+        "description": "Gestion des classeurs",
+        "activites": [
+          "Gérer les classeurs : les renommer, les déplacer, les dupliquer"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-ENV-C04",
+          "EXCEL-N2-ENV-C05"
+        ]
+      },
+      {
+        "id": "T03",
+        "titre": "Mise en forme de tableaux",
+        "description": "Mise en forme avancée",
+        "activites": [
+          "Appliquer une trame de fond, une bordure",
+          "Reproduire la mise en forme",
+          "Retour à la ligne automatique",
+          "Formater les dates, monnaie, pourcentages",
+          "Appliquer différents styles prédéfinis",
+          "Créer des formats personnalisés"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-MFORME-C20",
+          "EXCEL-N2-MFORME-C21",
+          "EXCEL-N2-MFORME-C22",
+          "EXCEL-N2-MFORME-C24",
+          "EXCEL-N2-MFORME-C25",
+          "EXCEL-N2-MFORME-C26",
+          "EXCEL-N2-MFORME-C27"
+        ]
+      },
+      {
+        "id": "T04",
+        "titre": "Gérer les feuilles de calcul",
+        "description": "Opérations sur les feuilles",
+        "activites": [
+          "Insérer une nouvelle feuille, supprimer une feuille",
+          "Copier, déplacer, renommer une feuille"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-ENV-C04",
+          "EXCEL-N2-ENV-C05"
+        ]
+      },
+      {
+        "id": "T05",
+        "titre": "Créer des formules de calcul",
+        "description": "Fonctions avancées",
+        "activites": [
+          "Utiliser l'auto-complétion",
+          "Utiliser les références relatives et absolues",
+          "Organiser les formules",
+          "Utiliser les fonctions statistiques",
+          "Utiliser les fonctions conditionnelles et logiques",
+          "Utiliser les fonctions de temps",
+          "Utiliser les fonctions de recherche",
+          "Extraire et analyser les données"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-CALCUL-C13",
+          "EXCEL-N2-CALCUL-C14",
+          "EXCEL-N2-CALCUL-C15",
+          "EXCEL-N2-CALCUL-C16",
+          "EXCEL-N2-CALCUL-C17",
+          "EXCEL-N2-CALCUL-C18",
+          "EXCEL-N2-CALCUL-C19"
+        ]
+      },
+      {
+        "id": "T06",
+        "titre": "Mettre en page et Impression",
+        "description": "Impression avancée",
+        "activites": [
+          "Utiliser les en-têtes et les pieds de page, les marges",
+          "Numéroter les pages",
+          "Mise en page de données volumineuses"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-ENV-C11",
+          "EXCEL-N2-ENV-C12"
+        ]
+      },
+      {
+        "id": "T07",
+        "titre": "Utiliser des objets graphiques",
+        "description": "Graphiques avancés",
+        "activites": [
+          "Ajouter, redimensionner et mettre en forme des objets graphiques",
+          "Créer différents types de graphiques",
+          "Personnaliser l'apparence des graphiques",
+          "Mettre à jour manuellement les graphiques"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-MFORME-C28",
+          "EXCEL-N2-MFORME-C29",
+          "EXCEL-N2-MFORME-C30",
+          "EXCEL-N2-MFORME-C31",
+          "EXCEL-N2-MFORME-C32",
+          "EXCEL-N2-GDONNEES-C33",
+          "EXCEL-N2-GDONNEES-C34"
+        ]
+      },
+      {
+        "id": "T08",
+        "titre": "Utiliser les outils de gestion de données",
+        "description": "Gestion de données avancée",
+        "activites": [
+          "Créer des mises en forme conditionnelles basées sur des formules",
+          "Créer et utiliser les options des tableaux de données",
+          "Effectuer des opérations simples sur les tableaux",
+          "Importer et exporter des données",
+          "Utiliser des filtres avancés et des tris à plusieurs niveaux"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-MFORME-C23",
+          "EXCEL-N2-GDONNEES-C37",
+          "EXCEL-N2-GDONNEES-C38",
+          "EXCEL-N2-GDONNEES-C39",
+          "EXCEL-N2-GDONNEES-C40",
+          "EXCEL-N2-GDONNEES-C41",
+          "EXCEL-N2-GDONNEES-C42",
+          "EXCEL-N2-GDONNEES-C43"
+        ]
+      },
+      {
+        "id": "T09",
+        "titre": "Tableau croisé dynamique",
+        "description": "TCD avancés",
+        "activites": [
+          "Créer des tableaux croisés dynamiques pour analyser des données complexes",
+          "Utiliser des filtres et des tris pour explorer les données"
+        ],
+        "competencesCibles": [
+          "EXCEL-N2-GDONNEES-C35",
+          "EXCEL-N2-GDONNEES-C36",
+          "EXCEL-N2-GDONNEES-C37"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXCEL-PERF",
+    "formationId": "EXCEL",
+    "type": "PERFECTIONNEMENT",
+    "titre": "Exploiter les fonctionnalités de Microsoft Excel pour la gestion et l'analyse des données (Tosa) - Perfectionnement / Avancé",
+    "duree": 14,
+    "dureeNote": "2 jours (14h) + 1h de certification",
+    "tarifHoraire": 45,
+    "objectifs": [
+      "Personnaliser son environnement Excel et optimiser sa productivité",
+      "Concevoir et mettre en forme des tableaux professionnels",
+      "Utiliser des formules et fonctions complexes pour automatiser les calculs",
+      "Exploiter et analyser des bases de données structurées",
+      "Produire des analyses visuelles et dynamiques avec des graphiques et tableaux croisés",
+      "Automatiser leurs tâches courantes grâce à des macros enregistrées"
+    ],
+    "themes": [
+      {
+        "id": "T01",
+        "titre": "Environnement",
+        "description": "Personnalisation et optimisation",
+        "activites": [
+          "Gérer la compatibilité des fichiers",
+          "Personnaliser l'interface",
+          "Optimiser le flux de travail"
+        ],
+        "competencesCibles": [
+          "EXCEL-N3-ENV-C01",
+          "EXCEL-N3-ENV-C02",
+          "EXCEL-N3-ENV-C03",
+          "EXCEL-N3-ENV-C04",
+          "EXCEL-N3-ENV-C05",
+          "EXCEL-N3-ENV-C06",
+          "EXCEL-N3-ENV-C07",
+          "EXCEL-N3-ENV-C08",
+          "EXCEL-N3-ENV-C09",
+          "EXCEL-N3-ENV-C10"
+        ]
+      },
+      {
+        "id": "T02",
+        "titre": "Utilisation et modification des fonctions avancées",
+        "description": "Fonctions avancées",
+        "activites": [
+          "Comprendre et utiliser les collages spéciaux",
+          "Appliquer les styles personnalisés",
+          "Créer et gérer des formats personnalisés",
+          "Auto-complétion avancée",
+          "Protéger une feuille de calcul ou un classeur"
+        ],
+        "competencesCibles": [
+          "EXCEL-N3-ENV-C12",
+          "EXCEL-N3-ENV-C13",
+          "EXCEL-N3-MFORME-C32",
+          "EXCEL-N3-MFORME-C33"
+        ]
+      },
+      {
+        "id": "T03",
+        "titre": "Utiliser les fonctions de calcul",
+        "description": "Fonctions complexes",
+        "activites": [
+          "Gérer/Corriger les erreurs",
+          "Utiliser les références absolues",
+          "Utiliser les fonctions de recherche",
+          "Utiliser les fonctions dates",
+          "Utiliser les fonctions d'arrondi",
+          "Utiliser les fonctions texte",
+          "Utiliser les fonctions de remplacement",
+          "Utiliser les fonctions logiques",
+          "Générer les nombres aléatoires",
+          "Utiliser les fonctions de base de données",
+          "Utiliser SOUS.TOTAL",
+          "Utiliser SOMMEPROD",
+          "Documenter les formules"
+        ],
+        "competencesCibles": [
+          "EXCEL-N3-CALCUL-C15",
+          "EXCEL-N3-CALCUL-C16",
+          "EXCEL-N3-CALCUL-C18",
+          "EXCEL-N3-CALCUL-C19",
+          "EXCEL-N3-CALCUL-C20",
+          "EXCEL-N3-CALCUL-C21",
+          "EXCEL-N3-CALCUL-C22",
+          "EXCEL-N3-CALCUL-C23",
+          "EXCEL-N3-CALCUL-C24",
+          "EXCEL-N3-CALCUL-C25",
+          "EXCEL-N3-CALCUL-C26",
+          "EXCEL-N3-CALCUL-C27",
+          "EXCEL-N3-CALCUL-C28",
+          "EXCEL-N3-CALCUL-C29",
+          "EXCEL-N3-CALCUL-C30",
+          "EXCEL-N3-CALCUL-C31"
+        ]
+      },
+      {
+        "id": "T04",
+        "titre": "Mettre en page et Impression",
+        "description": "Mise en page professionnelle",
+        "activites": [
+          "Utiliser des fonctions avancées pour créer des mises en page professionnelles",
+          "Appliquer des styles prédéfinis",
+          "Créer des mises en page personnalisées",
+          "Modifier les options d'affichage avancées"
+        ],
+        "competencesCibles": [
+          "EXCEL-N3-MFORME-C35",
+          "EXCEL-N3-MFORME-C36",
+          "EXCEL-N3-MFORME-C37"
+        ]
+      },
+      {
+        "id": "T05",
+        "titre": "Mise en forme conditionnelle",
+        "description": "MFC avancées",
+        "activites": [
+          "Créer une règle de mise en forme avec des règles complexes",
+          "Copier une mise en forme",
+          "Rechercher des cellules avec mise en forme conditionnelle",
+          "Supprimer une mise en forme conditionnelle"
+        ],
+        "competencesCibles": [
+          "EXCEL-N3-MFORME-C34"
+        ]
+      },
+      {
+        "id": "T06",
+        "titre": "Créer des graphiques et objets graphiques",
+        "description": "Graphiques avancés",
+        "activites": [
+          "Intégrer des objets graphiques",
+          "Créer et personnaliser des objets graphiques avancés",
+          "Concevoir un graphique à deux axes",
+          "Personnaliser les graphiques avec des options avancées",
+          "Mettre à jour automatiquement les graphiques"
+        ],
+        "competencesCibles": [
+          "EXCEL-N3-GDONNEES-C58",
+          "EXCEL-N3-GDONNEES-C59",
+          "EXCEL-N3-GDONNEES-C60",
+          "EXCEL-N3-GDONNEES-C61",
+          "EXCEL-N3-GDONNEES-C62",
+          "EXCEL-N3-MFORME-C38",
+          "EXCEL-N3-MFORME-C39",
+          "EXCEL-N3-MFORME-C40",
+          "EXCEL-N3-MFORME-C41",
+          "EXCEL-N3-MFORME-C42",
+          "EXCEL-N3-MFORME-C43",
+          "EXCEL-N3-MFORME-C44",
+          "EXCEL-N3-MFORME-C45",
+          "EXCEL-N3-MFORME-C46"
+        ]
+      },
+      {
+        "id": "T07",
+        "titre": "Exploiter des bases de données",
+        "description": "Gestion de données professionnelle",
+        "activites": [
+          "Organiser les données avec le tri et le filtrage",
+          "Utiliser les tableaux de données",
+          "Créer et appliquer des styles personnalisés",
+          "Extraire des données avec une zone de critères",
+          "Utiliser les fonctions de base de données",
+          "Garantir la qualité des données par la validation",
+          "Réaliser des sous-totaux simples et multiples",
+          "Utiliser l'assistant Convertir"
+        ],
+        "competencesCibles": [
+          "EXCEL-N3-GDONNEES-C49",
+          "EXCEL-N3-GDONNEES-C50",
+          "EXCEL-N3-GDONNEES-C51",
+          "EXCEL-N3-GDONNEES-C52",
+          "EXCEL-N3-GDONNEES-C54",
+          "EXCEL-N3-GDONNEES-C55",
+          "EXCEL-N3-GDONNEES-C56",
+          "EXCEL-N3-GDONNEES-C57",
+          "EXCEL-N3-GDONNEES-C67"
+        ]
+      },
+      {
+        "id": "T08",
+        "titre": "Générer et utiliser un tableau croisé dynamique",
+        "description": "TCD avancés",
+        "activites": [
+          "Modifier les paramètres des champs de valeurs",
+          "Filtrer un tableau croisé à l'aide des segments",
+          "Regrouper des valeurs",
+          "Créer un graphique croisé dynamique",
+          "Afficher les valeurs en pourcentage, différence, valeur cumulée",
+          "Actualisation des données"
+        ],
+        "competencesCibles": [
+          "EXCEL-N3-GDONNEES-C63",
+          "EXCEL-N3-GDONNEES-C64",
+          "EXCEL-N3-GDONNEES-C65",
+          "EXCEL-N3-GDONNEES-C66",
+          "EXCEL-N3-GDONNEES-C53"
+        ]
+      },
+      {
+        "id": "T09",
+        "titre": "Créer une macro simple",
+        "description": "Automatisation",
+        "activites": [
+          "Automatiser le nettoyage ou la transformation des données"
+        ],
+        "competencesCibles": [
+          "EXCEL-N3-ENV-C14"
+        ]
+      }
+    ]
+  }
+]

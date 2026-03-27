@@ -1,0 +1,19 @@
+{
+  "question": "<p ><img  src=\"/images/bq/POSI-XLS-N2-Q31-1.png\" width=\"712\" height=\"244\"></p>\n<p >J'ai créé un graphique à partir des ventes 2021 et 2022. J'ajoute une nouvelle colonne pour les ventes 2023.</p>\n<p >Quelles sont les méthodes correctes permettant d'ajouter ces nouvelles données dans le graphique ?</p>\n<p ><i><span ><strong><span >Vous devez sélectionner toutes les réponses possibles.</span></strong></span></i></p>",
+  "reponses": {
+    "A": "<p>Je clique dans le graphique afin de visualiser la sélection actuelle, puis j'agrandis cette dernière afin d'y inclure les données de 2023 (plage de cellules de <b>D3 à D7</b>).</p>",
+    "B": "<p >Je sélectionne le graphique, puis dans la barre de formule, je saisis le signe <b>=</b> et je sélectionne toutes la plage de données, y compris la nouvelle colonne de façon à obtenir <b>=Feuil1!$A$3:$D$7</b>.</p>",
+    "C": "<p >Je sélectionne le graphique, je clique sur \"<strong>Eléments de graphique</strong>\" (Bouton <img src=\"/images/bq/POSI-XLS-N2-Q31-R3-1.png\" width=\"42\" height=\"44\">du graphique) et je coche \"<strong>Table de données</strong>\".</p>",
+    "D": "<p >Je sélectionne les ventes de 2023 (plage de cellules de <b>D3 à D7</b>) puis je les copie, je sélectionne ensuite le graphique et je les colle.</p>",
+    "E": "<p >Je sélectionne les nouvelles données, et à l'aide de la souris, je les fais glisser dans le graphique.</p>",
+    "F": "<p >Je ne sais pas.</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

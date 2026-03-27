@@ -1,0 +1,19 @@
+{
+  "question": "<p >Voici un tableau croisé dynamique. Si je double-clique sur la cellule B6, que se passe-t-il ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q25-1.png\" width=\"745\" height=\"345\"></p>",
+  "reponses": {
+    "A": "<p >Une nouvelle feuille se crée avec la ventilation du CA de Jacques pour le mois de janvier.</p>",
+    "B": "<p >La boîte de dialogue Format de cellule s’affiche afin que je puisse modifier le format des nombres.</p>",
+    "C": "<p >La boîte de dialogue Paramètres des champs de valeurs s’affiche.</p>",
+    "D": "<p >La ligne 6 sera automatiquement masquée.</p>",
+    "E": "<p >La feuille qui contient la source du tableau croisé dynamique s’affiche.</p>",
+    "F": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C7]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

@@ -1,0 +1,300 @@
+=== EXCEL-N1-CALCUL-C21-Q07.json ===
+Q: 7. Que signifie le symbole #DIV/0! dans une cellule ?
+Reponses:
+  A: La cellule contient du texte
+  B: Une division par zero est effectuee
+  C: Une erreur de formule
+  D: Les reponses B et C
+Correct: D
+Feedback: L'erreur #DIV/0! apparait quand Excel tente de diviser un nombre par zero.
+
+=== EXCEL-N1-CALCUL-C22-Q06.json ===
+Q: 6. Quelle formule permet de calculer une somme dans Excel ?
+Reponses:
+  A: '=SOMME(A1:A10)
+  B: '=ADDITION(A1:A10)
+  C: '=TOTAL(A1:A10)
+  D: '=AJOUTER(A1:A10)
+Correct: A
+Feedback: La fonction SOMME est la fonction native Excel pour additionner une plage de cellules.
+
+=== EXCEL-N1-ENV-C01-Q01.json ===
+Q: 1. Comment ouvrir un document Excel existant ?
+Reponses:
+  A: Fichier > Nouveau
+  B: Fichier > Ouvrir et parcourir le fichier
+  C: Fichier > Enregistrer sous
+  D: Fichier > Imprimer
+Correct: B
+Feedback: Pour ouvrir un document existant, utilisez Fichier > Ouvrir et parcourir vos dossiers pour sélectionner le fichier.
+
+=== EXCEL-N1-ENV-C02-Q02.json ===
+Q: 2. Quelle est la methode pour sauvegarder un document Excel ?
+Reponses:
+  A: Ctrl + S
+  B: Fichier > Enregistrer
+  C: Les deux reponses A et B
+  D: Aucune des reponses
+Correct: C
+Feedback: Les deux methodes (Ctrl+S ou Fichier > Enregistrer) permettent de sauvegarder un document Excel.
+
+=== EXCEL-N1-ENV-C05-Q03.json ===
+Q: 3. Comment figer les volets pour maintenir des lignes/colonnes visibles ?
+Reponses:
+  A: Onglet Affichage > Figer les volets
+  B: Onglet Insertion > Figer
+  C: Onglet Donnees > Figer
+  D: Onglet Format > Figer
+Correct: A
+Feedback: L'option Figer les volets se trouve dans l'onglet Affichage et permet de verrouiller des lignes/colonnes a l'écran.
+
+=== EXCEL-N1-ENV-C13-Q04.json ===
+Q: 4. Quelle manipulation permet de modifier la largeur d'une colonne ?
+Reponses:
+  A: Double-cliquer sur le bord droit de l'en-tete de colonne
+  B: Format > Largeur de colonne
+  C: Les deux reponses A et B
+  D: C
+Correct: Le double-clic sur le bord de la colonne ajuste automatiquement la largeur au contenu, et Format > Largeur de colonne permet une valeur precise.
+Feedback: None
+
+=== EXCEL-N1-ENV-C15-Q05.json ===
+Q: 5. Comment insérer une nouvelle cellule dans une feuille de calcul ?
+Reponses:
+  A: Clic droit > Inserer > Decaler les cellules vers la droite
+  B: Clic droit > Inserer > Decaler les cellules vers le bas
+  C: Les deux reponses A et B
+  D: C
+Correct: Selon vos besoins, vous pouvez choisir de decaler les cellules existantes vers la droite ou vers le bas.
+Feedback: None
+
+=== EXCEL-N1-GDONNEES-C39-Q09.json ===
+Q: 9. Quelle commande permet d'effectuer un tri automatique sur une colonne ?
+Reponses:
+  A: Onglet Donnees > Trier de A a Z
+  B: Clic droit > Trier
+  C: Les deux reponses A et B
+  D: C
+Correct: L'onglet Donnees et le menu contextuel (clic droit) proposent des options de tri.
+Feedback: None
+
+=== EXCEL-N1-GDONNEES-C41-Q10.json ===
+Q: 10. Comment reconnaître un graphique de type histogramme ?
+Reponses:
+  A: Les barres sont verticales
+  B: Les barres sont horizontales
+  C: Les données sont en cercle
+  D: Les données sont en ligne
+Correct: A
+Feedback: Un histogramme represente les données sous forme de barres verticales.
+
+=== EXCEL-N1-MFORME-C30-Q08.json ===
+Q: 8. Comment appliquer un format de pourcentage a une cellule ?
+Reponses:
+  A: Onglet Accueil > Format de nombre > Pourcentage
+  B: Clic droit > Format de cellule > Pourcentage
+  C: Les deux reponses A et B
+  D: C
+Correct: Les deux methodes permettent d'appliquer le format pourcentage a une cellule.
+Feedback: None
+
+=== EXCEL-N2-CALCUL-C01-Q05.json ===
+Q: 5. Quelle est la difference entre reference relative et reference absolue ?
+Reponses:
+  A: Relative: $A$1, Absolue: A1
+  B: Relative: A1, Absolue: $A$1
+  C: Relative: A1, Absolue: A$1
+  D: Aucune difference
+Correct: B
+Feedback: La reference absolue utilise le symbole $ pour bloquer la ligne et/ou la colonne.
+
+=== EXCEL-N2-CALCUL-C04-Q07.json ===
+Q: 7. Que signifie l'erreur #NOM? dans une formule ?
+Reponses:
+  A: Erreur de syntaxe dans le nom de la fonction
+  B: Division par zero
+  C: Reference de cellule invalide
+  D: Donnees introuvables
+Correct: A
+Feedback: L'erreur #NOM? apparait quand Excel ne reconnait pas le nom d'une fonction ou d'une cellule.
+
+=== EXCEL-N2-CALCUL-C06-Q09.json ===
+Q: 9. Quelle fonction permet de calculer une moyenne dans Excel ?
+Reponses:
+  A: '=MOYENNE(A1:A10)
+  B: '=MOY(A1:A10)
+  C: '=AVG(A1:A10)
+  D: '=MOYENNE(A1
+Correct: A10)
+Feedback: A
+
+=== EXCEL-N2-ENV-C01-Q01.json ===
+Q: 1. Comment personnalisér les onglets du ruban dans Excel ?
+Reponses:
+  A: Onglet Fichier > Options > Personnaliser le rubanet
+  B: Clic droit sur le rubanet > Personnaliser le rubanet
+  C: Les deux reponses A et B
+  D: Aucune des reponses
+Correct: C
+Feedback: Les deux methodes permettent de personnalisér le rubanet selon vos besoins.
+
+=== EXCEL-N2-ENV-C02-Q02.json ===
+Q: 2. Quel raccourci clavier permet de se déplacer a la fin d'une ligne ?
+Reponses:
+  A: Ctrl + Fin
+  B: Ctrl + Fleche
+  C: Ctrl + Debut
+  D: Ctrl + Origine
+Correct: A
+Feedback: Ctrl+Fin deplace le curseur vers la derniere cellule contenant des données dans la ligne.
+
+=== EXCEL-N2-ENV-C03-Q03.json ===
+Q: 3. A quoi sert la poignon de recopie ?
+Reponses:
+  A: A copier une formule vers des cellules adjacentes
+  B: A déplacer une feuille de calcul
+  C: A supprimer des cellules
+  D: A fusionner des cellules
+Correct: A
+Feedback: La poignon de recopie (carre noir en bas a droite de la cellule active) permet de recopier le contenu ou la formule.
+
+=== EXCEL-N2-ENV-C05-Q04.json ===
+Q: 4. Comment constituer un groupe de travail dans Excel ?
+Reponses:
+  A: Selectionner plusieurs onglets en maintenant Ctrl
+  B: Selectionner plusieurs onglets en maintenant Maj
+  C: Les deux reponses A et B
+  D: C
+Correct: Ctrl permet une selection non contigue, Maj permet une selection contigue d'onglets.
+Feedback: None
+
+=== EXCEL-N2-ENV-C08-Q06.json ===
+Q: 6. Comment coller des valeurs transposees dans Excel ?
+Reponses:
+  A: Clic droit > Collage special > Transposer
+  B: Clic droit > Transposer
+  C: Les deux reponses A et B
+  D: C
+Correct: L'option Transposer dans le collage special permet d'inverser les lignes et colonnes.
+Feedback: None
+
+=== EXCEL-N2-ENV-C12-Q08.json ===
+Q: 8. Comment insérer un en-tete ou un pied de page ?
+Reponses:
+  A: Onglet Insertion > En-tete et pied de page
+  B: Onglet Mise en page > En-tetes et pieds de page
+  C: Les deux reponses A et B
+  D: C
+Correct: Les deux options permettent d'acceder a la fonctionnalite d'en-tete et pied de page.
+Feedback: None
+
+=== EXCEL-N2-MFORME-C31-Q10.json ===
+Q: 10. Comment créer un tableau avec un style predéfini ?
+Reponses:
+  A: Onglet Accueil > Mettre sous forme de tableau
+  B: Onglet Insertion > Tableau
+  C: Les deux reponses A et B
+  D: C
+Correct: Les deux methodes permettent de créer un tableau avec des styles predéfinis.
+Feedback: None
+
+=== EXCEL-N3-CALCUL-C03-Q04.json ===
+Q: 4. Comment utiliser la fonction INDEX-EQUIV pour une recherche ?
+Reponses:
+  A: '=INDEX(tableau
+  B: EQUIV(valeur
+  C: colonne
+  D: 0))
+Correct: '=INDEX(tableau
+Feedback: EQUIV(valeur
+
+=== EXCEL-N3-CALCUL-C06-Q07.json ===
+Q: 7. Quelle fonction permet de compter les occurrences selon un critere ?
+Reponses:
+  A: '=NB.SI(plage
+  B: critere)
+  C: '=COMPTER(plage
+  D: critere)
+Correct: '=NOMBRE(plage
+Feedback: critere)
+
+=== EXCEL-N3-CALCUL-C08-Q03.json ===
+Q: 3. Quelle fonction permet de rechercher une valeur dans un tableau ?
+Reponses:
+  A: '=RECHERCHEV(valeur
+  B: tableau
+  C: colonne
+  D: FAUX)
+Correct: '=RECHERCHE(valeur
+Feedback: tableau)
+
+=== EXCEL-N3-CALCUL-C09-Q05.json ===
+Q: 5. Quelle fonction permet de concaténer du texte dans Excel ?
+Reponses:
+  A: '=CONCATENER(texte1
+  B: texte2)
+  C: '=JOINDRE(texte1
+  D: texte2)
+Correct: '=ASSEMBLER(texte1
+Feedback: texte2)
+
+=== EXCEL-N3-CALCUL-C11-Q08.json ===
+Q: 8. Comment utiliser la fonction SOMME.SI.ENS ?
+Reponses:
+  A: '=SOMME.SI.ENS(somme_plage
+  B: plage1
+  C: critere1
+  D: plage2
+Correct: critere2)
+Feedback: '=SOMME.SI(plage
+
+=== EXCEL-N3-ENV-C14-Q01.json ===
+Q: 1. Comment recuperer une version antérieure d'un document Excel ?
+Reponses:
+  A: Fichier > Informations > Gestion du classeur > Afficher l'historique des versions
+  B: Onglet Historique
+  C: Les deux reponses A et B
+  D: Aucune des reponses
+Correct: A
+Feedback: La fonction Historique des versions permet de restaurer des versions precedentes du document.
+
+=== EXCEL-N3-ENV-C17-Q02.json ===
+Q: 2. Comment protéger une feuille de calcul dans Excel ?
+Reponses:
+  A: Onglet Revision > Proteger la feuille
+  B: Onglet Fichier > Proteger la feuille
+  C: Les deux reponses A et B
+  D: C
+Correct: Les deux methodes permettent de protéger une feuille avec un mot de passe.
+Feedback: None
+
+=== EXCEL-N3-GDONNEES-C06-Q10.json ===
+Q: 10. Comment insérer un segment (Slicer) dans un tableau croise dynamique ?
+Reponses:
+  A: Onglet Insertion > Segment
+  B: Tableau croise dynamique > Inserer un segment
+  C: Les deux reponses A et B
+  D: C
+Correct: Les deux methodes permettent d'insérer des segments pour filtrer les données visuellement.
+Feedback: None
+
+=== EXCEL-N3-GDONNEES-C08-Q09.json ===
+Q: 9. Comment créer une liste déroulante dans une cellule ?
+Reponses:
+  A: Donnees > Validation des données
+  B: Onglet Developpeur > Liste déroulante
+  C: Les deux reponses A et B
+  D: C
+Correct: La validation des données permet de créer des listes déroulantes restrictives.
+Feedback: None
+
+=== EXCEL-N3-MFORME-C06-Q06.json ===
+Q: 6. Comment créer une mise en forme conditionnelle avec une formule ?
+Reponses:
+  A: Onglet Accueil > Mise en forme conditionnelle > Nouvelle regle > Utiliser une formule
+  B: Onglet Insertion > Mise en forme conditionnelle
+  C: Les deux reponses A et B
+  D: A
+Correct: A
+Feedback: La mise en forme conditionnelle avec formule permet d'appliquer un format selon une condition personnalisée.
+

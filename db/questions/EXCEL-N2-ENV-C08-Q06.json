@@ -1,0 +1,17 @@
+{
+  "question": "Après avoir copié un tableau vertical (5 lignes, 2 colonnes), comment le coller pour qu'il devienne horizontal ?",
+  "reponses": {
+    "A": "Clic droit > Collage spécial > Option 'Transposer'.",
+    "B": "Utiliser le raccourci classique Ctrl+V, puis appuyer sur H (Horizontal).",
+    "C": "Onglet Accueil > Coller en tant qu'image.",
+    "D": "Il n'y a pas d'option native, il faut retaper toutes les valeurs."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Le collage spécial 'Transposer' permute l'orientation d'une plage ligne/colonne.",
+  "competencesCibles": [
+    "EXCEL-N2-ENV-C08"
+  ],
+  "difficulty": 52,
+  "discrimination": 1.4,
+  "guessing": 0.25
+}

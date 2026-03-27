@@ -1,0 +1,17 @@
+{
+  "question": "<p >J’ai sélectionné la plage B10 à F10 pour en copier le format vers les cellules destinatrices de B12 à F12. <span > </span>Que dois-je faire ensuite ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q20-1.png\" width=\"661\" height=\"342\"></p>",
+  "reponses": {
+    "A": "<p >Utiliser <span>« </span><strong>Copier/Coller<span> »</span></strong></p>",
+    "B": "<p >Utiliser l’outils « <strong>Reproduire la mise en forme</strong> »</p>",
+    "C": "<p >Utiliser « <strong>Styles de cellules</strong> »</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

@@ -1,0 +1,3073 @@
+{
+  "formations": [
+    {
+      "id": "excel",
+      "nom": "Excel",
+      "description": "Tableur Microsoft Excel",
+      "niveaux": [
+        {
+          "id": "n1",
+          "nom": "Initiation",
+          "score_min": 1,
+          "score_max": 350,
+          "niveau_tosa": "Initial",
+          "domaines": [
+            {
+              "id": "env",
+              "nom": "Environnement / Méthodes",
+              "competences": [
+                {
+                  "id": "EXCEL-N1-ENV-C01",
+                  "code": "EXCEL-N1-ENV-C01",
+                  "nom": "Ouvrir un document Excel"
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C02",
+                  "code": "EXCEL-N1-ENV-C02",
+                  "nom": "Sauvegarder un document Excel"
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C03",
+                  "code": "EXCEL-N1-ENV-C03",
+                  "nom": "Imprimer un document Excel"
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C04",
+                  "code": "EXCEL-N1-ENV-C04",
+                  "nom": "Identifier les onglets au sein du ruban"
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C05",
+                  "code": "EXCEL-N1-ENV-C05",
+                  "nom": "Figer les volets"
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C06",
+                  "code": "EXCEL-N1-ENV-C06",
+                  "nom": "Modifier une zone d'impression"
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C07",
+                  "code": "EXCEL-N1-ENV-C07",
+                  "nom": "Imprimer et mettre en page un document"
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C08",
+                  "code": "EXCEL-N1-ENV-C08",
+                  "nom": "Changer la largeur des colonnes"
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C09",
+                  "code": "EXCEL-N1-ENV-C09",
+                  "nom": "Changer la hauteur des lignes"
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C10",
+                  "code": "EXCEL-N1-ENV-C10",
+                  "nom": "Supprimer et inserer des cellules"
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C11",
+                  "code": "EXCEL-N1-ENV-C11",
+                  "nom": "Enregistrer un document sous un autre nom"
+                }
+              ]
+            },
+            {
+              "id": "calcul",
+              "nom": "Calculs (Formules, Fonctions)",
+              "competences": [
+                {
+                  "id": "EXCEL-N1-CALCUL-C12",
+                  "code": "EXCEL-N1-CALCUL-C12",
+                  "nom": "Entrer un texte ou une formule simple dans une cellule"
+                },
+                {
+                  "id": "EXCEL-N1-CALCUL-C13",
+                  "code": "EXCEL-N1-CALCUL-C13",
+                  "nom": "Saisir une heure"
+                },
+                {
+                  "id": "EXCEL-N1-CALCUL-C14",
+                  "code": "EXCEL-N1-CALCUL-C14",
+                  "nom": "Reconnaître le symbole ERREUR"
+                },
+                {
+                  "id": "EXCEL-N1-CALCUL-C15",
+                  "code": "EXCEL-N1-CALCUL-C15",
+                  "nom": "Saisir une addition, une soustraction, une multiplication et une division"
+                },
+                {
+                  "id": "EXCEL-N1-CALCUL-C16",
+                  "code": "EXCEL-N1-CALCUL-C16",
+                  "nom": "Identifier l'ordre correct des opérations"
+                },
+                {
+                  "id": "EXCEL-N1-CALCUL-C17",
+                  "code": "EXCEL-N1-CALCUL-C17",
+                  "nom": "Comprendre les formules MAX, MIN, ET, OU et SI"
+                },
+                {
+                  "id": "EXCEL-N1-CALCUL-C18",
+                  "code": "EXCEL-N1-CALCUL-C18",
+                  "nom": "Determiner l'impact de la suppression d'une ligne ou d'une colonne sur une formule"
+                }
+              ]
+            },
+            {
+              "id": "mforme",
+              "nom": "Mise en forme",
+              "competences": [
+                {
+                  "id": "EXCEL-N1-MFORME-C19",
+                  "code": "EXCEL-N1-MFORME-C19",
+                  "nom": "Utiliser les fonctions les plus simples de mise en forme des cellules pour la police"
+                },
+                {
+                  "id": "EXCEL-N1-MFORME-C20",
+                  "code": "EXCEL-N1-MFORME-C20",
+                  "nom": "Utiliser les fonctions les plus simples de mise en forme des cellules pour les nombres"
+                },
+                {
+                  "id": "EXCEL-N1-MFORME-C21",
+                  "code": "EXCEL-N1-MFORME-C21",
+                  "nom": "Modifier l'orientation de la page"
+                },
+                {
+                  "id": "EXCEL-N1-MFORME-C22",
+                  "code": "EXCEL-N1-MFORME-C22",
+                  "nom": "Modifier les marges"
+                },
+                {
+                  "id": "EXCEL-N1-MFORME-C23",
+                  "code": "EXCEL-N1-MFORME-C23",
+                  "nom": "Effectuer des formatages simples de nombres"
+                },
+                {
+                  "id": "EXCEL-N1-MFORME-C24",
+                  "code": "EXCEL-N1-MFORME-C24",
+                  "nom": "Effectuer des encadrements de cellules"
+                },
+                {
+                  "id": "EXCEL-N1-MFORME-C25",
+                  "code": "EXCEL-N1-MFORME-C25",
+                  "nom": "Maitriser la difference entre la couleur de fond et la couleur de police"
+                },
+                {
+                  "id": "EXCEL-N1-MFORME-C26",
+                  "code": "EXCEL-N1-MFORME-C26",
+                  "nom": "Utiliser l'outil Pinceau"
+                }
+              ]
+            },
+            {
+              "id": "gdonnées",
+              "nom": "Gestion des données",
+              "competences": [
+                {
+                  "id": "EXCEL-N1-GDONNEES-C27",
+                  "code": "EXCEL-N1-GDONNEES-C27",
+                  "nom": "Effectuer un tri simple"
+                },
+                {
+                  "id": "EXCEL-N1-GDONNEES-C28",
+                  "code": "EXCEL-N1-GDONNEES-C28",
+                  "nom": "Inserer un objet graphique simple"
+                },
+                {
+                  "id": "EXCEL-N1-GDONNEES-C29",
+                  "code": "EXCEL-N1-GDONNEES-C29",
+                  "nom": "Reconnaître un camembert ou un histogramme"
+                },
+                {
+                  "id": "EXCEL-N1-GDONNEES-C30",
+                  "code": "EXCEL-N1-GDONNEES-C30",
+                  "nom": "Creer et déplacer un graphique dans une feuille"
+                },
+                {
+                  "id": "EXCEL-N1-GDONNEES-C31",
+                  "code": "EXCEL-N1-GDONNEES-C31",
+                  "nom": "Distinguer les principaux graphiques"
+                },
+                {
+                  "id": "EXCEL-N1-GDONNEES-C32",
+                  "code": "EXCEL-N1-GDONNEES-C32",
+                  "nom": "Effectuer un tri automatique"
+                },
+                {
+                  "id": "EXCEL-N1-GDONNEES-C33",
+                  "code": "EXCEL-N1-GDONNEES-C33",
+                  "nom": "Classer par ordre croissant ou decroissant"
+                },
+                {
+                  "id": "EXCEL-N1-GDONNEES-C34",
+                  "code": "EXCEL-N1-GDONNEES-C34",
+                  "nom": "Classer par ordre alphabétique ou anti-alphabétique"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "nom": "Intermédiaire",
+          "score_min": 351,
+          "score_max": 550,
+          "niveau_tosa": "Basique",
+          "domaines": [
+            {
+              "id": "env",
+              "nom": "Environnement / Méthodes",
+              "competences": [
+                {
+                  "id": "EXCEL-N2-ENV-C01",
+                  "code": "EXCEL-N2-ENV-C01",
+                  "nom": "Personnaliser les onglets du ruban"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C02",
+                  "code": "EXCEL-N2-ENV-C02",
+                  "nom": "Se déplacer a l'aide de raccourcis clavier"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C03",
+                  "code": "EXCEL-N2-ENV-C03",
+                  "nom": "Utiliser la poignée de recopie"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C04",
+                  "code": "EXCEL-N2-ENV-C04",
+                  "nom": "Deplacer et dupliquer une feuille de Calcul"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C05",
+                  "code": "EXCEL-N2-ENV-C05",
+                  "nom": "Constituer un groupe de travail"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C06",
+                  "code": "EXCEL-N2-ENV-C06",
+                  "nom": "Coller et transposer les valeurs"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C07",
+                  "code": "EXCEL-N2-ENV-C07",
+                  "nom": "Coller en effectuant une opération"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C08",
+                  "code": "EXCEL-N2-ENV-C08",
+                  "nom": "Coller les formats"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C09",
+                  "code": "EXCEL-N2-ENV-C09",
+                  "nom": "Enregistrer un document au format PDF"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C10",
+                  "code": "EXCEL-N2-ENV-C10",
+                  "nom": "Connaitre les regles de compatibilite entre les differentes versions de documents"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C11",
+                  "code": "EXCEL-N2-ENV-C11",
+                  "nom": "Maitriser les options d'impression"
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C12",
+                  "code": "EXCEL-N2-ENV-C12",
+                  "nom": "Inserer un en-tete ou un pied de page"
+                }
+              ]
+            },
+            {
+              "id": "calcul",
+              "nom": "Calculs (Formules, Fonctions)",
+              "competences": [
+                {
+                  "id": "EXCEL-N2-CALCUL-C13",
+                  "code": "EXCEL-N2-CALCUL-C13",
+                  "nom": "Connaitre et utiliser les références absolues et relatives dans une formule"
+                },
+                {
+                  "id": "EXCEL-N2-CALCUL-C14",
+                  "code": "EXCEL-N2-CALCUL-C14",
+                  "nom": "Copier ou déplacer une formule"
+                },
+                {
+                  "id": "EXCEL-N2-CALCUL-C15",
+                  "code": "EXCEL-N2-CALCUL-C15",
+                  "nom": "Utiliser du texte dans une formule"
+                },
+                {
+                  "id": "EXCEL-N2-CALCUL-C16",
+                  "code": "EXCEL-N2-CALCUL-C16",
+                  "nom": "Comprendre les principales erreurs de Calcul : #NOM?, #DIV/0!, #####"
+                },
+                {
+                  "id": "EXCEL-N2-CALCUL-C17",
+                  "code": "EXCEL-N2-CALCUL-C17",
+                  "nom": "Creer des formules de calculs longues avec plusieurs operateurs arithmetiques"
+                },
+                {
+                  "id": "EXCEL-N2-CALCUL-C18",
+                  "code": "EXCEL-N2-CALCUL-C18",
+                  "nom": "Utiliser les fonctions de calcul statistique simples : SOMME, MOYENNE, MAX, MIN"
+                },
+                {
+                  "id": "EXCEL-N2-CALCUL-C19",
+                  "code": "EXCEL-N2-CALCUL-C19",
+                  "nom": "Utiliser les formules conditionnelles : SI, SI imbriques, OU, ET"
+                }
+              ]
+            },
+            {
+              "id": "mforme",
+              "nom": "Mise en forme",
+              "competences": [
+                {
+                  "id": "EXCEL-N2-MFORME-C20",
+                  "code": "EXCEL-N2-MFORME-C20",
+                  "nom": "Reconnaître les differents formats de cellules"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C21",
+                  "code": "EXCEL-N2-MFORME-C21",
+                  "nom": "Fusionner des cellules"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C22",
+                  "code": "EXCEL-N2-MFORME-C22",
+                  "nom": "Modifier l'alignement du contenu d'une cellule"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C23",
+                  "code": "EXCEL-N2-MFORME-C23",
+                  "nom": "Comprendre la mise en forme conditionnelle"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C24",
+                  "code": "EXCEL-N2-MFORME-C24",
+                  "nom": "Utiliser le verificateur d'orthographe"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C25",
+                  "code": "EXCEL-N2-MFORME-C25",
+                  "nom": "Accepter ou refuser les corrections"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C26",
+                  "code": "EXCEL-N2-MFORME-C26",
+                  "nom": "Creer un tableau"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C27",
+                  "code": "EXCEL-N2-MFORME-C27",
+                  "nom": "Appliquer un style a un tableau"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C28",
+                  "code": "EXCEL-N2-MFORME-C28",
+                  "nom": "Inserer un SmartArt, une forme ou une image"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C29",
+                  "code": "EXCEL-N2-MFORME-C29",
+                  "nom": "Inserer un graphique"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C30",
+                  "code": "EXCEL-N2-MFORME-C30",
+                  "nom": "Effectuer une mise en forme avec les styles de graphique"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C31",
+                  "code": "EXCEL-N2-MFORME-C31",
+                  "nom": "Agrandir et reduire la taille d'un graphique"
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C32",
+                  "code": "EXCEL-N2-MFORME-C32",
+                  "nom": "Gerer les titres et légendes"
+                }
+              ]
+            },
+            {
+              "id": "gdonnées",
+              "nom": "Gestion des données",
+              "competences": [
+                {
+                  "id": "EXCEL-N2-GDONNEES-C33",
+                  "code": "EXCEL-N2-GDONNEES-C33",
+                  "nom": "Modifier les séries de données d'un graphique"
+                },
+                {
+                  "id": "EXCEL-N2-GDONNEES-C34",
+                  "code": "EXCEL-N2-GDONNEES-C34",
+                  "nom": "Imprimer un graphique"
+                },
+                {
+                  "id": "EXCEL-N2-GDONNEES-C35",
+                  "code": "EXCEL-N2-GDONNEES-C35",
+                  "nom": "Reconnaître un tableau croise dynamique"
+                },
+                {
+                  "id": "EXCEL-N2-GDONNEES-C36",
+                  "code": "EXCEL-N2-GDONNEES-C36",
+                  "nom": "Analyser les données dans un tableau croise dynamique"
+                },
+                {
+                  "id": "EXCEL-N2-GDONNEES-C37",
+                  "code": "EXCEL-N2-GDONNEES-C37",
+                  "nom": "Filtrer les données d'un tableau"
+                },
+                {
+                  "id": "EXCEL-N2-GDONNEES-C38",
+                  "code": "EXCEL-N2-GDONNEES-C38",
+                  "nom": "Utiliser le remplissage instantane"
+                },
+                {
+                  "id": "EXCEL-N2-GDONNEES-C39",
+                  "code": "EXCEL-N2-GDONNEES-C39",
+                  "nom": "Utiliser les filtres complexes"
+                },
+                {
+                  "id": "EXCEL-N2-GDONNEES-C40",
+                  "code": "EXCEL-N2-GDONNEES-C40",
+                  "nom": "Rechercher, remplacer ou sélectionner des données"
+                },
+                {
+                  "id": "EXCEL-N2-GDONNEES-C41",
+                  "code": "EXCEL-N2-GDONNEES-C41",
+                  "nom": "Utiliser des filtres automatiques"
+                },
+                {
+                  "id": "EXCEL-N2-GDONNEES-C42",
+                  "code": "EXCEL-N2-GDONNEES-C42",
+                  "nom": "Utiliser la fonction Analyse rapide"
+                },
+                {
+                  "id": "EXCEL-N2-GDONNEES-C43",
+                  "code": "EXCEL-N2-GDONNEES-C43",
+                  "nom": "Utiliser la fonction Valeur cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n3",
+          "nom": "Perfectionnement",
+          "score_min": 551,
+          "score_max": 875,
+          "niveau_tosa": "Operationnel / Avance",
+          "domaines": [
+            {
+              "id": "env",
+              "nom": "Environnement / Méthodes",
+              "competences": [
+                {
+                  "id": "EXCEL-N3-ENV-C01",
+                  "code": "EXCEL-N3-ENV-C01",
+                  "nom": "Mettre en page et imprimer en utilisant les options proposees par le logiciel"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C02",
+                  "code": "EXCEL-N3-ENV-C02",
+                  "nom": "Utiliser le mode Affichage approprie"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C03",
+                  "code": "EXCEL-N3-ENV-C03",
+                  "nom": "Maitriser le volet Navigation"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C04",
+                  "code": "EXCEL-N3-ENV-C04",
+                  "nom": "Fractionner un classeur"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C05",
+                  "code": "EXCEL-N3-ENV-C05",
+                  "nom": "Personnaliser l'interface"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C06",
+                  "code": "EXCEL-N3-ENV-C06",
+                  "nom": "Afficher l'onglet Developpeur"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C07",
+                  "code": "EXCEL-N3-ENV-C07",
+                  "nom": "Personnaliser la barre d'outils Acces rapide"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C08",
+                  "code": "EXCEL-N3-ENV-C08",
+                  "nom": "Personnaliser les raccourcis clavier"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C09",
+                  "code": "EXCEL-N3-ENV-C09",
+                  "nom": "Recuperer une version antérieure du document"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C10",
+                  "code": "EXCEL-N3-ENV-C10",
+                  "nom": "Reconnaître des formats de fichier"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C11",
+                  "code": "EXCEL-N3-ENV-C11",
+                  "nom": "Connaitre la fonction de signature électronique"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C12",
+                  "code": "EXCEL-N3-ENV-C12",
+                  "nom": "Proteger une feuille de calcul"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C13",
+                  "code": "EXCEL-N3-ENV-C13",
+                  "nom": "Proteger un classeur"
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C14",
+                  "code": "EXCEL-N3-ENV-C14",
+                  "nom": "Executer des macros enregistrees"
+                }
+              ]
+            },
+            {
+              "id": "calcul",
+              "nom": "Calculs (Formules, Fonctions)",
+              "competences": [
+                {
+                  "id": "EXCEL-N3-CALCUL-C15",
+                  "code": "EXCEL-N3-CALCUL-C15",
+                  "nom": "Etablir des calculs multi-feuilles et multi-classeurs"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C16",
+                  "code": "EXCEL-N3-CALCUL-C16",
+                  "nom": "Reviser une formule de calculs"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C17",
+                  "code": "EXCEL-N3-CALCUL-C17",
+                  "nom": "Effectuer des calculs sur les dates et les heures"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C18",
+                  "code": "EXCEL-N3-CALCUL-C18",
+                  "nom": "Utiliser les fonctions mathematiques : ARRONDI, ENT"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C19",
+                  "code": "EXCEL-N3-CALCUL-C19",
+                  "nom": "Utiliser les fonctions de recherche avancees : INDEX, EQUIV"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C20",
+                  "code": "EXCEL-N3-CALCUL-C20",
+                  "nom": "Utiliser les fonctions de texte : GAUCHE, DROITE, STXT, EXACT"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C21",
+                  "code": "EXCEL-N3-CALCUL-C21",
+                  "nom": "Utiliser les fonctions REMPLACER et REMPLACERB"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C22",
+                  "code": "EXCEL-N3-CALCUL-C22",
+                  "nom": "Utiliser les fonctions de date : AUJOURDHUI, JOUR, MOIS, JOURSEM"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C23",
+                  "code": "EXCEL-N3-CALCUL-C23",
+                  "nom": "Compter les occurrences d'un tableau (NB.SI)"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C24",
+                  "code": "EXCEL-N3-CALCUL-C24",
+                  "nom": "Generer des nombres aléatoires (ALEA)"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C25",
+                  "code": "EXCEL-N3-CALCUL-C25",
+                  "nom": "Classer des valeurs (RANG)"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C26",
+                  "code": "EXCEL-N3-CALCUL-C26",
+                  "nom": "Utiliser les fonctions de recherche simples : RECHERCHEV, RECHERCHEH"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C27",
+                  "code": "EXCEL-N3-CALCUL-C27",
+                  "nom": "Utiliser la fonction CONCATENER"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C28",
+                  "code": "EXCEL-N3-CALCUL-C28",
+                  "nom": "Utiliser les fonctions de base de données : BDNB, BDSOMME, BDMOYENNE, etc."
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C29",
+                  "code": "EXCEL-N3-CALCUL-C29",
+                  "nom": "Utiliser des sous-totaux dans un tableau de données"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C30",
+                  "code": "EXCEL-N3-CALCUL-C30",
+                  "nom": "Utiliser la fonction SOUS-TOTAL"
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C31",
+                  "code": "EXCEL-N3-CALCUL-C31",
+                  "nom": "Utiliser la fonction SOMMEPROD"
+                }
+              ]
+            },
+            {
+              "id": "mforme",
+              "nom": "Mise en forme",
+              "competences": [
+                {
+                  "id": "EXCEL-N3-MFORME-C32",
+                  "code": "EXCEL-N3-MFORME-C32",
+                  "nom": "Utiliser les mises en forme automatiques"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C33",
+                  "code": "EXCEL-N3-MFORME-C33",
+                  "nom": "Definir l'arrière-plan des feuilles d'un classeur"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C34",
+                  "code": "EXCEL-N3-MFORME-C34",
+                  "nom": "Appliquer des mises en forme conditionnelles avec formule"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C35",
+                  "code": "EXCEL-N3-MFORME-C35",
+                  "nom": "Utiliser les thèmes de classeur"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C36",
+                  "code": "EXCEL-N3-MFORME-C36",
+                  "nom": "Modifier les marges et l'orientation du classeur"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C37",
+                  "code": "EXCEL-N3-MFORME-C37",
+                  "nom": "Gerer les sauts de page"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C38",
+                  "code": "EXCEL-N3-MFORME-C38",
+                  "nom": "Inserer un arrière-plan"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C39",
+                  "code": "EXCEL-N3-MFORME-C39",
+                  "nom": "Inserer une capture d'écran"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C40",
+                  "code": "EXCEL-N3-MFORME-C40",
+                  "nom": "Inserer tout type de forme"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C41",
+                  "code": "EXCEL-N3-MFORME-C41",
+                  "nom": "Maitriser l'utilisation de SmartArt"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C42",
+                  "code": "EXCEL-N3-MFORME-C42",
+                  "nom": "Enregistrer un modele de graphique"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C43",
+                  "code": "EXCEL-N3-MFORME-C43",
+                  "nom": "Inserer des symboles et des équations"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C44",
+                  "code": "EXCEL-N3-MFORME-C44",
+                  "nom": "Mettre en forme des objets graphiques"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C45",
+                  "code": "EXCEL-N3-MFORME-C45",
+                  "nom": "Modifier la forme"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C46",
+                  "code": "EXCEL-N3-MFORME-C46",
+                  "nom": "Gerer les titres et légendes"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C47",
+                  "code": "EXCEL-N3-MFORME-C47",
+                  "nom": "Utiliser le vole Selection"
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C48",
+                  "code": "EXCEL-N3-MFORME-C48",
+                  "nom": "Gerer la propriété des objets"
+                }
+              ]
+            },
+            {
+              "id": "gdonnées",
+              "nom": "Gestion des données",
+              "competences": [
+                {
+                  "id": "EXCEL-N3-GDONNEES-C49",
+                  "code": "EXCEL-N3-GDONNEES-C49",
+                  "nom": "Utiliser la fonction Tableau"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C50",
+                  "code": "EXCEL-N3-GDONNEES-C50",
+                  "nom": "Effectuer des tris multicriteres et des tris personnalisés"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C51",
+                  "code": "EXCEL-N3-GDONNEES-C51",
+                  "nom": "Utiliser des filtres elabores pour extraire des données"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C52",
+                  "code": "EXCEL-N3-GDONNEES-C52",
+                  "nom": "Maitriser le remplissage instantane"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C53",
+                  "code": "EXCEL-N3-GDONNEES-C53",
+                  "nom": "Inserer et utiliser des segments"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C54",
+                  "code": "EXCEL-N3-GDONNEES-C54",
+                  "nom": "Convertir un tableau en plage de données"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C55",
+                  "code": "EXCEL-N3-GDONNEES-C55",
+                  "nom": "Creer et gerer des listees déroulantes"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C56",
+                  "code": "EXCEL-N3-GDONNEES-C56",
+                  "nom": "Utiliser le bouton Remplissage"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C57",
+                  "code": "EXCEL-N3-GDONNEES-C57",
+                  "nom": "Utiliser la fonction Consolider"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C58",
+                  "code": "EXCEL-N3-GDONNEES-C58",
+                  "nom": "Superposer des séries"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C59",
+                  "code": "EXCEL-N3-GDONNEES-C59",
+                  "nom": "Gerer la largeur d'intervalles"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C60",
+                  "code": "EXCEL-N3-GDONNEES-C60",
+                  "nom": "Utiliser un axe secondaire"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C61",
+                  "code": "EXCEL-N3-GDONNEES-C61",
+                  "nom": "Inserer des courbes de tendances"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C62",
+                  "code": "EXCEL-N3-GDONNEES-C62",
+                  "nom": "Creer un graphique boursier ou un graphique radar"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C63",
+                  "code": "EXCEL-N3-GDONNEES-C63",
+                  "nom": "Creer et modifier un tableau croise dynamique"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C64",
+                  "code": "EXCEL-N3-GDONNEES-C64",
+                  "nom": "Selectionner, copier, déplacer, supprimer un tableau croise dynamique"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C65",
+                  "code": "EXCEL-N3-GDONNEES-C65",
+                  "nom": "Actualiser un tableau croise dynamique"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C66",
+                  "code": "EXCEL-N3-GDONNEES-C66",
+                  "nom": "Modifier la disposition et la mise en forme d'un tableau croise dynamique"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C67",
+                  "code": "EXCEL-N3-GDONNEES-C67",
+                  "nom": "Supprimer les doublons"
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C68",
+                  "code": "EXCEL-N3-GDONNEES-C68",
+                  "nom": "Utiliser tous les outils d'Analyse rapide"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "positionnements": {
+        "autoPositionnement": {
+          "description": "Questionnaire d auto-evaluation par competences",
+          "niveaux": [
+            {
+              "id": "n1",
+              "nom": "Initiation",
+              "competences": [
+                {
+                  "code": "EXCEL-N1-ENV-C01",
+                  "nom": "Ouvrir un document Excel",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-ENV-C02",
+                  "nom": "Sauvegarder un document Excel",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-ENV-C03",
+                  "nom": "Imprimer un document Excel",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-ENV-C04",
+                  "nom": "Identifier les onglets au sein du ruban",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-ENV-C05",
+                  "nom": "Figer les volets",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-ENV-C06",
+                  "nom": "Modifier une zone d'impression",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-ENV-C07",
+                  "nom": "Imprimer et mettre en page un document",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-ENV-C08",
+                  "nom": "Changer la largeur des colonnes",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-ENV-C09",
+                  "nom": "Changer la hauteur des lignes",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-ENV-C10",
+                  "nom": "Supprimer et insérer des cellules",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-ENV-C11",
+                  "nom": "Enregistrer un document sous un autre nom",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-CALCUL-C12",
+                  "nom": "Entrer un texte ou une formule simple dans une cellule",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-CALCUL-C13",
+                  "nom": "Saisir une heure",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-CALCUL-C14",
+                  "nom": "Reconnaître le symbole ERREUR",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-CALCUL-C15",
+                  "nom": "Saisir une addition, une soustraction, une multiplication et une division",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-CALCUL-C16",
+                  "nom": "Identifier l'ordre correct des opérations",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-CALCUL-C17",
+                  "nom": "Comprendre les formules MAX, MIN, ET, OU et SI",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-CALCUL-C18",
+                  "nom": "Déterminer l'impact de la suppression d'une ligne ou d'une colonne sur une formule",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-MFORME-C19",
+                  "nom": "Utiliser les fonctions simples de mise en forme des cellules pour la police (couleur, style, alignement)",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-MFORME-C20",
+                  "nom": "Utiliser les fonctions simples de mise en forme des cellules pour les nombres (pourcentage, séparateur, comptabilité)",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-MFORME-C21",
+                  "nom": "Modifier l'orientation de la page",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-MFORME-C22",
+                  "nom": "Modifier les marges",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-MFORME-C23",
+                  "nom": "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-MFORME-C24",
+                  "nom": "Effectuer des encadrements de cellules",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-MFORME-C25",
+                  "nom": "Maîtriser la différence entre couleur de fond et couleur de police",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-MFORME-C26",
+                  "nom": "Utiliser l'outil Pinceau",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-GDONNEES-C27",
+                  "nom": "Effectuer un tri simple",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-GDONNEES-C28",
+                  "nom": "Insérer un objet graphique simple",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-GDONNEES-C29",
+                  "nom": "Reconnaître un camembert ou un histogramme",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-GDONNEES-C30",
+                  "nom": "Créer et déplacer un graphique dans une feuille",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-GDONNEES-C31",
+                  "nom": "Distinguer les principaux types de graphiques",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-GDONNEES-C32",
+                  "nom": "Effectuer un tri automatique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-GDONNEES-C33",
+                  "nom": "Classer par ordre croissant ou décroissant",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N1-GDONNEES-C34",
+                  "nom": "Classer par ordre alphabétique ou anti-alphabétique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "n2",
+              "nom": "Intermediaire",
+              "competences": [
+                {
+                  "code": "EXCEL-N2-ENV-C01",
+                  "nom": "Personnaliser les onglets du ruban",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C02",
+                  "nom": "Se déplacer à l'aide de raccourcis clavier",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C03",
+                  "nom": "Utiliser la poignée de recopie",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C04",
+                  "nom": "Déplacer et dupliquer une feuille de calcul",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C05",
+                  "nom": "Constituer un groupe de travail",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C06",
+                  "nom": "Coller et transposer les valeurs",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C07",
+                  "nom": "Coller en effectuant une opération",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C08",
+                  "nom": "Coller les formats",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C09",
+                  "nom": "Enregistrer un document au format PDF",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C10",
+                  "nom": "Connaître les règles de compatibilité entre versions",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C11",
+                  "nom": "Maîtriser les options d'impression",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-ENV-C12",
+                  "nom": "Insérer un en-tête ou un pied de page",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-CALCUL-C13",
+                  "nom": "Connaître et utiliser les références absolues et relatives dans une formule",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-CALCUL-C14",
+                  "nom": "Copier ou déplacer une formule",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-CALCUL-C15",
+                  "nom": "Utiliser du texte dans une formule",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-CALCUL-C16",
+                  "nom": "Comprendre les principales erreurs de calcul : #NOM?, #DIV/0!, #####",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-CALCUL-C17",
+                  "nom": "Créer des formules de calculs longues avec plusieurs opérateurs arithmétiques",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-CALCUL-C18",
+                  "nom": "Utiliser les fonctions de calcul statistique simples : SOMME, MOYENNE, MAX, MIN",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-CALCUL-C19",
+                  "nom": "Utiliser les formules conditionnelles : SI, SI imbriqués, OU, ET",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C20",
+                  "nom": "Reconnaître les différents formats de cellules",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C21",
+                  "nom": "Fusionner des cellules",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C22",
+                  "nom": "Modifier l'alignement du contenu d'une cellule",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C23",
+                  "nom": "Comprendre la mise en forme conditionnelle",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C24",
+                  "nom": "Utiliser le vérificateur d'orthographe",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C25",
+                  "nom": "Accepter ou refuser les corrections",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C26",
+                  "nom": "Créer un tableau",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C27",
+                  "nom": "Appliquer un style à un tableau",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C28",
+                  "nom": "Insérer un SmartArt, une forme ou une image",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C29",
+                  "nom": "Insérer un graphique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C30",
+                  "nom": "Effectuer une mise en forme avec les styles de graphique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C31",
+                  "nom": "Agrandir et réduire la taille d'un graphique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-MFORME-C32",
+                  "nom": "Gérer les titres et légendes",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C33",
+                  "nom": "Modifier les séries de données d'un graphique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C34",
+                  "nom": "Imprimer un graphique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C35",
+                  "nom": "Reconnaître un tableau croisé dynamique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C36",
+                  "nom": "Analyser les données dans un tableau croisé dynamique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C37",
+                  "nom": "Filtrer les données d'un tableau",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C38",
+                  "nom": "Utiliser le remplissage instantané",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C39",
+                  "nom": "Utiliser les filtres complexes",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C40",
+                  "nom": "Rechercher, remplacer ou sélectionner des données",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C41",
+                  "nom": "Utiliser des filtres automatiques",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C42",
+                  "nom": "Utiliser la fonction Analyse rapide",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N2-GDONNEES-C43",
+                  "nom": "Utiliser la fonction Valeur cible",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "n3",
+              "nom": "Perfectionnement",
+              "competences": [
+                {
+                  "code": "EXCEL-N3-ENV-C01",
+                  "nom": "Mettre en page et imprimer avec les options avancées",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C02",
+                  "nom": "Utiliser le mode Affichage approprié",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C03",
+                  "nom": "Maîtriser le volet Navigation",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C04",
+                  "nom": "Fractionner un classeur",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C05",
+                  "nom": "Personnaliser l'interface",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C06",
+                  "nom": "Afficher l'onglet Développeur",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C07",
+                  "nom": "Personnaliser la barre d'outils Accès rapide",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C08",
+                  "nom": "Personnaliser les raccourcis clavier",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C09",
+                  "nom": "Récupérer une version antérieure du document",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C10",
+                  "nom": "Reconnaître les formats de fichier",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C11",
+                  "nom": "Connaître la fonction de signature électronique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C12",
+                  "nom": "Protéger une feuille de calcul",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C13",
+                  "nom": "Protéger un classeur",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-ENV-C14",
+                  "nom": "Exécuter des macros enregistrées",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C15",
+                  "nom": "Établir des calculs multi-feuilles et multi-classeurs",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C16",
+                  "nom": "Réviser une formule de calculs",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C17",
+                  "nom": "Effectuer des calculs sur les dates et les heures",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C18",
+                  "nom": "Utiliser les fonctions mathématiques : ARRONDI & ENT",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C19",
+                  "nom": "Utiliser les fonctions de recherche avancées : INDEX, EQUIV",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C20",
+                  "nom": "Utiliser les fonctions de texte : GAUCHE, DROITE, STXT, EXACT",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C21",
+                  "nom": "Utiliser les fonctions REMPLACER et REMPLACERB",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C22",
+                  "nom": "Utiliser les fonctions de date : AUJOURDHUI, JOUR, MOIS, JOURSEM",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C23",
+                  "nom": "Compter les occurrences d'un tableau (NB.SI)",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C24",
+                  "nom": "Générer des nombres aléatoires (ALEA)",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C25",
+                  "nom": "Classer des valeurs (RANG)",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C26",
+                  "nom": "Utiliser les fonctions de recherche simples : RECHERCHEV, RECHERCHEH",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C27",
+                  "nom": "Utiliser la fonction CONCATENER",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C28",
+                  "nom": "Utiliser les fonctions de base de données : BDNB, BDSOMME, BDMOYENNE, etc.",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C29",
+                  "nom": "Utiliser des sous-totaux dans un tableau de données",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C30",
+                  "nom": "Utiliser la fonction SOUS-TOTAL",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-CALCUL-C31",
+                  "nom": "Utiliser la fonction SOMMEPROD",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C32",
+                  "nom": "Utiliser les mises en forme automatiques",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C33",
+                  "nom": "Définir l'arrière-plan des feuilles d'un classeur",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C34",
+                  "nom": "Appliquer des mises en forme conditionnelles avec formule",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C35",
+                  "nom": "Utiliser les thèmes de classeur",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C36",
+                  "nom": "Modifier les marges et l'orientation du classeur",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C37",
+                  "nom": "Gérer les sauts de page",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C38",
+                  "nom": "Insérer un arrière-plan",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C39",
+                  "nom": "Insérer une capture d'écran",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C40",
+                  "nom": "Insérer tout type de forme",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C41",
+                  "nom": "Maîtriser l'utilisation de SmartArt",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C42",
+                  "nom": "Enregistrer un modèle de graphique",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C43",
+                  "nom": "Insérer des symboles et des équations",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C44",
+                  "nom": "Mettre en forme des objets graphiques",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C45",
+                  "nom": "Modifier la forme",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C46",
+                  "nom": "Gérer les titres et légendes",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C47",
+                  "nom": "Utiliser le volet Sélection",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-MFORME-C48",
+                  "nom": "Gérer la propriété des objets",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-GDONNEES-C49",
+                  "nom": "Utiliser la fonction Tableau",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-GDONNEES-C50",
+                  "nom": "Effectuer des tris multicritères et des tris personnalisés",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-GDONNEES-C51",
+                  "nom": "Utiliser des filtres élaborés pour extraire des données",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-GDONNEES-C52",
+                  "nom": "Maîtriser le remplissage instantané",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                },
+                {
+                  "code": "EXCEL-N3-GDONNEES-C53",
+                  "nom": "Insérer et utiliser des segments",
+                  "reponses": {
+                    "maitrise": [
+                      "Aucune",
+                      "Moyenne",
+                      "Acquise"
+                    ],
+                    "souhait": [
+                      "Oui",
+                      "Non"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "testPositionnement": {
+          "description": "Test d'évaluation par questions",
+          "niveaux": [
+            {
+              "id": "n1",
+              "nom": "Initiation",
+              "questions": [
+                {
+                  "id": "EXCEL-N1-ENV-C01-Q01",
+                  "contenu": "EXCEL-N1-ENV-C01-Q01.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N1-ENV-C01"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C02-Q02",
+                  "contenu": "EXCEL-N1-ENV-C02-Q02.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N1-ENV-C02"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C05-Q03",
+                  "contenu": "EXCEL-N1-ENV-C05-Q03.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N1-ENV-C05"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C13-Q04",
+                  "contenu": "EXCEL-N1-ENV-C13-Q04.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N1-ENV-C13"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N1-ENV-C15-Q05",
+                  "contenu": "EXCEL-N1-ENV-C15-Q05.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N1-ENV-C15"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N1-CALCUL-C22-Q06",
+                  "contenu": "EXCEL-N1-CALCUL-C22-Q06.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N1-CALCUL-C22"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N1-CALCUL-C21-Q07",
+                  "contenu": "EXCEL-N1-CALCUL-C21-Q07.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N1-CALCUL-C21"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N1-MFORME-C30-Q08",
+                  "contenu": "EXCEL-N1-MFORME-C30-Q08.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N1-MFORME-C30"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N1-GDONNEES-C39-Q09",
+                  "contenu": "EXCEL-N1-GDONNEES-C39-Q09.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N1-GDONNEES-C39"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N1-GDONNEES-C41-Q10",
+                  "contenu": "EXCEL-N1-GDONNEES-C41-Q10.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N1-GDONNEES-C41"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "n2",
+              "nom": "Intermediaire",
+              "questions": [
+                {
+                  "id": "EXCEL-N2-ENV-C01-Q01",
+                  "contenu": "EXCEL-N2-ENV-C01-Q01.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N2-ENV-C01"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C02-Q02",
+                  "contenu": "EXCEL-N2-ENV-C02-Q02.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N2-ENV-C02"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C03-Q03",
+                  "contenu": "EXCEL-N2-ENV-C03-Q03.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N2-ENV-C03"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C05-Q04",
+                  "contenu": "EXCEL-N2-ENV-C05-Q04.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N2-ENV-C05"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N2-CALCUL-C01-Q05",
+                  "contenu": "EXCEL-N2-CALCUL-C01-Q05.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N2-CALCUL-C01"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C08-Q06",
+                  "contenu": "EXCEL-N2-ENV-C08-Q06.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N2-ENV-C08"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N2-CALCUL-C04-Q07",
+                  "contenu": "EXCEL-N2-CALCUL-C04-Q07.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N2-CALCUL-C04"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N2-ENV-C12-Q08",
+                  "contenu": "EXCEL-N2-ENV-C12-Q08.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N2-ENV-C12"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N2-CALCUL-C06-Q09",
+                  "contenu": "EXCEL-N2-CALCUL-C06-Q09.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N2-CALCUL-C06"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N2-MFORME-C31-Q10",
+                  "contenu": "EXCEL-N2-MFORME-C31-Q10.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N2-MFORME-C31"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "n3",
+              "nom": "Perfectionnement",
+              "questions": [
+                {
+                  "id": "EXCEL-N3-ENV-C14-Q01",
+                  "contenu": "EXCEL-N3-ENV-C14-Q01.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N3-ENV-C14"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N3-ENV-C17-Q02",
+                  "contenu": "EXCEL-N3-ENV-C17-Q02.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N3-ENV-C17"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C08-Q03",
+                  "contenu": "EXCEL-N3-CALCUL-C08-Q03.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N3-CALCUL-C08"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C03-Q04",
+                  "contenu": "EXCEL-N3-CALCUL-C03-Q04.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N3-CALCUL-C03"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C09-Q05",
+                  "contenu": "EXCEL-N3-CALCUL-C09-Q05.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N3-CALCUL-C09"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N3-MFORME-C06-Q06",
+                  "contenu": "EXCEL-N3-MFORME-C06-Q06.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N3-MFORME-C06"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C06-Q07",
+                  "contenu": "EXCEL-N3-CALCUL-C06-Q07.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N3-CALCUL-C06"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N3-CALCUL-C11-Q08",
+                  "contenu": "EXCEL-N3-CALCUL-C11-Q08.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N3-CALCUL-C11"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C08-Q09",
+                  "contenu": "EXCEL-N3-GDONNEES-C08-Q09.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N3-GDONNEES-C08"
+                  ]
+                },
+                {
+                  "id": "EXCEL-N3-GDONNEES-C06-Q10",
+                  "contenu": "EXCEL-N3-GDONNEES-C06-Q10.json",
+                  "formationId": "EXCEL",
+                  "competencesCibles": [
+                    "EXCEL-N3-GDONNEES-C06"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

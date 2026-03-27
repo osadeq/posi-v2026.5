@@ -1,0 +1,17 @@
+{
+  "question": "<p><span >Quelle fonction a permis de récupérer la liste des fruits sans doublons ?</span></p>\n<p><span ><img src=\"/images/bq/POSI-XLS-N3-Q02-1.png\" width=\"738\" height=\"248\"></span></p>",
+  "reponses": {
+    "A": "<p ><strong>EXTRAIRE(A2:A11)</strong></p>",
+    "B": "<p ><strong>DOUBLON(A2:A11)</strong></p>",
+    "C": "<p ><strong>UNIQUE(A2:A11)</strong></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N3-C1]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

@@ -1,0 +1,17 @@
+{
+  "question": "Hors l'opérateur '&', quelle est la fonction la plus souple sous Office 365 pour fusionner des cellules textuelles en ignorant les cases vides ?",
+  "reponses": {
+    "A": "=ASSOCIATION.MOTS(' '; A1; B1)",
+    "B": "=JOINDRE.TEXTE(' '; VRAI; A1:D1)",
+    "C": "=FUSION_CELLS(A1; B1)",
+    "D": "=CONCATENER_IGNORER_VIDE(A1:D1)"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "La fonction JOINDRE.TEXTE permet très facilement d'inclure un délimiteur (ex l'espace) et de sauter les vides.",
+  "competencesCibles": [
+    "EXCEL-N3-CALCUL-C09"
+  ],
+  "difficulty": 61,
+  "discrimination": 1.6,
+  "guessing": 0.25
+}

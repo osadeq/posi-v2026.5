@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation - Test de Positionnement TOSA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .success-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--secondary);
+            border-radius: var(--radius-full);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto var(--spacing-lg);
+            font-size: 40px;
+            color: white;
+        }
+        .next-steps {
+            background: var(--bg-gray);
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-lg);
+            margin-top: var(--spacing-xl);
+        }
+        .next-steps ul {
+            list-style: none;
+            padding: 0;
+        }
+        .next-steps li {
+            padding: var(--spacing-sm) 0;
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+        }
+        .next-steps li::before {
+            content: "✓";
+            color: var(--secondary);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="container header-inner">
+                <a href="/" class="logo">
+                    <div class="logo-icon">T</div>
+                    <span>Test Positionnement TOSA</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <div class="card" style="max-width: 600px; margin: 0 auto; text-align: center;">
+                    <div class="card-body">
+                        <div class="success-icon">✓</div>
+                        
+                        <h1 class="mb-md">Test soumis avec succès !</h1>
+                        
+                        <p class="text-muted mb-lg">
+                            Merci d'avoir completado notre test de positionnement. 
+                            Notre équipe pédagogique va analyser vos réponses et vous contactera 
+                            sous 24-48 heures avec votre rapport de positionnement personnalisé.
+                        </p>
+                        
+                        <div class="alert alert-info">
+                            <div>
+                                <strong>Ce qui va suivre :</strong>
+                                <ul class="next-steps">
+                                    <li>Analyse de vos réponses par notre équipe</li>
+                                    <li>Génération de votre rapport de positionnement</li>
+                                    <li>Proposition de programme de formation adapté</li>
+                                    <li>Devis détaillé et chiffrage</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-lg">
+                            <a href="/" class="btn btn-primary">
+                                Retour à l'accueil
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="header" style="margin-top: auto;">
+            <div class="container text-center">
+                <p class="text-sm text-muted">© 2026 - Test de Positionnement TOSA</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1239 @@
+{
+  "id_candidat": "CAND_O._Sadeq_20260327_121011",
+  "nom_candidat": "O.",
+  "prenom_candidat": "Sadeq",
+  "email_candidat": "sadeq@example.com",
+  "objectifs": "Apprendre Excel",
+  "id_questionnaire": "AUTO_EXCEL_N1",
+  "programme_id": "EXCEL-INIT",
+  "programme_nom": "Exploiter les fonctionnalités de Microsoft Excel pour la gestion et l'analyse des données (Tosa) - Initiation",
+  "duree_totale_estimee": 18.0,
+  "prix_total_estime": 900.0,
+  "orientation_expert": false,
+  "themes_a_former": [
+    {
+      "id_theme": "T01",
+      "nom": "Environnement Excel / Interface",
+      "niveau_besoin": "fort",
+      "duree_estimee": 2.0,
+      "nb_questions": 4,
+      "contenu_programme": [
+        "Présentation de l'interface du logiciel et de ses différentes zones"
+      ],
+      "domaine_tosa": [
+        "D1"
+      ],
+      "domaine_noms": [
+        "Environnement / Méthodes"
+      ],
+      "competences_tosa": [
+        "[EXCEL-N1-ENV-C01]",
+        "[EXCEL-N1-ENV-C02]",
+        "[EXCEL-N1-ENV-C03]",
+        "[EXCEL-N1-ENV-C04]"
+      ],
+      "competences_noms": [
+        "Ouvrir un document Excel",
+        "Sauvegarder un document Excel",
+        "Imprimer un document Excel",
+        "Identifier les onglets au sein du ruban"
+      ],
+      "comp_par_domaine": [
+        {
+          "id_domaine": "D1",
+          "nom_domaine": "Environnement / Méthodes",
+          "competences": [
+            "Ouvrir un document Excel",
+            "Sauvegarder un document Excel",
+            "Imprimer un document Excel",
+            "Identifier les onglets au sein du ruban"
+          ]
+        }
+      ]
+    },
+    {
+      "id_theme": "T02",
+      "nom": "Gestion des fichiers",
+      "niveau_besoin": "fort",
+      "duree_estimee": 1.0,
+      "nb_questions": 2,
+      "contenu_programme": [
+        "Ouvrir et fermer l'application, un classeur"
+      ],
+      "domaine_tosa": [
+        "D1"
+      ],
+      "domaine_noms": [
+        "Environnement / Méthodes"
+      ],
+      "competences_tosa": [
+        "[EXCEL-N1-ENV-C01]",
+        "[EXCEL-N1-ENV-C02]"
+      ],
+      "competences_noms": [
+        "Ouvrir un document Excel",
+        "Sauvegarder un document Excel"
+      ],
+      "comp_par_domaine": [
+        {
+          "id_domaine": "D1",
+          "nom_domaine": "Environnement / Méthodes",
+          "competences": [
+            "Ouvrir un document Excel",
+            "Sauvegarder un document Excel"
+          ]
+        }
+      ]
+    },
+    {
+      "id_theme": "T03",
+      "nom": "Gérer et mettre en forme les cellules",
+      "niveau_besoin": "fort",
+      "duree_estimee": 5.5,
+      "nb_questions": 11,
+      "contenu_programme": [
+        "Couper, copier, coller",
+        "Poignée de recopie",
+        "Insérer/supprimer lignes/colonnes",
+        "Formater les nombres",
+        "Formater les dates, monnaie, pourcentages",
+        "Police, taille, couleur",
+        "Alignements, fusion de cellules",
+        "Styles prédéfinis"
+      ],
+      "domaine_tosa": [
+        "D1",
+        "D3"
+      ],
+      "domaine_noms": [
+        "Environnement / Méthodes",
+        "Mise en forme"
+      ],
+      "competences_tosa": [
+        "[EXCEL-N1-ENV-C08]",
+        "[EXCEL-N1-ENV-C09]",
+        "[EXCEL-N1-ENV-C10]",
+        "[EXCEL-N1-MFORME-C19]",
+        "[EXCEL-N1-MFORME-C20]",
+        "[EXCEL-N1-MFORME-C21]",
+        "[EXCEL-N1-MFORME-C22]",
+        "[EXCEL-N1-MFORME-C23]",
+        "[EXCEL-N1-MFORME-C24]",
+        "[EXCEL-N1-MFORME-C25]",
+        "[EXCEL-N1-MFORME-C26]"
+      ],
+      "competences_noms": [
+        "Changer la largeur des colonnes",
+        "Changer la hauteur des lignes",
+        "Supprimer et insérer des cellules",
+        "Utiliser les fonctions simples de mise en forme des cellules pour la police (couleur, style, alignement)",
+        "Utiliser les fonctions simples de mise en forme des cellules pour les nombres (pourcentage, séparateur, comptabilité)",
+        "Modifier l'orientation de la page",
+        "Modifier les marges",
+        "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)",
+        "Effectuer des encadrements de cellules",
+        "Maîtriser la différence entre couleur de fond et couleur de police",
+        "Utiliser l'outil Pinceau"
+      ],
+      "comp_par_domaine": [
+        {
+          "id_domaine": "D1",
+          "nom_domaine": "Environnement / Méthodes",
+          "competences": [
+            "Changer la largeur des colonnes",
+            "Changer la hauteur des lignes",
+            "Supprimer et insérer des cellules"
+          ]
+        },
+        {
+          "id_domaine": "D3",
+          "nom_domaine": "Mise en forme",
+          "competences": [
+            "Utiliser les fonctions simples de mise en forme des cellules pour la police (couleur, style, alignement)",
+            "Utiliser les fonctions simples de mise en forme des cellules pour les nombres (pourcentage, séparateur, comptabilité)",
+            "Modifier l'orientation de la page",
+            "Modifier les marges",
+            "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)",
+            "Effectuer des encadrements de cellules",
+            "Maîtriser la différence entre couleur de fond et couleur de police",
+            "Utiliser l'outil Pinceau"
+          ]
+        }
+      ]
+    },
+    {
+      "id_theme": "T04",
+      "nom": "Mettre en page et Impression",
+      "niveau_besoin": "fort",
+      "duree_estimee": 1.0,
+      "nb_questions": 2,
+      "contenu_programme": [
+        "Centrer un tableau dans la page",
+        "Ajuster le tableau pour l'impression",
+        "Créer, modifier une zone d'impression"
+      ],
+      "domaine_tosa": [
+        "D1"
+      ],
+      "domaine_noms": [
+        "Environnement / Méthodes"
+      ],
+      "competences_tosa": [
+        "[EXCEL-N1-ENV-C06]",
+        "[EXCEL-N1-ENV-C07]"
+      ],
+      "competences_noms": [
+        "Modifier une zone d'impression",
+        "Imprimer et mettre en page un document"
+      ],
+      "comp_par_domaine": [
+        {
+          "id_domaine": "D1",
+          "nom_domaine": "Environnement / Méthodes",
+          "competences": [
+            "Modifier une zone d'impression",
+            "Imprimer et mettre en page un document"
+          ]
+        }
+      ]
+    },
+    {
+      "id_theme": "T05",
+      "nom": "Mise en forme conditionnelle",
+      "niveau_besoin": "fort",
+      "duree_estimee": 0.5,
+      "nb_questions": 1,
+      "contenu_programme": [
+        "Appliquer des règles simples de mise en forme conditionnelle"
+      ],
+      "domaine_tosa": [
+        "D3"
+      ],
+      "domaine_noms": [
+        "Mise en forme"
+      ],
+      "competences_tosa": [
+        "[EXCEL-N1-MFORME-C23]"
+      ],
+      "competences_noms": [
+        "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)"
+      ],
+      "comp_par_domaine": [
+        {
+          "id_domaine": "D3",
+          "nom_domaine": "Mise en forme",
+          "competences": [
+            "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)"
+          ]
+        }
+      ]
+    },
+    {
+      "id_theme": "T06",
+      "nom": "Affichage",
+      "niveau_besoin": "fort",
+      "duree_estimee": 1.0,
+      "nb_questions": 2,
+      "contenu_programme": [
+        "Afficher/Masquer le quadrillage",
+        "Utiliser les différents modes d'affichage",
+        "Personnaliser le zoom"
+      ],
+      "domaine_tosa": [
+        "D1"
+      ],
+      "domaine_noms": [
+        "Environnement / Méthodes"
+      ],
+      "competences_tosa": [
+        "[EXCEL-N1-ENV-C04]",
+        "[EXCEL-N1-ENV-C05]"
+      ],
+      "competences_noms": [
+        "Identifier les onglets au sein du ruban",
+        "Figer les volets"
+      ],
+      "comp_par_domaine": [
+        {
+          "id_domaine": "D1",
+          "nom_domaine": "Environnement / Méthodes",
+          "competences": [
+            "Identifier les onglets au sein du ruban",
+            "Figer les volets"
+          ]
+        }
+      ]
+    },
+    {
+      "id_theme": "T07",
+      "nom": "Créer des formules de calcul",
+      "niveau_besoin": "fort",
+      "duree_estimee": 2.5,
+      "nb_questions": 5,
+      "contenu_programme": [
+        "Bonnes pratiques pour la création de formules",
+        "Créer des formules simples",
+        "Identifier les erreurs de calculs",
+        "Fonctions : SOMME, MOYENNE, MAX, NB",
+        "Fonction conditionnelle : SI",
+        "Fonction de recherche : RECHERCHEV"
+      ],
+      "domaine_tosa": [
+        "D2"
+      ],
+      "domaine_noms": [
+        "Calculs & Formules"
+      ],
+      "competences_tosa": [
+        "[EXCEL-N1-CALCUL-C12]",
+        "[EXCEL-N1-CALCUL-C14]",
+        "[EXCEL-N1-CALCUL-C15]",
+        "[EXCEL-N1-CALCUL-C16]",
+        "[EXCEL-N1-CALCUL-C17]"
+      ],
+      "competences_noms": [
+        "Entrer un texte ou une formule simple dans une cellule",
+        "Reconnaître le symbole ERREUR",
+        "Saisir une addition, une soustraction, une multiplication et une division",
+        "Identifier l'ordre correct des opérations",
+        "Comprendre les formules MAX, MIN, ET, OU et SI"
+      ],
+      "comp_par_domaine": [
+        {
+          "id_domaine": "D2",
+          "nom_domaine": "Calculs & Formules",
+          "competences": [
+            "Entrer un texte ou une formule simple dans une cellule",
+            "Reconnaître le symbole ERREUR",
+            "Saisir une addition, une soustraction, une multiplication et une division",
+            "Identifier l'ordre correct des opérations",
+            "Comprendre les formules MAX, MIN, ET, OU et SI"
+          ]
+        }
+      ]
+    },
+    {
+      "id_theme": "T08",
+      "nom": "Créer des graphiques",
+      "niveau_besoin": "fort",
+      "duree_estimee": 2.0,
+      "nb_questions": 4,
+      "contenu_programme": [
+        "Créer et modifier des objets graphiques de base",
+        "Créer des graphiques de base"
+      ],
+      "domaine_tosa": [
+        "D4"
+      ],
+      "domaine_noms": [
+        "Gestion des données"
+      ],
+      "competences_tosa": [
+        "[EXCEL-N1-GDONNEES-C28]",
+        "[EXCEL-N1-GDONNEES-C29]",
+        "[EXCEL-N1-GDONNEES-C30]",
+        "[EXCEL-N1-GDONNEES-C31]"
+      ],
+      "competences_noms": [
+        "Insérer un objet graphique simple",
+        "Reconnaître un camembert ou un histogramme",
+        "Créer et déplacer un graphique dans une feuille",
+        "Distinguer les principaux types de graphiques"
+      ],
+      "comp_par_domaine": [
+        {
+          "id_domaine": "D4",
+          "nom_domaine": "Gestion des données",
+          "competences": [
+            "Insérer un objet graphique simple",
+            "Reconnaître un camembert ou un histogramme",
+            "Créer et déplacer un graphique dans une feuille",
+            "Distinguer les principaux types de graphiques"
+          ]
+        }
+      ]
+    },
+    {
+      "id_theme": "T09",
+      "nom": "Exploiter une plage, liste ou tableau de données",
+      "niveau_besoin": "fort",
+      "duree_estimee": 2.0,
+      "nb_questions": 4,
+      "contenu_programme": [
+        "Comprendre les plages, listes ou tableaux",
+        "Utiliser un tableau automatique",
+        "Utiliser les filtres",
+        "Appliquer un tri",
+        "Figer les volets",
+        "Opérations de nettoyage"
+      ],
+      "domaine_tosa": [
+        "D1",
+        "D4"
+      ],
+      "domaine_noms": [
+        "Environnement / Méthodes",
+        "Gestion des données"
+      ],
+      "competences_tosa": [
+        "[EXCEL-N1-GDONNEES-C27]",
+        "[EXCEL-N1-GDONNEES-C32]",
+        "[EXCEL-N1-GDONNEES-C33]",
+        "[EXCEL-N1-ENV-C05]"
+      ],
+      "competences_noms": [
+        "Effectuer un tri simple",
+        "Effectuer un tri automatique",
+        "Classer par ordre croissant ou décroissant",
+        "Figer les volets"
+      ],
+      "comp_par_domaine": [
+        {
+          "id_domaine": "D1",
+          "nom_domaine": "Environnement / Méthodes",
+          "competences": [
+            "Figer les volets"
+          ]
+        },
+        {
+          "id_domaine": "D4",
+          "nom_domaine": "Gestion des données",
+          "competences": [
+            "Effectuer un tri simple",
+            "Effectuer un tri automatique",
+            "Classer par ordre croissant ou décroissant"
+          ]
+        }
+      ]
+    },
+    {
+      "id_theme": "T10",
+      "nom": "Tableau croisé dynamique",
+      "niveau_besoin": "fort",
+      "duree_estimee": 0.5,
+      "nb_questions": 1,
+      "contenu_programme": [
+        "Créer des tableaux croisés dynamiques de base",
+        "Ajouter et supprimer des champs",
+        "Utiliser des filtres et des tris de base"
+      ],
+      "domaine_tosa": [
+        "D4"
+      ],
+      "domaine_noms": [
+        "Gestion des données"
+      ],
+      "competences_tosa": [
+        "[EXCEL-N1-GDONNEES-C30]"
+      ],
+      "competences_noms": [
+        "Créer et déplacer un graphique dans une feuille"
+      ],
+      "comp_par_domaine": [
+        {
+          "id_domaine": "D4",
+          "nom_domaine": "Gestion des données",
+          "competences": [
+            "Créer et déplacer un graphique dans une feuille"
+          ]
+        }
+      ]
+    }
+  ],
+  "themes_par_domaine": [
+    {
+      "id_domaine": "D1",
+      "nom_domaine": "Environnement / Méthodes",
+      "themes": [
+        {
+          "id_theme": "T01",
+          "nom": "Environnement Excel / Interface",
+          "niveau_besoin": "fort",
+          "duree_estimee": 2.0,
+          "nb_questions": 4,
+          "contenu_programme": [
+            "Présentation de l'interface du logiciel et de ses différentes zones"
+          ],
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C01]",
+            "[EXCEL-N1-ENV-C02]",
+            "[EXCEL-N1-ENV-C03]",
+            "[EXCEL-N1-ENV-C04]"
+          ],
+          "competences_noms": [
+            "Ouvrir un document Excel",
+            "Sauvegarder un document Excel",
+            "Imprimer un document Excel",
+            "Identifier les onglets au sein du ruban"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "Ouvrir un document Excel",
+                "Sauvegarder un document Excel",
+                "Imprimer un document Excel",
+                "Identifier les onglets au sein du ruban"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T02",
+          "nom": "Gestion des fichiers",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.0,
+          "nb_questions": 2,
+          "contenu_programme": [
+            "Ouvrir et fermer l'application, un classeur"
+          ],
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C01]",
+            "[EXCEL-N1-ENV-C02]"
+          ],
+          "competences_noms": [
+            "Ouvrir un document Excel",
+            "Sauvegarder un document Excel"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "Ouvrir un document Excel",
+                "Sauvegarder un document Excel"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T03",
+          "nom": "Gérer et mettre en forme les cellules",
+          "niveau_besoin": "fort",
+          "duree_estimee": 5.5,
+          "nb_questions": 11,
+          "contenu_programme": [
+            "Couper, copier, coller",
+            "Poignée de recopie",
+            "Insérer/supprimer lignes/colonnes",
+            "Formater les nombres",
+            "Formater les dates, monnaie, pourcentages",
+            "Police, taille, couleur",
+            "Alignements, fusion de cellules",
+            "Styles prédéfinis"
+          ],
+          "domaine_tosa": [
+            "D1",
+            "D3"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes",
+            "Mise en forme"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C08]",
+            "[EXCEL-N1-ENV-C09]",
+            "[EXCEL-N1-ENV-C10]",
+            "[EXCEL-N1-MFORME-C19]",
+            "[EXCEL-N1-MFORME-C20]",
+            "[EXCEL-N1-MFORME-C21]",
+            "[EXCEL-N1-MFORME-C22]",
+            "[EXCEL-N1-MFORME-C23]",
+            "[EXCEL-N1-MFORME-C24]",
+            "[EXCEL-N1-MFORME-C25]",
+            "[EXCEL-N1-MFORME-C26]"
+          ],
+          "competences_noms": [
+            "Changer la largeur des colonnes",
+            "Changer la hauteur des lignes",
+            "Supprimer et insérer des cellules",
+            "Utiliser les fonctions simples de mise en forme des cellules pour la police (couleur, style, alignement)",
+            "Utiliser les fonctions simples de mise en forme des cellules pour les nombres (pourcentage, séparateur, comptabilité)",
+            "Modifier l'orientation de la page",
+            "Modifier les marges",
+            "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)",
+            "Effectuer des encadrements de cellules",
+            "Maîtriser la différence entre couleur de fond et couleur de police",
+            "Utiliser l'outil Pinceau"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "Changer la largeur des colonnes",
+                "Changer la hauteur des lignes",
+                "Supprimer et insérer des cellules"
+              ]
+            },
+            {
+              "id_domaine": "D3",
+              "nom_domaine": "Mise en forme",
+              "competences": [
+                "Utiliser les fonctions simples de mise en forme des cellules pour la police (couleur, style, alignement)",
+                "Utiliser les fonctions simples de mise en forme des cellules pour les nombres (pourcentage, séparateur, comptabilité)",
+                "Modifier l'orientation de la page",
+                "Modifier les marges",
+                "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)",
+                "Effectuer des encadrements de cellules",
+                "Maîtriser la différence entre couleur de fond et couleur de police",
+                "Utiliser l'outil Pinceau"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T04",
+          "nom": "Mettre en page et Impression",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.0,
+          "nb_questions": 2,
+          "contenu_programme": [
+            "Centrer un tableau dans la page",
+            "Ajuster le tableau pour l'impression",
+            "Créer, modifier une zone d'impression"
+          ],
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C06]",
+            "[EXCEL-N1-ENV-C07]"
+          ],
+          "competences_noms": [
+            "Modifier une zone d'impression",
+            "Imprimer et mettre en page un document"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "Modifier une zone d'impression",
+                "Imprimer et mettre en page un document"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T06",
+          "nom": "Affichage",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.0,
+          "nb_questions": 2,
+          "contenu_programme": [
+            "Afficher/Masquer le quadrillage",
+            "Utiliser les différents modes d'affichage",
+            "Personnaliser le zoom"
+          ],
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C04]",
+            "[EXCEL-N1-ENV-C05]"
+          ],
+          "competences_noms": [
+            "Identifier les onglets au sein du ruban",
+            "Figer les volets"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "Identifier les onglets au sein du ruban",
+                "Figer les volets"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T09",
+          "nom": "Exploiter une plage, liste ou tableau de données",
+          "niveau_besoin": "fort",
+          "duree_estimee": 2.0,
+          "nb_questions": 4,
+          "contenu_programme": [
+            "Comprendre les plages, listes ou tableaux",
+            "Utiliser un tableau automatique",
+            "Utiliser les filtres",
+            "Appliquer un tri",
+            "Figer les volets",
+            "Opérations de nettoyage"
+          ],
+          "domaine_tosa": [
+            "D1",
+            "D4"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes",
+            "Gestion des données"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-GDONNEES-C27]",
+            "[EXCEL-N1-GDONNEES-C32]",
+            "[EXCEL-N1-GDONNEES-C33]",
+            "[EXCEL-N1-ENV-C05]"
+          ],
+          "competences_noms": [
+            "Effectuer un tri simple",
+            "Effectuer un tri automatique",
+            "Classer par ordre croissant ou décroissant",
+            "Figer les volets"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "Figer les volets"
+              ]
+            },
+            {
+              "id_domaine": "D4",
+              "nom_domaine": "Gestion des données",
+              "competences": [
+                "Effectuer un tri simple",
+                "Effectuer un tri automatique",
+                "Classer par ordre croissant ou décroissant"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_domaine": "D3",
+      "nom_domaine": "Mise en forme",
+      "themes": [
+        {
+          "id_theme": "T03",
+          "nom": "Gérer et mettre en forme les cellules",
+          "niveau_besoin": "fort",
+          "duree_estimee": 5.5,
+          "nb_questions": 11,
+          "contenu_programme": [
+            "Couper, copier, coller",
+            "Poignée de recopie",
+            "Insérer/supprimer lignes/colonnes",
+            "Formater les nombres",
+            "Formater les dates, monnaie, pourcentages",
+            "Police, taille, couleur",
+            "Alignements, fusion de cellules",
+            "Styles prédéfinis"
+          ],
+          "domaine_tosa": [
+            "D1",
+            "D3"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes",
+            "Mise en forme"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C08]",
+            "[EXCEL-N1-ENV-C09]",
+            "[EXCEL-N1-ENV-C10]",
+            "[EXCEL-N1-MFORME-C19]",
+            "[EXCEL-N1-MFORME-C20]",
+            "[EXCEL-N1-MFORME-C21]",
+            "[EXCEL-N1-MFORME-C22]",
+            "[EXCEL-N1-MFORME-C23]",
+            "[EXCEL-N1-MFORME-C24]",
+            "[EXCEL-N1-MFORME-C25]",
+            "[EXCEL-N1-MFORME-C26]"
+          ],
+          "competences_noms": [
+            "Changer la largeur des colonnes",
+            "Changer la hauteur des lignes",
+            "Supprimer et insérer des cellules",
+            "Utiliser les fonctions simples de mise en forme des cellules pour la police (couleur, style, alignement)",
+            "Utiliser les fonctions simples de mise en forme des cellules pour les nombres (pourcentage, séparateur, comptabilité)",
+            "Modifier l'orientation de la page",
+            "Modifier les marges",
+            "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)",
+            "Effectuer des encadrements de cellules",
+            "Maîtriser la différence entre couleur de fond et couleur de police",
+            "Utiliser l'outil Pinceau"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "Changer la largeur des colonnes",
+                "Changer la hauteur des lignes",
+                "Supprimer et insérer des cellules"
+              ]
+            },
+            {
+              "id_domaine": "D3",
+              "nom_domaine": "Mise en forme",
+              "competences": [
+                "Utiliser les fonctions simples de mise en forme des cellules pour la police (couleur, style, alignement)",
+                "Utiliser les fonctions simples de mise en forme des cellules pour les nombres (pourcentage, séparateur, comptabilité)",
+                "Modifier l'orientation de la page",
+                "Modifier les marges",
+                "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)",
+                "Effectuer des encadrements de cellules",
+                "Maîtriser la différence entre couleur de fond et couleur de police",
+                "Utiliser l'outil Pinceau"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T05",
+          "nom": "Mise en forme conditionnelle",
+          "niveau_besoin": "fort",
+          "duree_estimee": 0.5,
+          "nb_questions": 1,
+          "contenu_programme": [
+            "Appliquer des règles simples de mise en forme conditionnelle"
+          ],
+          "domaine_tosa": [
+            "D3"
+          ],
+          "domaine_noms": [
+            "Mise en forme"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-MFORME-C23]"
+          ],
+          "competences_noms": [
+            "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D3",
+              "nom_domaine": "Mise en forme",
+              "competences": [
+                "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_domaine": "D2",
+      "nom_domaine": "Calculs & Formules",
+      "themes": [
+        {
+          "id_theme": "T07",
+          "nom": "Créer des formules de calcul",
+          "niveau_besoin": "fort",
+          "duree_estimee": 2.5,
+          "nb_questions": 5,
+          "contenu_programme": [
+            "Bonnes pratiques pour la création de formules",
+            "Créer des formules simples",
+            "Identifier les erreurs de calculs",
+            "Fonctions : SOMME, MOYENNE, MAX, NB",
+            "Fonction conditionnelle : SI",
+            "Fonction de recherche : RECHERCHEV"
+          ],
+          "domaine_tosa": [
+            "D2"
+          ],
+          "domaine_noms": [
+            "Calculs & Formules"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-CALCUL-C12]",
+            "[EXCEL-N1-CALCUL-C14]",
+            "[EXCEL-N1-CALCUL-C15]",
+            "[EXCEL-N1-CALCUL-C16]",
+            "[EXCEL-N1-CALCUL-C17]"
+          ],
+          "competences_noms": [
+            "Entrer un texte ou une formule simple dans une cellule",
+            "Reconnaître le symbole ERREUR",
+            "Saisir une addition, une soustraction, une multiplication et une division",
+            "Identifier l'ordre correct des opérations",
+            "Comprendre les formules MAX, MIN, ET, OU et SI"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D2",
+              "nom_domaine": "Calculs & Formules",
+              "competences": [
+                "Entrer un texte ou une formule simple dans une cellule",
+                "Reconnaître le symbole ERREUR",
+                "Saisir une addition, une soustraction, une multiplication et une division",
+                "Identifier l'ordre correct des opérations",
+                "Comprendre les formules MAX, MIN, ET, OU et SI"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_domaine": "D4",
+      "nom_domaine": "Gestion des données",
+      "themes": [
+        {
+          "id_theme": "T08",
+          "nom": "Créer des graphiques",
+          "niveau_besoin": "fort",
+          "duree_estimee": 2.0,
+          "nb_questions": 4,
+          "contenu_programme": [
+            "Créer et modifier des objets graphiques de base",
+            "Créer des graphiques de base"
+          ],
+          "domaine_tosa": [
+            "D4"
+          ],
+          "domaine_noms": [
+            "Gestion des données"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-GDONNEES-C28]",
+            "[EXCEL-N1-GDONNEES-C29]",
+            "[EXCEL-N1-GDONNEES-C30]",
+            "[EXCEL-N1-GDONNEES-C31]"
+          ],
+          "competences_noms": [
+            "Insérer un objet graphique simple",
+            "Reconnaître un camembert ou un histogramme",
+            "Créer et déplacer un graphique dans une feuille",
+            "Distinguer les principaux types de graphiques"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D4",
+              "nom_domaine": "Gestion des données",
+              "competences": [
+                "Insérer un objet graphique simple",
+                "Reconnaître un camembert ou un histogramme",
+                "Créer et déplacer un graphique dans une feuille",
+                "Distinguer les principaux types de graphiques"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T09",
+          "nom": "Exploiter une plage, liste ou tableau de données",
+          "niveau_besoin": "fort",
+          "duree_estimee": 2.0,
+          "nb_questions": 4,
+          "contenu_programme": [
+            "Comprendre les plages, listes ou tableaux",
+            "Utiliser un tableau automatique",
+            "Utiliser les filtres",
+            "Appliquer un tri",
+            "Figer les volets",
+            "Opérations de nettoyage"
+          ],
+          "domaine_tosa": [
+            "D1",
+            "D4"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes",
+            "Gestion des données"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-GDONNEES-C27]",
+            "[EXCEL-N1-GDONNEES-C32]",
+            "[EXCEL-N1-GDONNEES-C33]",
+            "[EXCEL-N1-ENV-C05]"
+          ],
+          "competences_noms": [
+            "Effectuer un tri simple",
+            "Effectuer un tri automatique",
+            "Classer par ordre croissant ou décroissant",
+            "Figer les volets"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "Figer les volets"
+              ]
+            },
+            {
+              "id_domaine": "D4",
+              "nom_domaine": "Gestion des données",
+              "competences": [
+                "Effectuer un tri simple",
+                "Effectuer un tri automatique",
+                "Classer par ordre croissant ou décroissant"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T10",
+          "nom": "Tableau croisé dynamique",
+          "niveau_besoin": "fort",
+          "duree_estimee": 0.5,
+          "nb_questions": 1,
+          "contenu_programme": [
+            "Créer des tableaux croisés dynamiques de base",
+            "Ajouter et supprimer des champs",
+            "Utiliser des filtres et des tris de base"
+          ],
+          "domaine_tosa": [
+            "D4"
+          ],
+          "domaine_noms": [
+            "Gestion des données"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-GDONNEES-C30]"
+          ],
+          "competences_noms": [
+            "Créer et déplacer un graphique dans une feuille"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D4",
+              "nom_domaine": "Gestion des données",
+              "competences": [
+                "Créer et déplacer un graphique dans une feuille"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reponses_par_domaine": [],
+  "reponses_par_bloc": [
+    {
+      "id_bloc": "B1",
+      "nom_bloc": "Parcours complet Auto-Positionnement",
+      "reponses": [
+        {
+          "id_question": "[EXCEL-N1-CALCUL-C12]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Entrer un texte ou une formule simple dans une cellule"
+        },
+        {
+          "id_question": "[EXCEL-N1-CALCUL-C13]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Saisir une heure"
+        },
+        {
+          "id_question": "[EXCEL-N1-CALCUL-C14]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Reconnaître le symbole ERREUR"
+        },
+        {
+          "id_question": "[EXCEL-N1-CALCUL-C15]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Saisir une addition, une soustraction, une multiplication et une division"
+        },
+        {
+          "id_question": "[EXCEL-N1-CALCUL-C16]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Identifier l'ordre correct des opérations"
+        },
+        {
+          "id_question": "[EXCEL-N1-CALCUL-C17]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Comprendre les formules MAX, MIN, ET, OU et SI"
+        },
+        {
+          "id_question": "[EXCEL-N1-CALCUL-C18]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Déterminer l'impact de la suppression d'une ligne ou d'une colonne sur une formule"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C01]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Ouvrir un document Excel"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C02]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Sauvegarder un document Excel"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C03]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Imprimer un document Excel"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C04]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Identifier les onglets au sein du ruban"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C05]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Figer les volets"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C06]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Modifier une zone d'impression"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C07]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Imprimer et mettre en page un document"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C08]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Changer la largeur des colonnes"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C09]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Changer la hauteur des lignes"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C10]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Supprimer et insérer des cellules"
+        },
+        {
+          "id_question": "[EXCEL-N1-ENV-C11]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Enregistrer un document sous un autre nom"
+        },
+        {
+          "id_question": "[EXCEL-N1-GDONNEES-C27]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Effectuer un tri simple"
+        },
+        {
+          "id_question": "[EXCEL-N1-GDONNEES-C28]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Insérer un objet graphique simple"
+        },
+        {
+          "id_question": "[EXCEL-N1-GDONNEES-C29]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Reconnaître un camembert ou un histogramme"
+        },
+        {
+          "id_question": "[EXCEL-N1-GDONNEES-C30]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Créer et déplacer un graphique dans une feuille"
+        },
+        {
+          "id_question": "[EXCEL-N1-GDONNEES-C31]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Distinguer les principaux types de graphiques"
+        },
+        {
+          "id_question": "[EXCEL-N1-GDONNEES-C32]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Effectuer un tri automatique"
+        },
+        {
+          "id_question": "[EXCEL-N1-GDONNEES-C33]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Classer par ordre croissant ou décroissant"
+        },
+        {
+          "id_question": "[EXCEL-N1-GDONNEES-C34]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Classer par ordre alphabétique ou anti-alphabétique"
+        },
+        {
+          "id_question": "[EXCEL-N1-MFORME-C19]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Utiliser les fonctions simples de mise en forme des cellules pour la police (couleur, style, alignement)"
+        },
+        {
+          "id_question": "[EXCEL-N1-MFORME-C20]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Utiliser les fonctions simples de mise en forme des cellules pour les nombres (pourcentage, séparateur, comptabilité)"
+        },
+        {
+          "id_question": "[EXCEL-N1-MFORME-C21]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Modifier l'orientation de la page"
+        },
+        {
+          "id_question": "[EXCEL-N1-MFORME-C22]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Modifier les marges"
+        },
+        {
+          "id_question": "[EXCEL-N1-MFORME-C23]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Effectuer des formatages simples de nombres (pourcentages, séparateurs de milliers)"
+        },
+        {
+          "id_question": "[EXCEL-N1-MFORME-C24]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Effectuer des encadrements de cellules"
+        },
+        {
+          "id_question": "[EXCEL-N1-MFORME-C25]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Maîtriser la différence entre couleur de fond et couleur de police"
+        },
+        {
+          "id_question": "[EXCEL-N1-MFORME-C26]",
+          "acquisition": "Aucune",
+          "besoin": "Oui",
+          "nom": "Utiliser l'outil Pinceau"
+        }
+      ]
+    }
+  ]
+}

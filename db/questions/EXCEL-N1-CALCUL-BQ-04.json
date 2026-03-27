@@ -1,0 +1,18 @@
+{
+  "question": "<p>Ajoutez une formule dans la cellule <strong>B21 </strong>qui calcule la somme des valeurs des cellules <strong>B2 à B20</strong>. </p>\n<p  ><img src=\"/images/bq/POSI-XLS-N1-Q04-1.png\" width=\"325\" height=\"577\"></p>",
+  "reponses": {
+    "A": "<p>J'utilise la fonction <strong>=SOMME.SERIES(B2:B20)</strong></p>",
+    "B": "<p>J'écris la somme  <strong>2 844 €</strong> que j'ai trouvée grace à ma calculatrice.</p>",
+    "C": "<p>J'utilise la fonction <strong>=SOMME(B2:B20)</strong></p>",
+    "D": "<p >J'utilise la formule <strong>=B2+B3+B4+B5+B6+B7+B8+B9+B10+B11+B12+B13+B14+B15+B16+B17+B18+B19+B20</strong></p>",
+    "E": "<p><span>Je ne sais pas.</span></p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C4]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

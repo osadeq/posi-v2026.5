@@ -1,0 +1,17 @@
+{
+  "question": "<p >Donnez les formules des cellules <strong>B10, B11 et B12.</strong></p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q23-1.png\"></p>",
+  "reponses": {
+    "A": "<p >Réponse 1 :</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q23-R1-1.png\"></p>",
+    "B": "<p >Réponse 2 :</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q23-R2-1.png\"></p>",
+    "C": "<p >Réponse 3 :</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q23-R3-1.png\"></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

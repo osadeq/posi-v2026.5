@@ -1,0 +1,17 @@
+{
+  "question": "<p >Parmi ces listes, laquelle n'est pas triée par ordre croissant ?</p>",
+  "reponses": {
+    "A": "<p >5, 23, 45, 97</p>",
+    "B": "<p >Arbre, Fleurs, Histoire, Jardin, Pétale</p>",
+    "C": "<p >Tom, Rémi, Marco, Christophe</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D4-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

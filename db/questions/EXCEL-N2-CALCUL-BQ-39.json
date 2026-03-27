@@ -1,0 +1,17 @@
+{
+  "question": "<p >Peut-on lier une base de données Excel avec un document Word ?</p>",
+  "reponses": {
+    "A": "<p >Non, cela déforme les valeurs de la base de données</p>",
+    "B": "<p >Non, Word ne supporte pas les fichiers Excel</p>",
+    "C": "<p >Oui, pour le publipostage par exemple</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

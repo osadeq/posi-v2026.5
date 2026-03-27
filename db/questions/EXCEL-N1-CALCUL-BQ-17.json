@@ -1,0 +1,19 @@
+{
+  "question": "<p >Quelle donnée ne sera pas incrémentée si je fais glisser vers le bas la <strong><u>poignée de recopie</u></strong> de sa cellule ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q18-1.png\" width=\"711\" height=\"220\"></p>",
+  "reponses": {
+    "A": "<p >Mercredi</p>",
+    "B": "<p >150</p>",
+    "C": "<p >Décembre</p>",
+    "D": "<p >1er trimestre</p>",
+    "E": "<p >Excel 2019</p>",
+    "F": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

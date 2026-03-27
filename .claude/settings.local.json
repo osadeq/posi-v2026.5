@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//usr/**)",
+      "Read(//usr/local/**)",
+      "Bash(/c/Users/sadeq/AppData/Local/Microsoft/WindowsApps/python3 --version)",
+      "Read(//c/Users/sadeq/AppData/Local/Programs/**)",
+      "Bash(ls /c/Python*)",
+      "Bash(where python:*)",
+      "Bash(find /c -name python.exe -type f)",
+      "Bash(/c/Python313/Scripts/pip.exe install:*)",
+      "Bash(python:*)"
+    ]
+  }
+}

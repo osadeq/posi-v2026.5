@@ -1,0 +1,18 @@
+{
+  "question": "<p>Quelle formule permet de calculer la moyenne des nombres 10, 20 et 30 qui sont dans les cellules A1, A2 et A3 ?</p>",
+  "reponses": {
+    "A": "<p>=MOYENNE(A1:A3)</p>",
+    "B": "<p>=SOMME(A1:A3)/3</p>",
+    "C": "<p>=MOYENNE(A1;A2;A3)</p>",
+    "D": "<p>Les réponses 1 et 3 sont correctes</p>",
+    "E": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C7]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

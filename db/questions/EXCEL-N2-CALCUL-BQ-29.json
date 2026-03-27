@@ -1,0 +1,17 @@
+{
+  "question": "<p><span >Je souhaite placer les pourcentages tout autour du graphique secteur, c’est-à-dire à l’extérieur de son cercle ?</span></p>\n<p><span ><img src=\"/images/bq/POSI-XLS-N2-Q05-1.png\" width=\"806\" height=\"335\"></span></p>",
+  "reponses": {
+    "A": "<p >Je déplace les étiquettes des pourcentages une par une </p>",
+    "B": "<p >Cette opération n’est pas possible automatiquement</p>",
+    "C": "<p >Je choisi l’option « Bord extérieur » dans « Eléments de graphique » et<span >  </span>« Etiquettes de données »</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C7]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

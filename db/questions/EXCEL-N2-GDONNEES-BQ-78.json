@@ -1,0 +1,17 @@
+{
+  "question": "<p>Comment filtrer un tableau pour afficher uniquement les lignes où le montant est supérieur à 1000 € ?</p>",
+  "reponses": {
+    "A": "<p>Je clique sur la flèche de la colonne Montant, puis 'Filtres numériques' > 'Supérieur à' > 1000</p>",
+    "B": "<p>Je supprime manuellement toutes les lignes inférieures à 1000</p>",
+    "C": "<p>J'utilise une formule SI pour masquer les lignes</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D4-N2-C7]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

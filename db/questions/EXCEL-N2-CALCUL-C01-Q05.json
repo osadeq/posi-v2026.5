@@ -1,0 +1,17 @@
+{
+  "question": "Dans la formule '=A1*$B$1', que signifie le symbole '$' autour de B1 ?",
+  "reponses": {
+    "A": "Il s'agit d'une référence absolue : la référence à B1 restera fixe si la formule est copiée ailleurs.",
+    "B": "Il indique que la valeur de B1 est une devise (euros, dollars...).",
+    "C": "Il met B1 en gras automatiquement.",
+    "D": "Il signale une erreur de saisie dans l'adresse."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Le $ 'verrouille' la colonne et la ligne concernée pour empêcher le décalage lors d'une recopie.",
+  "competencesCibles": [
+    "EXCEL-N2-CALCUL-C01"
+  ],
+  "difficulty": 51,
+  "discrimination": 1.4,
+  "guessing": 0.25
+}

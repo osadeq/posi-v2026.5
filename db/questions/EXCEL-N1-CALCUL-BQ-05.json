@@ -1,0 +1,17 @@
+{
+  "question": "<p  ><!--[if !supportLists]-->Quelle est la formule pour calculer le prix TTC (toutes taxes comprises) dans la cellule <strong>B3 </strong>?</p>\n<p  ><img src=\"/images/bq/POSI-XLS-N1-Q05-1.png\" width=\"349\" height=\"139\"></p>",
+  "reponses": {
+    "A": "<p ><strong>B2+B2*B1</strong></p>",
+    "B": "<p ><strong>B2*B1</strong></p>",
+    "C": "<p ><strong>B1+B1*B2</strong></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

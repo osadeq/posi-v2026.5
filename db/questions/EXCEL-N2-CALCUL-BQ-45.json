@@ -1,0 +1,17 @@
+{
+  "question": "<p >En cliquant dans la liste déroulante de la cellule A2, la liste affiche les noms des mois, pour faciliter la saisie dans ce tableau. <br>Comment a-t-on mis en place une telle liste déroulante ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q21-1.png\"></p>",
+  "reponses": {
+    "A": "<p >Avec <strong>clic-droit</strong> dans la cellule + option « <strong>Liste déroulante de choix </strong>»</p>",
+    "B": "<p >En utilisant <strong>l’outil de validation</strong> dans l’onglet « <strong>Données </strong>»</p>",
+    "C": "<p >En activant un <strong>filtre automatique</strong></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

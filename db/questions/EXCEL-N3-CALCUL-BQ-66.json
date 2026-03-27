@@ -1,0 +1,17 @@
+{
+  "question": "<p >Dans cet exemple, la « <strong>prime vacances</strong> » de 1000 € est attribuée<strong> si le salaire est inférieur à 1525 € et si le salarié a au moins deux enfants et si son ancienneté est supérieure à 5 ans, sinon il n'aura que 500 €.</strong></p>\n<p ><img src=\"/images/bq/POSI-XLS-N3-Q08-1.png\"></p>\n<p >Donnez la formule adéquate.</p>",
+  "reponses": {
+    "A": "<p ><span ><strong>=SI(B6<1525 ET C6>1 ET D6>5; 1000;500)</strong></span></p>",
+    "B": "<p ><span ><strong>=SI(B6<1525, SI(C6>1, SI(D6>5, 1000,500)))</strong></span></p>",
+    "C": "<p ><span ><strong>=SI(ET(B6<1525;C6>1;D6>5); 1000;500)</strong></span></p>",
+    "D": "<p ><span >Je ne sais pas</span></p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N3-C1]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

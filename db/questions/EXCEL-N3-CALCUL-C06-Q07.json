@@ -1,0 +1,17 @@
+{
+  "question": "Quelle fonction permet de compter le nombre exact de fois où une valeur spécifique (ex: 'Paris') apparaît dans une plage ?",
+  "reponses": {
+    "A": "=COMPTE('Paris'; A1:A100)",
+    "B": "=NBVAL(A1:A100; = 'Paris')",
+    "C": "=NB.SI(A1:A100; 'Paris')",
+    "D": "=NBCAR(A1:A100) / 'Paris'"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "=NB.SI() compte le nombre de cellules remplissant une condition stricte.",
+  "competencesCibles": [
+    "EXCEL-N3-CALCUL-C06"
+  ],
+  "difficulty": 63,
+  "discrimination": 1.6,
+  "guessing": 0.25
+}

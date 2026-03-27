@@ -1,0 +1,17 @@
+{
+  "question": "<p>Comment protéger une feuille Excel avec un mot de passe ?</p>",
+  "reponses": {
+    "A": "<p>Fichier > Informations > Protéger le classeur</p>",
+    "B": "<p>Révision > Protéger la feuille</p>",
+    "C": "<p>Accueil > Format > Protéger la feuille</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D1-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

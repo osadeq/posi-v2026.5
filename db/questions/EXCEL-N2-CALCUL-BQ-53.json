@@ -1,0 +1,19 @@
+{
+  "question": "<p >J’ai réalisé le sous-total suivant :</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q29-1.png\" width=\"738\" height=\"637\"></p>\n<p >La question est : Comment supprimer ce sous-total afin de restituer le tableau de données d’origine ?</p>",
+  "reponses": {
+    "A": "<p >En effaçant le plan de regroupement.</p>",
+    "B": "<p >Impossible de revenir aux données d’origine après un sous-total. Il fallait faire une copie de sauvegarde de la feuille d’origine.</p>",
+    "C": "<p>En supprimant les sous-totaux manuellement.</p>",
+    "D": "<p >En utilisant la boite de dialogue « <strong>Sous-total</strong> », on peut cliquer sur « <strong>Supprimer tout</strong> »</p>",
+    "E": "<p >En utilisant la boite de dialogue « <strong>Sous-total </strong>», on peut cliquer sur « <strong>Remplacer les sous-totaux existants</strong> »</p>",
+    "F": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

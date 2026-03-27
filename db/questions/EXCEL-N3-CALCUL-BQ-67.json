@@ -1,0 +1,18 @@
+{
+  "question": "<p><span >Vous disposez d’une feuille nommée « <strong>Données </strong>» qui contient les informations sur vos clients :</span></p>\n<p><img src=\"/images/bq/POSI-XLS-N3-Q09-1.png\" width=\"398\" height=\"179\"></p>\n<p>Dans une autre feuille vous avez une fiche de recherche de client :</p>\n<p><img src=\"/images/bq/POSI-XLS-N3-Q09-2.png\"></p>\n<p>Complétez la formule de recherche suivante, qui doit utiliser la référence client saisie dans la cellule <strong>B3</strong>, afin d'afficher le nom du client dans la cellule <strong>B5 </strong>:</p>\n<p><strong>=RECHERCHEV( ...?.... )</strong></p>",
+  "reponses": {
+    "A": "<p ><strong>=RECHERCHEV(B5; Données!A2:G6; FAUX)</strong></p>",
+    "B": "<p ><strong>=RECHERCHEV($B$3; Données!$A$2:$G$6; FAUX)</strong></p>",
+    "C": "<p ><strong>=RECHERCHEV($B$3; Données!$A$2:$G$6; 3; 0)</strong></p>",
+    "D": "<p ><strong>=RECHERCHEV($B$3; Données!$A$2:$G$6; 2; 0)</strong></p>",
+    "E": "<p><span>Je ne sais pas</span></p>"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N3-C12]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

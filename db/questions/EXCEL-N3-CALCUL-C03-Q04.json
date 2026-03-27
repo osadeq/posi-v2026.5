@@ -1,0 +1,17 @@
+{
+  "question": "Quelle est la syntaxe valide combinant INDEX et EQUIV pour une recherche multi-critère ?",
+  "reponses": {
+    "A": "=INDEX(colonne_resultat; EQUIV(critere; colonne_recherche; 0))",
+    "B": "=RECHERCHEV(INDEX(critere; 0); EQUIV())",
+    "C": "=EQUIV(colonne_resultat; INDEX(critere; 0))",
+    "D": "=INDEX_EQUIV(critere; colonne_recherche; colonne_resultat)"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "EQUIV trouve la position relative, et INDEX retourne l'élément situé à cette position dans la matrice de résultats.",
+  "competencesCibles": [
+    "EXCEL-N3-CALCUL-C03"
+  ],
+  "difficulty": 61,
+  "discrimination": 1.6,
+  "guessing": 0.25
+}

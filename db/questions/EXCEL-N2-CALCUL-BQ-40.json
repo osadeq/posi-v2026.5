@@ -1,0 +1,17 @@
+{
+  "question": "<p><span >Comment a-t-on nommé la cellule E2 ?</span></p>\n<p><span ><img src=\"/images/bq/POSI-XLS-N2-Q16-1.png\" width=\"742\" height=\"271\"></span></p>",
+  "reponses": {
+    "A": "<p >Avec clic-droit, renommer</p>",
+    "B": "<p >En tapant le nom dans la barre de formule</p>",
+    "C": "<p >Avec clic-droit, définir un nom</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

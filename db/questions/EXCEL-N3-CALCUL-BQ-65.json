@@ -1,0 +1,17 @@
+{
+  "question": "<p><span >Quel paramétre faut-il modifier pour que l’import des données CSV suivantes, se passe bien ?</span></p>\n<p><img src=\"/images/bq/POSI-XLS-N3-Q07-1.png\"></p>",
+  "reponses": {
+    "A": "<p >Modifier la rubrique « <strong>Origine du fichier</strong> » pour spécifier la langue française.</p>",
+    "B": "<p >Modifier la rubrique « <strong>Délimiteur </strong>» pour choisir le bon séparateur de champs.</p>",
+    "C": "<p >Modifier la rubrique « <strong>Détection du type de données</strong> » car elle n’affiche que les 200 premières lignes.</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N3-C1]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

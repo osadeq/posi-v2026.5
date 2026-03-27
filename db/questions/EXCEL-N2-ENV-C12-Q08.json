@@ -1,0 +1,17 @@
+{
+  "question": "Où trouver l'option native pour gérer l'En-tête et le Pied de page d'une impression ?",
+  "reponses": {
+    "A": "Par le menu 'Fichier', onglet 'Historique'.",
+    "B": "Via l'onglet 'Insertion' (groupe Texte) ou directement dans 'Mise en page'.",
+    "C": "Uniquement en appuyant sur F12 au clavier.",
+    "D": "Cliquer droit sur une cellule > Insérer > Pied de page."
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "L'en-tête et le pied de page relèvent des réglages d'impression/pagination (Mise en Page).",
+  "competencesCibles": [
+    "EXCEL-N2-ENV-C12"
+  ],
+  "difficulty": 54,
+  "discrimination": 1.4,
+  "guessing": 0.25
+}

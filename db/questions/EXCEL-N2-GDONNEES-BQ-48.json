@@ -1,0 +1,19 @@
+{
+  "question": "<p >À quoi sert un tableau croisé dynamique (TCD) ?</p>",
+  "reponses": {
+    "A": "<p >À comparer des données provenant de plusieurs classeurs.</p>",
+    "B": "<p >À fusionner plusieurs scénarios.</p>",
+    "C": "<p >À importer des données à partir de sources de données externes.</p>",
+    "D": "<p >À faire des simulations à l’aide d’une table de données.</p>",
+    "E": "<p >À synthétiser des données à l'aide de diverses méthodes de regroupement et de calculs.</p>",
+    "F": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "E",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D4-N2-C3]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

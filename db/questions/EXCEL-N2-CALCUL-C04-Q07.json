@@ -1,0 +1,17 @@
+{
+  "question": "À quoi correspond l'erreur #NOM? dans une cellule de résultat ?",
+  "reponses": {
+    "A": "La plage de données est trop grande pour être calculée.",
+    "B": "La cellule contient un texte pur que Excel confond.",
+    "C": "Excel ne reconnaît pas un texte présent dans la formule (ex: erreur de frappe sur le nom de la fonction).",
+    "D": "Le fichier n'a pas été enregistré sous un nom valide."
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "#NOM? survient quasi-toujours si on tape mal le nom de la fonction (ex. =SOMM au lieu de =SOMME).",
+  "competencesCibles": [
+    "EXCEL-N2-CALCUL-C04"
+  ],
+  "difficulty": 53,
+  "discrimination": 1.4,
+  "guessing": 0.25
+}

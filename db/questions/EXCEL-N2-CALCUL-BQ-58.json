@@ -1,0 +1,19 @@
+{
+  "question": "<p><img src=\"/images/bq/POSI-XLS-N2-Q34-1.png\" width=\"697\" height=\"502\"></p>\n<p>Quelle est la meilleure méthode pour colorer en rouge les cellules de la colonne « CA » qui contiennent les valeurs inférieures à la moyenne ?</p>",
+  "reponses": {
+    "A": "<p>Je calcule la moyenne des CA puis je les tris par ordre croissant, en suite, je les colore manuellement.</p>",
+    "B": "<p>J’applique une mise en forme conditionnelle « Nuances de couleurs ».</p>",
+    "C": "<p>J’applique une mise en forme conditionnelle « Barres de données ».</p>",
+    "D": "<p>J’applique une mise en forme conditionnelle « Règles des valeurs de plage haute/basse ».</p>",
+    "E": "<p>J’applique une mise en forme conditionnelle « Règles de mise en surbrillance des cellules ».</p>",
+    "F": "<p>Je ne sais pas.</p>"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C7]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

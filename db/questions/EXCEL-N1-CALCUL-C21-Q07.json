@@ -1,0 +1,17 @@
+{
+  "question": "Que signifie le symbole #DIV/0! dans une cellule ?",
+  "reponses": {
+    "A": "La formule tente de diviser un nombre par zéro.",
+    "B": "La cellule contient du texte au lieu d'un nombre.",
+    "C": "L'espace disponible dans la colonne est insuffisant.",
+    "D": "Une erreur de syntaxe empêche l'exécution."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "L'erreur #DIV/0! apparaît spécifiquement lorsqu'une division par zéro est demandée.",
+  "competencesCibles": [
+    "EXCEL-N1-CALCUL-C21"
+  ],
+  "difficulty": 44,
+  "discrimination": 1.2,
+  "guessing": 0.25
+}

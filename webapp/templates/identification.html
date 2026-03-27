@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Positionnement TOSA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="container header-inner">
+                <a href="/" class="logo">
+                    <div class="logo-icon">T</div>
+                    <span>Test Positionnement TOSA</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <div class="text-center mb-lg">
+                    <h1>Test de Positionnement</h1>
+                    <p class="text-muted">Évaluez votre niveau et recevez un programme de formation personnalisé</p>
+                </div>
+
+                <div class="card" style="max-width: 600px; margin: 0 auto;">
+                    <div class="card-body">
+                        <form action="{{ url_for('identification') }}" method="post">
+                            <div class="form-group">
+                                <label class="form-label">Formation souhaitée</label>
+                                <select name="formation" class="form-select" id="formation-select" required>
+                                    <option value="">Sélectionnez une formation</option>
+                                    {% for formation in formations %}
+                                    <option value="{{ formation.id }}">{{ formation.nom }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Objectifs et besoins en formation</label>
+                                <textarea name="objectifs" class="form-input" rows="4" placeholder="Décrivez brièvement ce que vous attendez de la formation..."></textarea>
+                            </div>
+
+                            <hr style="border: none; border-top: 1px solid var(--border); margin: var(--spacing-lg) 0;">
+
+                            <h3 class="mb-md">Vos informations</h3>
+
+                            <div class="form-group">
+                                <label class="form-label">Nom *</label>
+                                <input type="text" name="nom" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Prénom *</label>
+                                <input type="text" name="prenom" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Email *</label>
+                                <input type="email" name="email" class="form-input" required>
+                            </div>
+
+                            <div style="display: flex; gap: var(--spacing-md); margin-top: var(--spacing-lg);">
+                                <button type="submit" name="action_niveau" value="novice" class="btn btn-outline btn-lg" style="flex: 1;">
+                                    Je suis novice
+                                </button>
+                                <button type="submit" name="action_niveau" value="test" class="btn btn-primary btn-lg" style="flex: 1;">
+                                    Je passe le test
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="header" style="margin-top: auto;">
+            <div class="container text-center">
+                <p class="text-sm text-muted">© 2026 - Test de Positionnement TOSA</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Le select dynamique du niveau n'est plus utile.
+    </script>
+</body>
+</html>

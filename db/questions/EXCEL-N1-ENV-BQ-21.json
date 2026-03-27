@@ -1,0 +1,18 @@
+{
+  "question": "<p >J’ai imprimé le tableau, mais je m’aperçois que seule une partie s’imprime. Pourquoi et que faire pour résoudre le problème  ?</p>\n<p ><strong>Tableau source :</strong></p>\n<p><img src=\"/images/bq/POSI-XLS-N1-Q22-1.png\" width=\"633\" height=\"313\"></p>\n<p > </p>\n<p ><strong>Fenêtre d'Impression :</strong></p>\n<p><img src=\"/images/bq/POSI-XLS-N1-Q22-2.png\" width=\"744\" height=\"526\"></p>",
+  "reponses": {
+    "A": "<p >Dans l’onglet « <strong>Mise en page</strong> » modifier « <strong>la zone d’impression</strong> ».</p>",
+    "B": "<p >Modifier la zone <span>« </span><strong>Paramètres </strong>»<strong> </strong>dans cette fenêtre d'impression.</p>",
+    "C": "<p >Dans l’onglet « <strong>Mise en page</strong> » modifier « <strong>Les marges</strong> »</p>",
+    "D": "<p >Afficher les colonnes cachées</p>",
+    "E": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D1-N1-C3]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

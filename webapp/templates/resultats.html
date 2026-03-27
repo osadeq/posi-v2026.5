@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultats du Test - TOSA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .results-container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .result-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .level-badge {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background: var(--primary);
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            border-radius: var(--radius-full);
+            margin: 1rem 0;
+        }
+        .level-n1 { background: #1E40AF; }
+        .level-n2 { background: #065F46; }
+        .level-n3 { background: #92400E; }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .stat-item {
+            background: var(--bg-gray);
+            padding: 1rem;
+            border-radius: var(--radius);
+        }
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+        
+        .confidence-bar {
+            height: 8px;
+            background: var(--bg-gray);
+            border-radius: var(--radius-full);
+            margin-top: 0.5rem;
+            overflow: hidden;
+        }
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--secondary), var(--primary));
+            border-radius: var(--radius-full);
+        }
+        
+        .candidat-info {
+            text-align: left;
+            background: var(--bg-gray);
+            padding: 1rem;
+            border-radius: var(--radius);
+            margin-bottom: 1.5rem;
+        }
+        .candidat-info h3 {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container header-inner">
+                <a href="/" class="logo">
+                    <div class="logo-icon">T</div>
+                    <span>Test Positionnement TOSA</span>
+                </a>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <div class="results-container">
+                    <h1>Résultats de votre test</h1>
+                    
+                    {% if candidat %}
+                    <div class="candidat-info">
+                        <h3>{{ candidat.nom }} {{ candidat.prenom }}</h3>
+                        <p class="text-muted">{{ candidat.email }}</p>
+                    </div>
+                    {% endif %}
+                    
+                    <div class="result-card">
+                        <p class="text-muted">Votre niveau estimé</p>
+                        <div class="level-badge level-{{ results.level }}">{{ results.level_name }}</div>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-value">{{ results.questions_answered }}</div>
+                                <div class="stat-label">Questions répondues</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">{{ results.confidence|round(0) }}%</div>
+                                <div class="stat-label">Confiance</div>
+                                <div class="confidence-bar">
+                                    <div class="confidence-fill" style="width: {{ results.confidence }}%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-value">{{ results.theta }}</div>
+                                <div class="stat-label">THETA (compétence)</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">{{ results.se }}</div>
+                                <div class="stat-label">SE (incertitude)</div>
+                            </div>
+                        </div>
+                        
+                        {% if "CERTIFICATION" in results.programme %}
+                        <div class="mt-lg">
+                            <div class="alert alert-warning">
+                                <strong>Certification TOSA Expert</strong> - Votre niveau est avancé. Nous vous proposons de passer la certification TOSA Expert pour valider vos compétences.
+                            </div>
+                        </div>
+                        {% else %}
+                        <div class="mt-lg">
+                            <h3>Programme recommandé</h3>
+                            <div class="alert alert-success">
+                                <strong>{{ results.programme }}</strong>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="alert alert-info">
+                        <strong>Prochaine étape :</strong> Notre équipe pédagogique va analyser vos résultats et vous contactera sous 24-48 heures avec un programme de formation personnalisé.
+                    </div>
+                    
+                    <a href="/" class="btn btn-primary">Retour à l'accueil</a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

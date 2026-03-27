@@ -1,0 +1,17 @@
+{
+  "question": "Comment accéder aux paramètres pour afficher un onglet caché du Ruban (comme l'onglet Développeur) ?",
+  "reponses": {
+    "A": "Maintenir Maj et cliquer sur le ruban.",
+    "B": "Fichier > Options > Personnaliser le Ruban (puis cocher la case de l'onglet).",
+    "C": "Double-cliquer au centre du ruban.",
+    "D": "Il faut télécharger un module complémentaire en ligne."
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "L'option Personnaliser le Ruban dans les options Excel gère l'affichage de tous les onglets.",
+  "competencesCibles": [
+    "EXCEL-N2-ENV-C01"
+  ],
+  "difficulty": 48,
+  "discrimination": 1.4,
+  "guessing": 0.25
+}

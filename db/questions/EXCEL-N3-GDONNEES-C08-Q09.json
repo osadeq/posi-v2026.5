@@ -1,0 +1,17 @@
+{
+  "question": "Comment imposer strictement la saisie de 'Oui', 'Non', ou 'Inactif' dans une colonne pour garantir l'intégrité des données ?",
+  "reponses": {
+    "A": "Transformer la colonne en Format Textuel à restriction.",
+    "B": "En ajoutant une cellule de mode d'emploi en rouge.",
+    "C": "Onglet 'Données' > 'Validation des données' > Autoriser 'Liste'.",
+    "D": "En utilisant l'outil Clic Droit > 'Interdire la saisie libre'."
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "La Validation des Données bloque l'utilisateur en générant une contrainte avec menu déroulant de ces 3 choix.",
+  "competencesCibles": [
+    "EXCEL-N3-GDONNEES-C08"
+  ],
+  "difficulty": 64,
+  "discrimination": 1.6,
+  "guessing": 0.25
+}

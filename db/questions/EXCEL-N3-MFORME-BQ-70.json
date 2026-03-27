@@ -1,0 +1,17 @@
+{
+  "question": "<p>Comment créer un format de nombre personnalisé pour afficher les valeurs négatives en rouge entre parenthèses ?</p>",
+  "reponses": {
+    "A": "<p>0;[Rouge](0)</p>",
+    "B": "<p>0;-0;[Rouge]</p>",
+    "C": "<p>0;[Rouge]-0</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N3-C1]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

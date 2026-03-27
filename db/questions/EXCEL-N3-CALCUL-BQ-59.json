@@ -1,0 +1,17 @@
+{
+  "question": "<p >Comment mettre toutes<strong> les premières lettres</strong> en majuscules ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N3-Q01-1.png\"></p>",
+  "reponses": {
+    "A": "<p ><strong>MAJUSCULE(A2:A8)</strong></p>",
+    "B": "<p ><strong>PREMIERE.MAJ(A2:A8)</strong></p>",
+    "C": "<p><strong>NOMPROPRE(A2:A8)</strong></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N3-C1]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

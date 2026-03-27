@@ -1,0 +1,17 @@
+{
+  "question": "Comment sélectionner plusieurs onglets (feuilles de calcul) qui ne sont PAS adjacents ?",
+  "reponses": {
+    "A": "En maintenant la touche 'Ctrl' enfoncée, puis en cliquant sur chaque onglet.",
+    "B": "En maintenant la touche 'Maj' enfoncée, puis en cliquant sur chaque onglet.",
+    "C": "En cliquant à droite, -> 'Prendre'.",
+    "D": "Seuls les onglets contigus peuvent être sélectionnés en même temps."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "La touche Ctrl permet d'ajouter spécifiquement des feuilles isolées à sa sélection.",
+  "competencesCibles": [
+    "EXCEL-N2-ENV-C05"
+  ],
+  "difficulty": 51,
+  "discrimination": 1.4,
+  "guessing": 0.25
+}

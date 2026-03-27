@@ -1,0 +1,17 @@
+{
+  "question": "<p >Dans le tableau suivant, on a calculé <strong>trois colonnes</strong> « <strong>Prime1 </strong>», <span > </span>« <strong>Prime2 </strong>» et «<strong> Rendez-vous </strong>» en respectant des règles de gestion indiquées dans les zones de texte. </p>\n<p >Pour cela on a utilisé la fonction <strong>SI</strong>.  <br>Quelle est donc<strong> la formule de la colonne « Rendez-vous » à la ligne 4</strong>  ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q20-1.png\" width=\"740\" height=\"263\"></p>",
+  "reponses": {
+    "A": "<p >=<strong>SI(B4<=C4;Oui)</strong></p>",
+    "B": "<p >=<strong>SI(B4<C4;\"Oui\";\"\")</strong></p>",
+    "C": "<p >=<strong>SI(B4<C4,\"Oui\",\"\")</strong></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C7]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

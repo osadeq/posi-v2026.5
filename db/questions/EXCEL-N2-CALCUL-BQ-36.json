@@ -1,0 +1,17 @@
+{
+  "question": "<p >Je souhaite <strong>réduire le nombre de décimales</strong> du nombre<strong> 3,1415972</strong> pour obtenir la valeur<strong> 3,14</strong>. Quelle est la formule à utiliser ?</p>",
+  "reponses": {
+    "A": "<p ><strong>arrondi</strong>(3,1415972;3)</p>",
+    "B": "<p ><strong>arrondi</strong>(3,1415972;0)</p>",
+    "C": "<p ><strong>arrondi</strong>(3,1415972;2)</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

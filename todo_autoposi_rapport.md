@@ -1,0 +1,1 @@
+je t'ai mis un exemple de rapport de programme personnalisé proposé à un candidat en deux formats json et pdf ici dans db/Exemple_programme_candidat_Sadeq_O_20260327_112500.

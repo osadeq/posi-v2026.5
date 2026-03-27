@@ -1,0 +1,17 @@
+{
+  "question": "Comment changer la couleur d'une LIGNE ENTIÈRE (Plage A2:J20) seulement si la cellule en B (B2, B3...) contient 'Terminé' ?",
+  "reponses": {
+    "A": "Sélectionner la plage, puis Mise en forme conditionnelle > Nouvelle règle > Utiliser une formule > `=$B2=\"Terminé\"`.",
+    "B": "Sélectionner la plage, Mise en forme conditionnelle > Règles de surbrillance > Texte qui contient > `Terminé`.",
+    "C": "Il est impossible d'influencer la cellule A2 depuis la valeur B2, la couleur colore unique la cellule concernée.",
+    "D": "Copier le mot Terminé avec le Pinceau Formateur et balayer chaque ligne adéquate."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "L'utilisation de la formule couplée à une notion de ligne absolue/colonne relative (=$B2) colore toute une ligne visuelle.",
+  "competencesCibles": [
+    "EXCEL-N3-MFORME-C06"
+  ],
+  "difficulty": 62,
+  "discrimination": 1.6,
+  "guessing": 0.25
+}

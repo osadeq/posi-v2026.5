@@ -1,0 +1,10 @@
+{
+  "candidats": [],
+  "tests_recus": [],
+  "programmes_generes": [],
+  "config": {
+    "tarif_horaire_defaut": 45,
+    "email_organisation": "contact@formation-tosa.fr",
+    "nom_organisation": "Formation TOSA"
+  }
+}

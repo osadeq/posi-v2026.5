@@ -1,0 +1,17 @@
+{
+  "question": "<p >Comment réaliser <strong>le classement alphabétique des services</strong> comme dans le tableau suivant ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q07-1.png\" width=\"347\" height=\"521\"></p>",
+  "reponses": {
+    "A": "<p >Je sélectionne la première <strong>cellule SERVICE</strong>, puis dans l’onglet <strong>Accueil</strong>, je clique sur « <b>Trier et filtrer</b> » puis sur « <b>Trier de A à Z</b> »</p>",
+    "B": "<p >Je sélectionne la première <strong>cellule SERVICE</strong>, puis dans l’onglet <strong>Données</strong>, je clique sur le bouton « <b>Filtrer </b>»</p>",
+    "C": "<p >Je sélectionne toute<strong> la colonne SERVICE</strong>, puis dans l'onglet <strong>Accueil</strong>, je clique sur le bouton <img src=\"/images/bq/POSI-XLS-N1-Q07-R3-1.png\"></p>",
+    "D": "<p><span>Je ne sais pas</span></p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D4-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

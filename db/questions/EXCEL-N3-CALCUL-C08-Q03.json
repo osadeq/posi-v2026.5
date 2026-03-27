@@ -1,0 +1,17 @@
+{
+  "question": "Quelle formule de recherche verticale (RECHERCHEV) est syntaxiquement correcte avec correspondance exacte ?",
+  "reponses": {
+    "A": "=RECHERCHEV(valeur_cherche; matrice_tableau; no_index_col; FAUX)",
+    "B": "=RECHERCHEV(matrice_tableau; valeur_cherche; no_index_col; VRAI)",
+    "C": "=RECHERCHE(matrice_tableau; valeur_cherche)",
+    "D": "=RECHERCHEV(valeur_cherche; no_index_col; matrice_tableau)"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "L'argument logique FAUX (ou 0) à la fin garantit une correspondance strictement exacte.",
+  "competencesCibles": [
+    "EXCEL-N3-CALCUL-C08"
+  ],
+  "difficulty": 60,
+  "discrimination": 1.6,
+  "guessing": 0.25
+}

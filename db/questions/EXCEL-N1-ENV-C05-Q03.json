@@ -1,0 +1,17 @@
+{
+  "question": "Comment figer la première ligne (les en-têtes) pour qu'elle reste visible en faisant défiler le tableau ?",
+  "reponses": {
+    "A": "Onglet 'Affichage' > 'Figer les volets' > 'Figer la ligne supérieure'.",
+    "B": "Onglet 'Données' > 'Verrouiller'.",
+    "C": "Onglet 'Mise en page' > 'Bloquer les marges'.",
+    "D": "Clic droit sur la ligne > 'Cacher'."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "L'option Figer les volets dans l'onglet Affichage est spécialement conçue pour maintenir les en-têtes visibles.",
+  "competencesCibles": [
+    "EXCEL-N1-ENV-C05"
+  ],
+  "difficulty": 40,
+  "discrimination": 1.2,
+  "guessing": 0.25
+}

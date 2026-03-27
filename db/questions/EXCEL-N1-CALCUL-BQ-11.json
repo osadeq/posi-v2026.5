@@ -1,0 +1,17 @@
+{
+  "question": "<p >Quel est le raccourci qui permet d'annuler une action ?</p>",
+  "reponses": {
+    "A": "<p ><span lang=\"EN-US\" ><strong>Ctrl + S</strong></span></p>",
+    "B": "<p ><span lang=\"EN-US\" ><strong>Ctrl + W</strong></span></p>",
+    "C": "<p ><span lang=\"EN-US\" ><strong>Ctrl + Z</strong></span></p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

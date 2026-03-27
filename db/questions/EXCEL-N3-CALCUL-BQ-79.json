@@ -1,0 +1,17 @@
+{
+  "question": "<p>Quelle fonction permet de combiner INDEX et EQUIV pour créer une recherche bidirectionnelle ?</p>",
+  "reponses": {
+    "A": "<p>=INDEX(plage; EQUIV(valeur_ligne; colonne_recherche; 0); EQUIV(valeur_colonne; ligne_recherche; 0))</p>",
+    "B": "<p>=RECHERCHEV(INDEX(plage); EQUIV(valeur))</p>",
+    "C": "<p>=EQUIV(INDEX(plage; valeur))</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N3-C5]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

@@ -1,0 +1,17 @@
+{
+  "question": "<p>Comment créer un graphique à partir d'un tableau de données ?</p>",
+  "reponses": {
+    "A": "<p>Je sélectionne les données, puis Insertion > Graphiques recommandés</p>",
+    "B": "<p>Je copie les données et je les colle en tant que graphique</p>",
+    "C": "<p>J'utilise le menu Fichier > Nouveau graphique</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N2-C10]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

@@ -1,0 +1,17 @@
+{
+  "question": "<p>Comment faire pour agrandir la largeur d'une colonne dans Excel ?</p>",
+  "reponses": {
+    "A": "<p>Je double-clique sur la bordure entre deux colonnes</p>",
+    "B": "<p>Je fais un clic droit sur la colonne et je choisis 'Largeur de colonne'</p>",
+    "C": "<p>Je place ma souris sur la bordure entre deux lettres de colonnes et je tire vers la droite</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D1-N1-C8]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

@@ -1,0 +1,17 @@
+{
+  "question": "Quelle fonction permet d'obtenir la valeur moyenne d'une plage de données A1:A10 ?",
+  "reponses": {
+    "A": "=MOY(A1:A10)",
+    "B": "=MOYENNE(A1:A10)",
+    "C": "=MEDIANE(A1:A10)",
+    "D": "=AVERAGE(A1:A10) (uniquement en version française)"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "En version française, c'est =MOYENNE(). L'abréviation 'MOY' n'existe pas en tant que fonction native.",
+  "competencesCibles": [
+    "EXCEL-N2-CALCUL-C06"
+  ],
+  "difficulty": 54,
+  "discrimination": 1.4,
+  "guessing": 0.25
+}

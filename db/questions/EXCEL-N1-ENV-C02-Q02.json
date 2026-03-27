@@ -1,0 +1,17 @@
+{
+  "question": "Quel raccourci clavier universel permet d'enregistrer instantanément son document actif ?",
+  "reponses": {
+    "A": "Ctrl + E",
+    "B": "Ctrl + S (Save)",
+    "C": "Ctrl + P",
+    "D": "Ctrl + R"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Le raccourci Ctrl + S déclenche la sauvegarde du document actif.",
+  "competencesCibles": [
+    "EXCEL-N1-ENV-C02"
+  ],
+  "difficulty": 39,
+  "discrimination": 1.2,
+  "guessing": 0.25
+}

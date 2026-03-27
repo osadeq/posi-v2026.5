@@ -1,0 +1,17 @@
+{
+  "question": "Quel raccourci clavier permet de se déplacer à la fin de la zone de données de la feuille active ?",
+  "reponses": {
+    "A": "Ctrl + Fin",
+    "B": "Maj + Fin",
+    "C": "Alt + F4",
+    "D": "Ctrl + Entrée"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Ctrl+Fin (ou Ctrl+End) amène la sélection à la toute dernière intersection utilisée.",
+  "competencesCibles": [
+    "EXCEL-N2-ENV-C02"
+  ],
+  "difficulty": 49,
+  "discrimination": 1.4,
+  "guessing": 0.25
+}

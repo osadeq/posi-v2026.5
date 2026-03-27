@@ -1,0 +1,16 @@
+{
+  "question": "<p >Comment ai-je obtenu le graphique qui affiche la population par ville ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q27-1.png\" width=\"741\" height=\"319\"></p>",
+  "reponses": {
+    "A": "<p >J’ai sélectionné le tableau (Ville/Population), puis inséré un graphique de type « Carte » dans l’onglet « Insertion »</p>",
+    "B": "<p >J’ai cherché une photo géographique sur internet puis je l’ai insérée</p>",
+    "C": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N2-C10]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.3333333333333333
+}

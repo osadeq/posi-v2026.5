@@ -1,0 +1,18 @@
+{
+  "question": "<p >La cellule <strong>B2 </strong>contient le texte «<strong> Il faut entretenir la vigueur du corps, pour conserver celle de l'esprit. </strong>». Je sélectionne uniquement le mot « <strong>vigueur </strong>» et je clique sur <img src=\"/images/bq/POSI-XLS-N1-Q26-1.png\">. Que va-t-il se passer ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q26-2.png\"></p>",
+  "reponses": {
+    "A": "<p >La prochaine fois que j’écrirai le mot « vigueur » il sera affiché en gras.</p>",
+    "B": "<p >Le texte entier de la cellule sera en gras.</p>",
+    "C": "<p >Seul le mot « vigueur » sera en gras.</p>",
+    "D": "<p >Rien du tout, mais si je tape un texte dans une autre cellule il sera en gras.</p>",
+    "E": "<p >Je ne sais pas.</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

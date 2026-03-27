@@ -1,0 +1,18 @@
+{
+  "question": "<p >Quelle opération choisir lors d'un copier/coller pour inverser un tableau ?</p>",
+  "reponses": {
+    "A": "<p >Coller uniquement en valeur</p>",
+    "B": "<p >Coller uniquement le format</p>",
+    "C": "<p >Coller et transposer</p>",
+    "D": "<p >Coller tout</p>",
+    "E": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C1]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

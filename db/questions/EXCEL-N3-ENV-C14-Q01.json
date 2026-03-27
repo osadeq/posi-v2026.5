@@ -1,0 +1,17 @@
+{
+  "question": "Si un classeur Excel est hébergé sur OneDrive/SharePoint, comment restaurer une version précédente du document ?",
+  "reponses": {
+    "A": "Fichier > Informations > Historique des versions, puis ouvrir la version désirée.",
+    "B": "Demander un accord technique à Microsoft via le portail F1.",
+    "C": "Restaurer via l'onglet 'Développeur' > 'Macros'.",
+    "D": "C'est impossible, les sauvegardes en ligne écrasent tout."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Les fichiers dans le cloud Office 365 bénéficient de l'historique de versions intégré directement dans l'outil Fichier.",
+  "competencesCibles": [
+    "EXCEL-N3-ENV-C14"
+  ],
+  "difficulty": 58,
+  "discrimination": 1.6,
+  "guessing": 0.25
+}

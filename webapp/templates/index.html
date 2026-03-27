@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Positionnement TOSA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #3B82F6 100%);
+            color: white;
+            padding: var(--spacing-2xl) 0;
+            text-align: center;
+            border-radius: var(--radius-xl);
+            margin-bottom: var(--spacing-xl);
+        }
+        .hero h1 { color: white; margin-bottom: var(--spacing-md); }
+        .hero p { color: rgba(255,255,255,0.9); font-size: var(--font-size-lg); }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-lg);
+            margin-top: var(--spacing-xl);
+        }
+        .feature-card {
+            background: var(--bg-card);
+            padding: var(--spacing-xl);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border);
+            text-align: center;
+            transition: var(--transition);
+        }
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--bg-gray);
+            border-radius: var(--radius-full);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto var(--spacing-md);
+            font-size: 24px;
+        }
+        .feature-card h3 { margin-bottom: var(--spacing-sm); }
+        .feature-card p { color: var(--text-muted); margin: 0; }
+        
+        .cta-section {
+            text-align: center;
+            margin-top: var(--spacing-xl);
+            padding: var(--spacing-xl);
+            background: var(--bg-gray);
+            border-radius: var(--radius-lg);
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="container header-inner">
+                <a href="/" class="logo">
+                    <div class="logo-icon">T</div>
+                    <span>Test Positionnement TOSA</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <!-- Hero -->
+                <div class="hero">
+                    <h1>Évaluez votre niveau</h1>
+                    <p>Test de positionnement TOSA pour les formations bureautiques</p>
+                </div>
+
+                <!-- Features -->
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Test structuré</h3>
+                        <p>Questions alignées avec le référentiel TOSA pour une évaluation précise</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Programme personnalisé</h3>
+                        <p>Recevez une proposition de formation adaptée à votre niveau</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Rapide et gratuit</h3>
+                        <p>Testez-vous en quelques minutes sans inscription préalable</p>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="cta-section">
+                    <h2 class="mb-md">Prêt à évaluer vos compétences ?</h2>
+                    <p class="mb-lg text-muted">Choisissez votre formation et votre niveau pour commencer</p>
+                    <a href="{{ url_for('identification') }}" class="btn btn-primary btn-lg">
+                        Commencer le test
+                    </a>
+                    <p class="mt-md text-sm text-muted">ou</p>
+                    <a href="{{ url_for('auto_positionnement') }}" class="btn btn-outline">
+                        Auto-positionnement
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="header" style="margin-top: auto;">
+            <div class="container text-center">
+                <p class="text-sm text-muted">© 2026 - Test de Positionnement TOSA</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

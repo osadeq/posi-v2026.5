@@ -1,0 +1,19 @@
+{
+  "question": "<p >Dans quels cas dois-je cliquer sur « Sélectionner les données » d'un graphique ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q04-1.png\" width=\"780\" height=\"128\"></p>",
+  "reponses": {
+    "A": "<p >Je souhaite vider le graphique de ses valeurs</p>",
+    "B": "<p >Je veux ajouter une nouvelle série de données</p>",
+    "C": "<p >Je veux modifier les paramètres des axes</p>",
+    "D": "<p >Je veux modifier les couleurs</p>",
+    "E": "<p >Je veux modifier la valeur du titre du graphique</p>",
+    "F": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N2-C10]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

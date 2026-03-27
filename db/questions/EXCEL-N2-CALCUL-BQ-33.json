@@ -1,0 +1,17 @@
+{
+  "question": "<p >On est sur le point d’insérer des segments pour notre tableau. Qu’est-ce qu’un segment et quel est son rôle ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q09-1.png\" width=\"745\" height=\"473\"></p>",
+  "reponses": {
+    "A": "<p >Un segment permet de tracer des bordures autour des colonnes cochées</p>",
+    "B": "<p >Un segment est comme un tri, il peut être réalisé sur une plusieurs colonnes, il suffit de les cocher. </p>",
+    "C": "<p >Un segment est comme un filtre, il peut être réalisé sur une plusieurs colonnes, il suffit de les cocher. </p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

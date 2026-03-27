@@ -1,0 +1,16 @@
+{
+  "question": "<p >Dans ce tableau, j’ai réalisé une simulation du chiffre d’affaires (Ventes TTC), pour un résultat net de 9000. L’outil que j’ai utilisé est « <b>Valeur Cible</b> ». <br>Quel est donc le paramétrage adéquat de la boite de dialogue Valeur cible ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N3-Q05-1.png\"></p>",
+  "reponses": {
+    "A": "<p >Réponse 1 : </p>\n<p ><img src=\"/images/bq/POSI-XLS-N3-Q05-R1-1.png\" width=\"341\" height=\"232\"></p>",
+    "B": "<p >Réponse 2 :</p>\n<p ><img src=\"/images/bq/POSI-XLS-N3-Q05-R2-1.png\" width=\"347\" height=\"236\"></p>",
+    "C": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N3-C1]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.3333333333333333
+}

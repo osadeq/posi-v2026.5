@@ -1,0 +1,18 @@
+{
+  "question": "<p >J'ai créé un tableau croisé dynamique (deuxième tabeau à droite) à partir du premier tableau à gauche.</p>\n<p >Comment a-t-on procédé pour lister les dates par année et mois dans le tableau croisé dynamique ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q03-1.png\" width=\"697\" height=\"166\"></p>",
+  "reponses": {
+    "A": "<p >Avec Copier/Coller + Suppression des doublons</p>",
+    "B": "<p >En utilisant l’outils de consolidation</p>",
+    "C": "<p >En utilisant la commande \"Grouper\" sur les dates dans le tableau croisé dynamique</p>",
+    "D": "<p >En glissant, tout simplement, le champ « Date » dans la zone de lignes du tableau croisé dynamique</p>",
+    "E": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D4-N2-C3]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.2
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "TEST-20260324-214533",
+    "candidat": {
+      "nom": "O",
+      "prenom": "H",
+      "email": "o@gmail.com"
+    },
+    "formation": "excel",
+    "niveau": "n1",
+    "type": "testPositionnement",
+    "reponses": [
+      {
+        "questionId": "EXCEL-N1-ENV-C01-Q01",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C02-Q02",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C05-Q03",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C13-Q04",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C15-Q05",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-C22-Q06",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-C21-Q07",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-MFORME-C30-Q08",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-GDONNEES-C39-Q09",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-GDONNEES-C41-Q10",
+        "reponse": "A"
+      }
+    ],
+    "score": 0,
+    "timestamp": "2026-03-24T21:45:33.217590"
+  },
+  {
+    "id": "TEST-20260324-214737",
+    "candidat": {
+      "nom": "O",
+      "prenom": "A",
+      "email": "oa@gmail.com"
+    },
+    "formation": "excel",
+    "niveau": "n3",
+    "type": "testPositionnement",
+    "reponses": [
+      {
+        "questionId": "EXCEL-N3-ENV-C14-Q01",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N3-ENV-C17-Q02",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N3-CALCUL-C08-Q03",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N3-CALCUL-C03-Q04",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N3-CALCUL-C09-Q05",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N3-MFORME-C06-Q06",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N3-CALCUL-C06-Q07",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N3-CALCUL-C11-Q08",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N3-GDONNEES-C08-Q09",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N3-GDONNEES-C06-Q10",
+        "reponse": "B"
+      }
+    ],
+    "score": 0,
+    "timestamp": "2026-03-24T21:47:37.132574"
+  }
+]

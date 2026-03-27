@@ -1,0 +1,19 @@
+{
+  "question": "<p>La mise en page de la feuille en cours, est déjà fixée à <strong>A4</strong>, <strong>paysage </strong>avec des <strong>marges normales</strong>, et ça ne doit pas changer.</p>\n<p>Le problème est que avec cette mise en page, le contenu dépasse la lageur de la page.</p>\n<p>Avec quel outil du ruban \"<strong>Mise en page</strong>\" puis-je forcer automatiquement toutes les colonnes à s'imprimer dans la page ?</p>\n<p><img src=\"/images/bq/POSI-XLS-N1-Q25-1.png\" width=\"733\" height=\"420\"></p>",
+  "reponses": {
+    "A": "<p>Choisir la <strong>Taille A3</strong>.</p>",
+    "B": "<p>Sélectionner la <strong>Zone d'impression </strong>à chaque fois que l'on souhaite imprimer.</p>",
+    "C": "<p>Modifier la zone \"<strong>Largeur</strong>\" de la <strong>Mise à l'échelle.</strong></p>",
+    "D": "<p><span>Modifier la zone \"</span><strong>Hauteur</strong><span>\" de la </span><strong>Mise à l'échelle.</strong></p>",
+    "E": "<p><span>Modifier la zone \"</span><strong>Echelle</strong><span>\" de la </span><strong>Mise à l'échelle.</strong></p>",
+    "F": "<p><span>Je ne sais pas.</span></p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D1-N1-C3]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

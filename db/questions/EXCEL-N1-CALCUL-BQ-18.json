@@ -1,0 +1,19 @@
+{
+  "question": "<p >Dans le tableau suivant, J’ai saisi une date dans la cellule B8, je veux maintenant saisir la valeur 75,5 et l’afficher telle quelle. <br>Comment procéder ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N1-Q19-1.png\"></p>",
+  "reponses": {
+    "A": "<p >Je dois d’abord supprimer la date en appuyant sur la touche « Suppr ».</p>",
+    "B": "<p >Je dois modifier le format nombre de la cellule.</p>",
+    "C": "<p >Je ne peux plus mettre autre chose qu’une date dans cette cellule.</p>",
+    "D": "<p >Je fais précéder la valeur par une espace.</p>",
+    "E": "<p >Je saisis simplement 75,5 dans la cellule et le nombre s'affichera correctement.</p>",
+    "F": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N1-C2]"
+  ],
+  "difficulty": 35,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

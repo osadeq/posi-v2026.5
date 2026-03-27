@@ -1,0 +1,17 @@
+{
+  "question": "Quelle est la syntaxe et l'ordre des arguments de la fonction SOMME.SI.ENS ?",
+  "reponses": {
+    "A": "=SOMME.SI.ENS(plage_critere1; critere1; plage_somme)",
+    "B": "=SOMME(SI_ENS(plage_somme; critere1))",
+    "C": "=ENS.SOMMESI(plage_somme; critere1)",
+    "D": "=SOMME.SI.ENS(plage_somme; plage_critere1; critere1; plage_critere2; critere2...)"
+  },
+  "reponseCorrecte": "D",
+  "feedbackPedagogique": "SOMME.SI.ENS démarre toujours par la Plage Globale à Sommer, avant d'enchaîner les filtres (Plage Critère; Critère).",
+  "competencesCibles": [
+    "EXCEL-N3-CALCUL-C11"
+  ],
+  "difficulty": 63,
+  "discrimination": 1.6,
+  "guessing": 0.25
+}

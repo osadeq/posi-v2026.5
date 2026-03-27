@@ -1,0 +1,17 @@
+{
+  "question": "<p>Comment créer une mise en forme conditionnelle basée sur une formule personnalisée ?</p>",
+  "reponses": {
+    "A": "<p>Accueil > Mise en forme conditionnelle > Nouvelle règle > Utiliser une formule pour déterminer...</p>",
+    "B": "<p>Je tape la formule directement dans la cellule</p>",
+    "C": "<p>J'utilise le menu Format > Formule conditionnelle</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N3-C3]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

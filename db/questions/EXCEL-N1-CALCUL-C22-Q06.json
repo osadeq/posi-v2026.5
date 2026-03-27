@@ -1,0 +1,17 @@
+{
+  "question": "Quelle formule native permet d'additionner rapidement une plage verticale de cellules (ex: A1 à A10) ?",
+  "reponses": {
+    "A": "=TOTAL(A1:A10)",
+    "B": "=AJOUT(A1:A10)",
+    "C": "=SOMME(A1:A10)",
+    "D": "=PLUS(A1:A10)"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "La fonction =SOMME() est la fonction standard native d'Excel pour additionner plusieurs valeurs ou plages.",
+  "competencesCibles": [
+    "EXCEL-N1-CALCUL-C22"
+  ],
+  "difficulty": 43,
+  "discrimination": 1.2,
+  "guessing": 0.25
+}

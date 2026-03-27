@@ -1,0 +1,19 @@
+{
+  "question": "<p  >Voici un histogramme, dont les barres sont des images.<br>Veuillez indiquer une méthode correcte pour mettre des images à la place des barres traditionnelles.</p>\n<p><img src=\"/images/bq/POSI-XLS-N2-Q33-1.png\" width=\"715\" height=\"339\"></p>\n<p><span ><em>Pour cette question, il peut exister plusieurs affirmations exactes mais il suffit d'en sélectionner une pour que votre réponse soit juste.</em></span></p>",
+  "reponses": {
+    "A": "<p>Il ne s’agit pas réellement d’un graphique, mais d’une image constituée de formes et de dessins.</p>",
+    "B": "<p>Je clique sur les barres de l’histogramme, puis je clique sur <img src=\"/images/bq/POSI-XLS-N2-Q33-R2-1.png\" width=\"126\" height=\"32\">  et je choisis <strong><span ><span >« <u>Image…</u> »</span></span></strong></p>",
+    "C": "<p>Je copie une image dans le presse-papier. Je sélectionne les barres de l’histogramme en cliquant dessus, et je colle.</p>",
+    "D": "<p>Je sélectionne le graphique, puis je choisis ce type de graphique dans la galerie des Styles du graphique.</p>",
+    "E": "<p>Ce n’est pas directement possible avec Excel. Mais je peux importer mon graphique dans PowerPoint, le transformer et le réinsérer dans Excel.</p>",
+    "F": "<p>Je ne sais pas.</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D3-N2-C10]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

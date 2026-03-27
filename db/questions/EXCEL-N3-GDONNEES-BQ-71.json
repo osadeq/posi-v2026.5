@@ -1,0 +1,17 @@
+{
+  "question": "<p>Quelle fonction permet de créer une requête pour importer des données depuis une base de données externe ?</p>",
+  "reponses": {
+    "A": "<p>Données > Obtenir des données</p>",
+    "B": "<p>Insertion > Tableau croisé dynamique</p>",
+    "C": "<p>Révision > Partager le classeur</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D4-N3-C1]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

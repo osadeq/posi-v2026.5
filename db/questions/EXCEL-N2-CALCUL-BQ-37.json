@@ -1,0 +1,17 @@
+{
+  "question": "<p >La formule =A$1+B1 stockée en C1 est recopiée en C3 ; C3 contiendra la formule :</p>",
+  "reponses": {
+    "A": "<p >A1+B1</p>",
+    "B": "<p >A$1+B2</p>",
+    "C": "<p >A$1+B3</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "C",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

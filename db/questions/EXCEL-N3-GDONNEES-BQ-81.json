@@ -1,0 +1,17 @@
+{
+  "question": "<p>Quelle fonction permet de supprimer automatiquement les doublons dans un tableau ?</p>",
+  "reponses": {
+    "A": "<p>Données > Supprimer les doublons</p>",
+    "B": "<p>Accueil > Rechercher et sélectionner > Doublons</p>",
+    "C": "<p>Révision > Supprimer les doublons</p>",
+    "D": "<p>Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D4-N3-C18]"
+  ],
+  "difficulty": 75,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

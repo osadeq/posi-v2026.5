@@ -1,0 +1,17 @@
+{
+  "question": "Comment trier rapidement une colonne de texte par ordre alphabétique (de A à Z) ?",
+  "reponses": {
+    "A": "Via l'onglet 'Données', cliquer sur le bouton 'Trier de A à Z'.",
+    "B": "Via l'onglet 'Insertion', cliquer sur 'Ordre'.",
+    "C": "Via l'onglet 'Formules', insérer la fonction =ALPHABETIQUE().",
+    "D": "Excel trie toujours par ordre alphabétique implicitement."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Les boutons de tri rapide A-Z ou Z-A se trouvent très facilement dans l'onglet Données.",
+  "competencesCibles": [
+    "EXCEL-N1-GDONNEES-C39"
+  ],
+  "difficulty": 45,
+  "discrimination": 1.2,
+  "guessing": 0.25
+}

@@ -1,0 +1,17 @@
+{
+  "question": "<p >Ici, nous avons filtré les contrats du service « CHIRURGIE ». Comment ajouter le service « NURSERY » au filtrage actuel  ?</p>\n<p ><img src=\"/images/bq/POSI-XLS-N2-Q10-1.png\" width=\"739\" height=\"286\"></p>",
+  "reponses": {
+    "A": "<p >Un segment ne permet pas de sélectionner plusieurs valeurs</p>",
+    "B": "<p >En maintenant la touche CTRL appuyée, je peux cliquer sur la valeur à activer</p>",
+    "C": "<p >Il faut d’abord effacer le filtre actuel puis cliquer sur la valeur « NURSERY »</p>",
+    "D": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C1]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.25
+}

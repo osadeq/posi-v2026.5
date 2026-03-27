@@ -1,0 +1,17 @@
+{
+  "question": "Quelle méthode permet d'appliquer un format pourcentage (ex: transformer 0,15 en 15%) à une cellule ?",
+  "reponses": {
+    "A": "Sélectionner la cellule et cliquer sur le symbole '%' dans l'onglet Accueil.",
+    "B": "Multiplier la cellule par 100 manuellement.",
+    "C": "Écrire 'pourcentage' à côté de la cellule.",
+    "D": "Appuyer sur F1 et demander de l'aide."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "L'icône '%' située dans l'onglet Accueil applique instantanément le format Pourcentage.",
+  "competencesCibles": [
+    "EXCEL-N1-MFORME-C30"
+  ],
+  "difficulty": 44,
+  "discrimination": 1.2,
+  "guessing": 0.25
+}

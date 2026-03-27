@@ -1,0 +1,19 @@
+{
+  "question": "<p><span ><span >Soit le tableau suivant :</span></span></p>\n<p><span ><img src=\"/images/bq/POSI-XLS-N2-Q28-1.png\" width=\"736\" height=\"317\"></span></p>\n<p><span ><a href=\"https://app.isograd.com/runtest/QuestionDisplayer\"><span >Comment ai-je obtenu cette boîte de dialogue « Copier une image » ?</span></a></span></p>\n<p><span ><img src=\"/images/bq/POSI-XLS-N2-Q28-2.png\"></span></p>",
+  "reponses": {
+    "A": "<p >J'ai sélectionné les éléments à copier, j'ai maintenu enfoncé la touche « <b>MAJ (Shift)</b> » et j'ai cliqué sur « <b>Copier</b> »</p>",
+    "B": "<p >J'ai sélectionné les éléments à copier puis j'ai choisi l'option « <b>Copier comme image</b> » dans la liste du bouton « <b>Copier</b> »</p>",
+    "C": "<p >J'ai appuyé sur la touche « <b>Impr écran</b> »</p>",
+    "D": "<p >J'ai groupé plusieurs feuilles, j'ai sélectionné des cellules, j'ai cliqué sur « <b>Recopier</b> », puis sur « <b>Dans toutes les feuilles de calcul…</b> »</p>",
+    "E": "<p >J'ai fait un clic droit sur une image et j'ai choisi « <b>Copier</b> ».</p>",
+    "F": "<p >Je ne sais pas</p>"
+  },
+  "reponseCorrecte": "B",
+  "feedbackPedagogique": "Votre réponse est correcte",
+  "competencesCibles": [
+    "[D2-N2-C7]"
+  ],
+  "difficulty": 50,
+  "discrimination": 1.5,
+  "guessing": 0.16666666666666666
+}

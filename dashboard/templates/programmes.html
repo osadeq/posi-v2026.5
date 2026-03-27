@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmes générés - Dashboard TOSA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2563EB; --primary-dark: #1D4ED8; --secondary: #10B981; --accent: #F59E0B; --bg-main: #F8FAFC; --bg-card: #FFFFFF; --bg-gray: #F1F5F9; --text-main: #1E293B; --text-muted: #64748B; --border: #E2E8F0; --radius: 0.5rem; --radius-lg: 0.75rem; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-main); color: var(--text-main); min-height: 100vh; }
+        .header { background: var(--bg-card); border-bottom: 1px solid var(--border); padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        .header-inner { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .logo-icon { width: 36px; height: 36px; background: var(--primary); color: white; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-weight: 700; }
+        .nav { display: flex; gap: 1rem; }
+        .nav a { color: var(--text-muted); text-decoration: none; padding: 0.5rem 1rem; border-radius: var(--radius); font-weight: 500; }
+        .nav a:hover, .nav a.active { background: var(--bg-gray); color: var(--primary); }
+        .main-content { padding: 2rem 0; }
+        .page-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+        h1 { font-size: 1.875rem; }
+        .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+        .card-body { padding: 1.5rem; }
+        .programme-card { border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1rem; }
+        .programme-card:hover { border-color: var(--primary); }
+        .programme-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; }
+        .programme-title { font-weight: 600; font-size: 1.125rem; }
+        .programme-meta { color: var(--text-muted); font-size: 0.875rem; }
+        .programme-details { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 1rem; }
+        .detail-item { background: var(--bg-gray); padding: 0.75rem; border-radius: var(--radius); text-align: center; }
+        .detail-value { font-weight: 700; font-size: 1.25rem; color: var(--primary); }
+        .detail-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; }
+        .actions { display: flex; gap: 0.5rem; margin-top: 1rem; }
+        .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; font-weight: 600; border: none; border-radius: var(--radius); cursor: pointer; text-decoration: none; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-secondary { background: var(--secondary); color: white; }
+        .btn-accent { background: var(--accent); color: white; }
+        .btn-sm { padding: 0.25rem 0.75rem; font-size: 0.875rem; }
+        .empty-state { text-align: center; padding: 3rem; color: var(--text-muted); }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="/" class="logo">
+                <div class="logo-icon">D</div>
+                <span>Dashboard TOSA</span>
+            </a>
+            <nav class="nav">
+                <a href="/">Accueil</a>
+                <a href="/candidats">Candidats</a>
+                <a href="/tests">Tests</a>
+                <a href="/programmes" class="active">Programmes</a>
+                <a href="/importer">Importer</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <h1 class="mb-lg">Programmes générés</h1>
+            
+            {% if programmes %}
+                {% for prog in programmes %}
+                <div class="programme-card">
+                    <div class="programme-header">
+                        <div>
+                            <div class="programme-title">{{ prog.candidat.nom|default('Candidat') }} {{ prog.candidat.prenom|default('') }}</div>
+                            <div class="programme-meta">{{ prog.formation|upper }} - {{ prog.niveau }}</div>
+                        </div>
+                        <span style="color: var(--text-muted); font-size: 0.875rem;">{{ prog.timestamp[:10] if prog.timestamp else '-' }}</span>
+                    </div>
+                    
+                    <div class="programme-details">
+                        <div class="detail-item">
+                            <div class="detail-value">{{ prog.duree_estimee }}h</div>
+                            <div class="detail-label">Durée</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-value">{{ prog.tarif_estime }}€</div>
+                            <div class="detail-label">Coût estimé</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-value">{{ prog.themes_proposes|length if prog.themes_propos else 0 }}</div>
+                            <div class="detail-label">Thèmes</div>
+                        </div>
+                    </div>
+                    
+                    <div class="actions">
+                        <a href="/generer-pdf/{{ prog.id }}" class="btn btn-primary btn-sm">📄 PDF</a>
+                        <a href="/generer-excel/{{ prog.id }}" class="btn btn-secondary btn-sm">📊 Excel</a>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+            <div class="card">
+                <div class="card-body">
+                    <div class="empty-state">
+                        <h3>Aucun programme généré</h3>
+                        <p>Analysez un test pour générer un programme personnalisé</p>
+                        <a href="/tests" class="btn btn-primary" style="margin-top: 1rem;">Voir les tests</a>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </main>
+</body>
+</html>

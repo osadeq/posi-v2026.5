@@ -1,0 +1,150 @@
+=== EXCEL-N1-CALCUL-C21-Q07.json ===
+Q: None
+Options:
+Correct: D
+
+=== EXCEL-N1-CALCUL-C22-Q06.json ===
+Q: None
+Options:
+Correct: A
+
+=== EXCEL-N1-ENV-C01-Q01.json ===
+Q: None
+Options:
+Correct: B
+
+=== EXCEL-N1-ENV-C02-Q02.json ===
+Q: None
+Options:
+Correct: C
+
+=== EXCEL-N1-ENV-C05-Q03.json ===
+Q: None
+Options:
+Correct: A
+
+=== EXCEL-N1-ENV-C13-Q04.json ===
+Q: None
+Options:
+Correct: Le double-clic sur le bord de la colonne ajuste automatiquement la largeur au contenu, et Format > Largeur de colonne permet une valeur precise.
+
+=== EXCEL-N1-ENV-C15-Q05.json ===
+Q: None
+Options:
+Correct: Selon vos besoins, vous pouvez choisir de decaler les cellules existantes vers la droite ou vers le bas.
+
+=== EXCEL-N1-GDONNEES-C39-Q09.json ===
+Q: None
+Options:
+Correct: L'onglet Donnees et le menu contextuel (clic droit) proposent des options de tri.
+
+=== EXCEL-N1-GDONNEES-C41-Q10.json ===
+Q: None
+Options:
+Correct: A
+
+=== EXCEL-N1-MFORME-C30-Q08.json ===
+Q: None
+Options:
+Correct: Les deux methodes permettent d'appliquer le format pourcentage a une cellule.
+
+=== EXCEL-N2-CALCUL-C01-Q05.json ===
+Q: None
+Options:
+Correct: B
+
+=== EXCEL-N2-CALCUL-C04-Q07.json ===
+Q: None
+Options:
+Correct: A
+
+=== EXCEL-N2-CALCUL-C06-Q09.json ===
+Q: None
+Options:
+Correct: A10)
+
+=== EXCEL-N2-ENV-C01-Q01.json ===
+Q: None
+Options:
+Correct: C
+
+=== EXCEL-N2-ENV-C02-Q02.json ===
+Q: None
+Options:
+Correct: A
+
+=== EXCEL-N2-ENV-C03-Q03.json ===
+Q: None
+Options:
+Correct: A
+
+=== EXCEL-N2-ENV-C05-Q04.json ===
+Q: None
+Options:
+Correct: Ctrl permet une selection non contigue, Maj permet une selection contigue d'onglets.
+
+=== EXCEL-N2-ENV-C08-Q06.json ===
+Q: None
+Options:
+Correct: L'option Transposer dans le collage special permet d'inverser les lignes et colonnes.
+
+=== EXCEL-N2-ENV-C12-Q08.json ===
+Q: None
+Options:
+Correct: Les deux options permettent d'acceder a la fonctionnalite d'en-tete et pied de page.
+
+=== EXCEL-N2-MFORME-C31-Q10.json ===
+Q: None
+Options:
+Correct: Les deux methodes permettent de créer un tableau avec des styles predéfinis.
+
+=== EXCEL-N3-CALCUL-C03-Q04.json ===
+Q: None
+Options:
+Correct: '=INDEX(tableau
+
+=== EXCEL-N3-CALCUL-C06-Q07.json ===
+Q: None
+Options:
+Correct: '=NOMBRE(plage
+
+=== EXCEL-N3-CALCUL-C08-Q03.json ===
+Q: None
+Options:
+Correct: '=RECHERCHE(valeur
+
+=== EXCEL-N3-CALCUL-C09-Q05.json ===
+Q: None
+Options:
+Correct: '=ASSEMBLER(texte1
+
+=== EXCEL-N3-CALCUL-C11-Q08.json ===
+Q: None
+Options:
+Correct: critere2)
+
+=== EXCEL-N3-ENV-C14-Q01.json ===
+Q: None
+Options:
+Correct: A
+
+=== EXCEL-N3-ENV-C17-Q02.json ===
+Q: None
+Options:
+Correct: Les deux methodes permettent de protéger une feuille avec un mot de passe.
+
+=== EXCEL-N3-GDONNEES-C06-Q10.json ===
+Q: None
+Options:
+Correct: Les deux methodes permettent d'insérer des segments pour filtrer les données visuellement.
+
+=== EXCEL-N3-GDONNEES-C08-Q09.json ===
+Q: None
+Options:
+Correct: La validation des données permet de créer des listes déroulantes restrictives.
+
+=== EXCEL-N3-MFORME-C06-Q06.json ===
+Q: None
+Options:
+Correct: A
+

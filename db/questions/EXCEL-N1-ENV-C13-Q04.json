@@ -1,0 +1,17 @@
+{
+  "question": "Comment ajuster la largeur d'une colonne pour qu'elle s'adapte automatiquement au contenu le plus long ?",
+  "reponses": {
+    "A": "En double-cliquant sur la bordure droite de l'en-tête de la colonne (ex. entre A et B).",
+    "B": "En cliquant-glissant la bordure depuis la cellule la plus longue.",
+    "C": "En fusionnant la cellule longue avec celle d'à côté.",
+    "D": "Il faut aller dans les options globales d'Excel."
+  },
+  "reponseCorrecte": "A",
+  "feedbackPedagogique": "Le double-clic sur la bordure d'en-tête est l'astuce la plus rapide pour déclencher l'ajustement automatique.",
+  "competencesCibles": [
+    "EXCEL-N1-ENV-C13"
+  ],
+  "difficulty": 41,
+  "discrimination": 1.2,
+  "guessing": 0.25
+}
