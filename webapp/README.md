@@ -38,10 +38,11 @@ python app.py
 - **Débridage de la Note Maximale** : Le seuil de chute mathématique lié à la convergence a été corrigé pour laisser la possibilité naturelle d'accéder à la `CERTIFICATION_TOSA_EXPERT` avec un parcours parfait.
 - **Base de 111 questions** : La base locale JSON compte 111 questions qui maillent l'intégralité des secteurs d'expertise (Calculs, Données, Mise en Forme, Environnement) du Novice à l'Expert.
 
-## Auto-Positionnement et Génération (v1.5)
-- **UX Adaptative et Ergonomique** : Le candidat navigue via un système d'accordéons de domaine. Bouton maître "Tout déclarer Acquis", format condensé sur une seule ligne.
-- **Règles Métier Intelligentes** : Si la maîtrise est définie sur "Aucune" ou "Moyenne", le choix de formation s'active automatiquement ("Oui"). Saisie en cascade automatique.
-- **Générateur JSON Structuré** : Le bouton de soumission compile via l'API un plan de formation rigoureux calqué sur l'organisation des programmes `programmes.json`, incluant devis 45€/h et durées estimées.
+## Auto-Positionnement et Génération (v2.1)
+- **UI Matricielle Premium** : Navigation par accordéons avec sélecteurs circulaires colorés (Rouge, Jaune, Vert pour l'Acquis / Noir pour le Besoin).
+- **Cascade Asymétrique** : Automatisme intelligent de l'Acquisition vers le Besoin (override autorisé sans casser la déclaration initiale).
+- **Réflexivité & Sécurité** : Conservation des saisies en session Flask (anti-rafraîchissement) et purge automatique inter-candidats pour la confidentialité.
+- **Générateur JSON Structuré** : Compilation d'un plan de formation complet avec devis (45€/h) et durées, mappé sur `programmes.json`.
 
 ## Configuration pour Vercel
 Déployer sur Vercel en'ajoutant un fichier `vercel.json`:

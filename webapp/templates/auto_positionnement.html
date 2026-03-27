@@ -90,38 +90,95 @@
             .condensed-group { flex-wrap: wrap; }
             .condensed-group[style] { margin-left: 0 !important; margin-top: 1rem; }
         }
-        .condensed-row {
+        .eval-section {
             display: flex;
+            gap: 2rem;
             align-items: center;
-            gap: 1.5rem;
-            margin-top: 0.5rem;
         }
-        .condensed-group {
+        .eval-block {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            gap: 0.75rem;
         }
-        .condensed-label {
+        .eval-header {
+            font-size: 0.75rem;
             font-weight: 700;
             color: var(--text-muted);
-            font-size: 0.9rem;
-            margin: 0;
-            white-space: nowrap;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
-        .question-answers .answer-option {
-            padding: 0.35rem 0.6rem;
-            min-height: auto;
+        .eval-options {
+            display: flex;
+            gap: 1.25rem;
         }
-        .question-answers .answer-letter {
-            width: 20px;
-            height: 20px;
-            font-size: 0.7rem;
-            margin-right: 0.25rem;
+        .eval-choice {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            gap: 0.35rem;
         }
-        .question-answers .options-grid {
-            margin-top: 0;
-            gap: 0.4rem;
-            flex-direction: row;
+        .eval-choice input[type="radio"] {
+            display: none;
+        }
+        .eval-circle {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: 2px solid var(--border);
+            background-color: white;
+            transition: all 0.2s ease;
+        }
+        .eval-label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            transition: color 0.2s ease;
+        }
+
+        /* Red */
+        .eval-choice.c-red:hover .eval-circle { border-color: #dc2626; background-color: #fee2e2; }
+        .eval-choice.c-red.selected .eval-circle { border-color: #dc2626; background-color: #dc2626; }
+        .eval-choice.c-red.selected .eval-label { color: #dc2626; }
+
+        /* Yellow */
+        .eval-choice.c-yellow:hover .eval-circle { border-color: #eab308; background-color: #fef9c3; }
+        .eval-choice.c-yellow.selected .eval-circle { border-color: #eab308; background-color: #eab308; }
+        .eval-choice.c-yellow.selected .eval-label { color: #eab308; }
+
+        /* Green */
+        .eval-choice.c-green:hover .eval-circle { border-color: #16a34a; background-color: #dcfce7; }
+        .eval-choice.c-green.selected .eval-circle { border-color: #16a34a; background-color: #16a34a; }
+        .eval-choice.c-green.selected .eval-label { color: #16a34a; }
+
+        /* Black */
+        .eval-choice.c-black:hover .eval-circle { border-color: #171717; background-color: #e5e5e5; }
+        .eval-choice.c-black.selected .eval-circle { border-color: #171717; background-color: #171717; }
+        .eval-choice.c-black.selected .eval-label { color: #171717; }
+
+        /* White/Black outline */
+        .eval-choice.c-white .eval-circle { border-width: 4px; border-color: var(--text-muted); background: white; }
+        .eval-choice.c-white:hover .eval-circle { border-color: #171717; background-color: #f5f5f5; }
+        .eval-choice.c-white.selected .eval-circle { border-color: #171717; background-color: white; border-width: 6px; }
+        .eval-choice.c-white.selected .eval-label { color: #171717; }
+
+        .domain-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .comp-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap; 
+            gap: 1rem;
+        }
+        @media (max-width: 768px) {
+            .eval-section { flex-direction: column; gap: 1rem; align-items: flex-start; }
+            .domain-row { flex-direction: column; align-items: flex-start; gap: 1rem; }
         }
         details > summary::-webkit-details-marker {
             display: none;
@@ -155,6 +212,14 @@
                 <div class="text-center mb-lg">
                     <h1>Auto-Positionnement</h1>
                     <p class="text-muted">Évaluez vous-même votre niveau pour chaque compétence</p>
+                    {% if last_data %}
+                    <div class="mt-md">
+                        <button type="button" class="btn btn-outline btn-sm" onclick="clearSessionData()">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="vertical-align: middle; margin-right: 4px;"><path d="M19 7l-7 7-7-7"></path></svg>
+                            Effacer mes saisies précédentes
+                        </button>
+                    </div>
+                    {% endif %}
                 </div>
 
                 <!-- Formulaire -->
@@ -219,42 +284,94 @@
     </div>
 
     <script>
-        window.setDomainAcquis = function(domainIndex) {
+        const lastData = {{ last_data | tojson | safe }};
+
+        function clearSessionData() {
+            if(confirm("Voulez-vous effacer toutes vos saisies précédentes ?")) {
+                fetch('/api/clear-auto-session', {method: 'POST'})
+                .then(() => window.location.reload());
+            }
+        }
+
+        // Fonction pour synchroniser visuellement une grille de choix (cercles pleins/vides)
+        function updateChoiceUI(inputName, value) {
+            const radio = document.querySelector(`input[name="${inputName}"][value="${value}"]`);
+            if (!radio) return;
+            const optGrid = radio.closest('.eval-options');
+            if (optGrid) {
+                optGrid.querySelectorAll('.eval-choice').forEach(o => o.classList.remove('selected'));
+                radio.closest('.eval-choice').classList.add('selected');
+            }
+        }
+
+        // Cascade unidirectionnelle : Acquis => Besoin
+        window.syncLineCascade = function(compCode, sourceField, value) {
+            // On ne réagit QUE si la source est 'maitrise'
+            if (sourceField === 'maitrise') {
+                // Si Acquis = Oui (Acquise) -> Besoin = Non
+                // Si Acquis = Non/Moyen -> Besoin = Oui
+                const targetVal = (value === 'Acquise') ? 'Non' : 'Oui';
+                const targetInput = document.querySelector(`input[name="souhait_${compCode}"][value="${targetVal}"]`);
+                if (targetInput) {
+                    targetInput.checked = true;
+                    updateChoiceUI(`souhait_${compCode}`, targetVal);
+                }
+            }
+            // Si la source est 'souhait', on ne fait RIEN sur 'maitrise' (liberté totale)
+        };
+
+        window.setDomainBulkAction = function(domainIndex, type, value) {
             const container = document.getElementById('domain-content-' + domainIndex);
             if (!container) return;
-            container.querySelectorAll('input[type="radio"][value="Acquise"]').forEach(input => {
-                if(input.name.startsWith('maitrise_')) {
-                    input.checked = true;
-                    // Trigger custom change logic for styling and cascade
-                    input.dispatchEvent(new Event('change', { bubbles: true }));
-                    const optGrid = input.closest('.options-grid');
-                    if (optGrid) {
-                        optGrid.querySelectorAll('.answer-option').forEach(o => o.classList.remove('selected'));
-                        input.closest('.answer-option').classList.add('selected');
-                    }
-                }
+            
+            // 1. Appliquer à toutes les lignes
+            container.querySelectorAll(`input[type="radio"][name^="${type}_"][value="${value}"]`).forEach(input => {
+                const compCode = input.name.split('_')[1];
+                input.checked = true;
+                updateChoiceUI(input.name, value);
+                
+                // 2. Déclencher la cascade sur chaque ligne (ex: Acquis -> Besoin)
+                window.syncLineCascade(compCode, type, value);
             });
+            
+            // 3. Mettre à jour l'état visuel de l'en-tête (celui cliqué)
+            updateChoiceUI(`domain_${domainIndex}_${type}`, value);
+            
+            // 4. Mettre à jour l'état visuel de l'autre bloc de l'en-tête (UNIQUEMENT si on agit sur 'maitrise')
+            if (type === 'maitrise') {
+                const otherVal = (value === 'Acquise' ? 'Non' : 'Oui');
+                updateChoiceUI(`domain_${domainIndex}_souhait`, otherVal);
+                
+                // S'assurer que les radios cachés de l'en-tête sont aussi cochés pour la cohérence
+                const targetHeader = document.querySelector(`input[name="domain_${domainIndex}_souhait"][value="${otherVal}"]`);
+                if (targetHeader) targetHeader.checked = true;
+            }
         };
         
         document.addEventListener('DOMContentLoaded', () => {
+            // Restauration des champs textes/form de base
+            if (lastData && lastData.candidat) {
+                if (lastData.candidat.prenom) document.getElementById('candidat-prenom').value = lastData.candidat.prenom;
+                if (lastData.candidat.nom) document.getElementById('candidat-nom').value = lastData.candidat.nom;
+                if (lastData.candidat.email) document.getElementById('candidat-email').value = lastData.candidat.email;
+                if (lastData.candidat.objectifs) document.getElementById('candidat-objectifs').value = lastData.candidat.objectifs;
+            }
+            if (lastData && lastData.formation) {
+                formationSelect.value = lastData.formation;
+                formationSelect.dispatchEvent(new Event('change'));
+            }
+
             const container = document.getElementById('competences-container');
             if (container) {
                 container.addEventListener('change', function(e) {
-                    if (e.target.name && e.target.name.startsWith('maitrise_')) {
-                        const compCode = e.target.name.split('_')[1];
-                        let val = 'Oui';
-                        if (e.target.value === 'Acquise') {
-                            val = 'Non';
-                        }
-                        const souhaitRadio = document.querySelector(`input[name="souhait_${compCode}"][value="${val}"]`);
-                        if (souhaitRadio) {
-                            souhaitRadio.checked = true;
-                            const optGrid = souhaitRadio.closest('.options-grid');
-                            if (optGrid) {
-                                optGrid.querySelectorAll('.answer-option').forEach(o => o.classList.remove('selected'));
-                                souhaitRadio.closest('.answer-option').classList.add('selected');
-                            }
-                        }
+                    if (e.target.name && (e.target.name.startsWith('maitrise_') || e.target.name.startsWith('souhait_'))) {
+                        const parts = e.target.name.split('_');
+                        const type = parts[0];
+                        const compCode = parts[1];
+                        const value = e.target.value;
+                        
+                        // Déclencher la cascade croisée manuelle
+                        window.syncLineCascade(compCode, type, value);
                     }
                 });
             }
@@ -280,11 +397,37 @@
                         option.textContent = `${niveau.nom} (${niveau.niveau_tosa})`;
                         niveauSelect.appendChild(option);
                     });
+
+                    // RESTAURATION du Niveau (Réflexivité)
+                    if (lastData && lastData.niveau) {
+                        niveauSelect.value = lastData.niveau;
+                        niveauSelect.dispatchEvent(new Event('change'));
+                    }
                 } catch (error) {
                     console.error('Erreur:', error);
                 }
             }
         });
+
+        // Fonction de restauration des choix radio après chargement des compétences
+        function restoreRadioChoices() {
+            if (!lastData || !lastData.reponses) return;
+            
+            lastData.reponses.forEach(rep => {
+                // Restauration Maîtrise
+                const mInput = document.querySelector(`input[name="maitrise_${rep.code}"][value="${rep.maitrise}"]`);
+                if (mInput) {
+                    mInput.checked = true;
+                    updateChoiceUI(`maitrise_${rep.code}`, rep.maitrise);
+                }
+                // Restauration Souhait
+                const sInput = document.querySelector(`input[name="souhait_${rep.code}"][value="${rep.souhait}"]`);
+                if (sInput) {
+                    sInput.checked = true;
+                    updateChoiceUI(`souhait_${rep.code}`, rep.souhait);
+                }
+            });
+        }
 
         niveauSelect.addEventListener('change', async function() {
             const formationId = formationSelect.value;
@@ -310,58 +453,98 @@
                 domainesKeys.forEach(domaine => {
                     domainIndex++;
                     html += `
-                        <details class="domain-accordion" style="margin-bottom: 1.5rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden;">
-                            <summary style="padding: 1.5rem; font-size: 1.25rem; font-weight: 700; color: var(--primary); display: flex; justify-content: space-between; align-items: center; cursor: pointer; list-style: none;" class="domain-summary">
-                                <span style="display:flex; align-items:center; gap:0.5rem;">
-                                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg> 
-                                    ${domaine}
-                                </span>
-                                <button type="button" class="btn btn-outline btn-sm" style="padding: 0.25rem 0.5rem; font-size: 0.8rem;" onclick="event.preventDefault(); window.setDomainAcquis(${domainIndex})">✓ Tout déclarer Acquis</button>
+                        <details class="domain-accordion" style="margin-bottom: 1.5rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: visible;" open>
+                            <summary style="padding: 1.5rem; cursor: pointer; list-style: none;" class="domain-summary" id="domain-header-${domainIndex}">
+                                <div class="domain-row">
+                                    <span style="font-size: 1.25rem; font-weight: 700; color: var(--primary); display:flex; align-items:center; gap:0.5rem;">
+                                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg> 
+                                        ${domaine}
+                                    </span>
+                                    <div class="eval-section" onclick="event.stopPropagation();">
+                                        <div class="eval-block">
+                                            <div class="eval-header">------ Acquis -------</div>
+                                            <div class="eval-options">
+                                                <label class="eval-choice c-red selected">
+                                                    <input type="radio" name="domain_${domainIndex}_maitrise" value="Aucune" onchange="setDomainBulkAction(${domainIndex}, 'maitrise', 'Aucune')" checked>
+                                                    <span class="eval-circle"></span>
+                                                    <span class="eval-label">Non</span>
+                                                </label>
+                                                <label class="eval-choice c-yellow">
+                                                    <input type="radio" name="domain_${domainIndex}_maitrise" value="Moyenne" onchange="setDomainBulkAction(${domainIndex}, 'maitrise', 'Moyenne')">
+                                                    <span class="eval-circle"></span>
+                                                    <span class="eval-label">Moyen</span>
+                                                </label>
+                                                <label class="eval-choice c-green">
+                                                    <input type="radio" name="domain_${domainIndex}_maitrise" value="Acquise" onchange="setDomainBulkAction(${domainIndex}, 'maitrise', 'Acquise')">
+                                                    <span class="eval-circle"></span>
+                                                    <span class="eval-label">Oui</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="eval-block">
+                                            <div class="eval-header">----- Besoin -----</div>
+                                            <div class="eval-options">
+                                                <label class="eval-choice c-black selected">
+                                                    <input type="radio" name="domain_${domainIndex}_souhait" value="Oui" onchange="setDomainBulkAction(${domainIndex}, 'souhait', 'Oui')" checked>
+                                                    <span class="eval-circle"></span>
+                                                    <span class="eval-label">Oui</span>
+                                                </label>
+                                                <label class="eval-choice c-white">
+                                                    <input type="radio" name="domain_${domainIndex}_souhait" value="Non" onchange="setDomainBulkAction(${domainIndex}, 'souhait', 'Non')">
+                                                    <span class="eval-circle"></span>
+                                                    <span class="eval-label">Non</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </summary>
                             <div style="padding: 0 1.5rem 1.5rem 1.5rem; border-top: 1px solid var(--border);" id="domain-content-${domainIndex}">
                     `;
                     
                     competences[domaine].forEach(comp => {
                         html += `
-                            <div class="question-card" style="margin-top: 1rem; margin-bottom: 0; box-shadow: none; border-color: var(--border); padding: 1rem 1.25rem;" data-code="${comp.code}" data-nom="${comp.nom.replace(/"/g, '&quot;')}">
-                                <div class="question-text" style="font-size: 0.95rem; margin-bottom: 0.5rem;">
-                                    <span class="question-number" style="width:24px; height:24px; font-size:0.8rem;">${index}</span>
-                                    <span>${comp.nom}</span>
-                                </div>
-                                <div class="question-answers condensed-row">
-                                    <div class="condensed-group">
-                                        <span class="condensed-label">Maîtrise :</span>
-                                        <div class="options-grid maitrise-grid">
-                                            <label class="answer-option selected">
-                                                <input type="radio" required name="maitrise_${comp.code}" value="Aucune" checked>
-                                                <span class="answer-letter">A</span>
-                                                <span style="font-weight: 500; font-size:0.85rem;">Aucune</span>
-                                            </label>
-                                            <label class="answer-option">
-                                                <input type="radio" required name="maitrise_${comp.code}" value="Moyenne">
-                                                <span class="answer-letter">M</span>
-                                                <span style="font-weight: 500; font-size:0.85rem;">Moyenne</span>
-                                            </label>
-                                            <label class="answer-option">
-                                                <input type="radio" required name="maitrise_${comp.code}" value="Acquise">
-                                                <span class="answer-letter">C</span>
-                                                <span style="font-weight: 500; font-size:0.85rem;">Acquise</span>
-                                            </label>
-                                        </div>
+                            <div class="question-card" style="margin-top: 1.5rem; margin-bottom: 0; box-shadow: none; border-color: var(--border); padding: 1.25rem;" data-code="${comp.code}" data-nom="${comp.nom.replace(/"/g, '&quot;')}">
+                                <div class="comp-row">
+                                    <div class="question-text" style="font-size: 0.95rem; margin-bottom: 0; flex: 1; min-width: 250px;">
+                                        <span class="question-number" style="width:24px; height:24px; font-size:0.8rem; margin-right:0.75rem;">${index}</span>
+                                        <span>${comp.nom}</span>
                                     </div>
-                                    <div class="condensed-group" style="margin-left: auto;">
-                                        <span class="condensed-label">Besoin :</span>
-                                        <div class="options-grid souhait-grid">
-                                            <label class="answer-option selected">
-                                                <input type="radio" required name="souhait_${comp.code}" value="Oui" checked>
-                                                <span class="answer-letter">O</span>
-                                                <span style="font-weight: 500; font-size:0.85rem;">Oui, souhaité</span>
-                                            </label>
-                                            <label class="answer-option">
-                                                <input type="radio" required name="souhait_${comp.code}" value="Non">
-                                                <span class="answer-letter">N</span>
-                                                <span style="font-weight: 500; font-size:0.85rem;">Non, inutile</span>
-                                            </label>
+                                    <div class="eval-section">
+                                        <div class="eval-block">
+                                            <div class="eval-header">------ Acquis -------</div>
+                                            <div class="eval-options">
+                                                <label class="eval-choice c-red selected">
+                                                    <input type="radio" required name="maitrise_${comp.code}" value="Aucune" checked>
+                                                    <span class="eval-circle"></span>
+                                                    <span class="eval-label">Non</span>
+                                                </label>
+                                                <label class="eval-choice c-yellow">
+                                                    <input type="radio" required name="maitrise_${comp.code}" value="Moyenne">
+                                                    <span class="eval-circle"></span>
+                                                    <span class="eval-label">Moyen</span>
+                                                </label>
+                                                <label class="eval-choice c-green">
+                                                    <input type="radio" required name="maitrise_${comp.code}" value="Acquise">
+                                                    <span class="eval-circle"></span>
+                                                    <span class="eval-label">Oui</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="eval-block">
+                                            <div class="eval-header">----- Besoin -----</div>
+                                            <div class="eval-options">
+                                                <label class="eval-choice c-black selected">
+                                                    <input type="radio" required name="souhait_${comp.code}" value="Oui" checked>
+                                                    <span class="eval-circle"></span>
+                                                    <span class="eval-label">Oui</span>
+                                                </label>
+                                                <label class="eval-choice c-white">
+                                                    <input type="radio" required name="souhait_${comp.code}" value="Non">
+                                                    <span class="eval-circle"></span>
+                                                    <span class="eval-label">Non</span>
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -380,14 +563,21 @@
                 competencesContainer.innerHTML = html;
                 
                 // Add interactivity for strictly selected answer UI
-                document.querySelectorAll('.options-grid .answer-option').forEach(option => {
-                    option.addEventListener('click', function() {
-                        const parent = this.closest('.options-grid');
-                        parent.querySelectorAll('.answer-option').forEach(o => o.classList.remove('selected'));
+                document.querySelectorAll('.eval-options .eval-choice').forEach(option => {
+                    option.addEventListener('click', function(e) {
+                        // Empêcher les boucles d'événements
+                        if (e.target.tagName === 'INPUT') return;
+                        const parent = this.closest('.eval-options');
+                        parent.querySelectorAll('.eval-choice').forEach(o => o.classList.remove('selected'));
                         this.classList.add('selected');
-                        this.querySelector('input').checked = true;
+                        const rb = this.querySelector('input');
+                        rb.checked = true;
+                        rb.dispatchEvent(new Event('change', { bubbles: true }));
                     });
                 });
+
+                // RESTAURATION DES CHOIX (Réflexivité)
+                restoreRadioChoices();
                 
             } catch (error) {
                 console.error('Erreur:', error);

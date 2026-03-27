@@ -154,7 +154,8 @@ Candidats, tests_recus, programmes_generes, config
 - Hebergement Vercel/Moodle
 - Test adaptatif IRT long (30 questions obligatoires pour laisser la chance d'atteindre le niveau Expert)
 - Restitution visuelle et animée du positionnement via Chart.js (courbe d'évolution, KPIs de réussites).
-- Auto-positionnement UX (accordéons, master switch, options condensées sur 1 ligne, 45€/h base tarifaire).
+- Auto-positionnement UX (accordéons, master switch matriciel, cercles colorés Acquis/Besoin, 45€/h base tarifaire).
+- Réflexivité du formulaire (persistance session) et protection de la confidentialité (purge automatique).
 - Rapport Auto-Posi backend complet via module `rapport_builder` en sortie `Exemple_programme_candidat` JSON-like.
 - Mode `Debug` intégré pour la QA.
 
@@ -200,6 +201,11 @@ Candidats, tests_recus, programmes_generes, config
 
 
 ## 9. Historique des versions
+
+### v2.1 (27/03/2026 - Fin de journée)
+- **Auto-Positionnement v2.0** : Refonte UI complète avec sélecteurs matriciels (cercles colorés) conformes à l'identité visuelle demandée.
+- **Interactivité Cascade Asymétrique** : L'acquisition pré-remplit le besoin, mais le besoin peut être modifié librement sans altérer l'acquisition.
+- **Réflexivité & Confidentialité** : Mise en place de la persistance des saisies en session Flask (anti-perte de données) couplée à une purge automatique lors des changements de candidat pour garantir la confidentialité.
 
 ### v1.4 (27/03/2026)
 - **Débridage du plafond de Score IRT** : Application d'un incrément minimum garanti (`learning_rate = max(0.1, ...)`) pour empêcher la certitude algorithmique d'interdire au candidat d'atteindre le niveau N3 (Avancé).

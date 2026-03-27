@@ -198,6 +198,8 @@ def index():
 
 @app.route('/identification', methods=['GET', 'POST'])
 def identification():
+    # Nettoyage pour confidentialité (éviter que le candidat suivant ne voie les données)
+    session.pop('last_auto_data', None)
     if request.method == 'POST':
         action = request.form.get('action_niveau', 'test')
         niveau = 'novice' if action == 'novice' else 'debutant'
@@ -335,7 +337,10 @@ def confirmation():
 
 @app.route('/auto-positionnement')
 def auto_positionnement():
-    return render_template('auto_positionnement.html', formations=get_formations())
+    last_data = session.get('last_auto_data', {})
+    return render_template('auto_positionnement.html', 
+                         formations=get_formations(),
+                         last_data=last_data)
 
 @app.route('/soumettre', methods=['POST'])
 def soumettre():
@@ -372,11 +377,19 @@ def resultats_auto():
 def submit_auto():
     data = request.get_json()
     
+    # Save for reflexivity
+    session['last_auto_data'] = data
+    
     # Generate structured JSON report
     report = build_auto_rapport(data)
     
     session['auto_program'] = report
     return jsonify({'redirect': url_for('resultats_auto')})
+
+@app.route('/api/clear-auto-session', methods=['POST'])
+def clear_auto_session():
+    session.pop('last_auto_data', None)
+    return jsonify({'success': True})
 
 @app.route('/api/auto-questions/<formation_id>/<niveau_id>')
 def api_auto_questions(formation_id, niveau_id):
