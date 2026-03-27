@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Programme - TOSA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container header-inner">
+                <a href="/" class="logo">
+                    <div class="logo-icon">T</div>
+                    <span>Programme de formation</span>
+                </a>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container" style="max-width: 900px;">
+                <div class="card mb-lg">
+                    <div class="card-body">
+                        <h2>{{ prenom_candidat }} {{ nom_candidat }}</h2>
+                        <p><strong>Email :</strong> {{ email_candidat }}</p>
+                        <p><strong>Objectifs :</strong> {{ objectifs }}</p>
+                    </div>
+                </div>
+
+                <div class="card mb-lg">
+                    <div class="card-body">
+                        <h3>Bilan et Programme Proposé</h3>
+                        {% if not themes_a_former %}
+                            <p>Aucun besoin prioritaire identifié. Vous maîtrisez déjà l'essentiel des compétences exigées !</p>
+                        {% else %}
+                            {% for theme in themes_a_former %}
+                                <div class="mb-lg">
+                                    <h4 style="border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                                        {{ theme.nom }} 
+                                        <span style="font-size: 0.8rem; color: var(--text-muted); float: right;">{{ theme.duree_estimee }} Heures</span>
+                                    </h4>
+                                    <ul style="list-style: none; padding: 0;">
+                                    {% for c_nom in theme.competences_noms %}
+                                        <li style="padding: 0.75rem; background: var(--bg-gray); margin-bottom: 0.5rem; border-radius: 6px; display: flex; justify-content: space-between; align-items: center;">
+                                            <span style="font-weight: 500;">{{ c_nom }}</span>
+                                            <span style="color: #dc2626; font-size: 0.75rem; font-weight: 700; background: #fee2e2; padding: 0.25rem 0.5rem; border-radius: 4px;">Objectif Pédagogique (Forte dde)</span>
+                                        </li>
+                                    {% endfor %}
+                                    </ul>
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h3>Estimations d'investissement (Programme Indicatif)</h3>
+                        <div style="display: flex; justify-content: space-around; margin-top: 1.5rem;">
+                            <div>
+                                <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.25rem;">Durée Pédagogique Évaluée (Base 30m/cmpt)</p>
+                                <p style="font-size: 2.2rem; font-weight: 800; color: var(--primary);">{{ duree_totale_estimee }} Heures</p>
+                            </div>
+                            <div>
+                                <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.25rem;">Budget Net (Hors TVA, Base 45€/h)</p>
+                                <p style="font-size: 2.2rem; font-weight: 800; color: #16a34a;">{{ prix_total_estime }} €</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-lg">
+                    <a href="/" class="btn btn-outline">Retour à l'accueil</a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
