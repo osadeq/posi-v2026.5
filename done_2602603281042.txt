@@ -1,0 +1,17 @@
+Résumé des modifications :
+1. Webapp (webapp/app.py)
+   - Ajout du champ objectifs dans les données du candidat envoyées à /resultats
+   - Passage du candidat au template test_adaptatif.html
+2. Dashboard (dashboard/app.py)
+   - Ajout calcul répartition des besoins (Fort/Moyen/Faible) sur la page d'accueil
+   - Filtre temporel "esadeq_timeTravel" pour filtrer les tests par mois/année
+   - Import CSV fonctionnel avec gestion d'erreurs
+   - Génération PDF (HTML) et Excel (CSV) des programmes
+   - Nouvelle route /analyser/<test_id> pour voir les détails avec courbe IRT
+   - Route /generer-programme/<test_id> pour générer un programme
+3. Templates
+   - dashboard.html : graphique-barres des besoins
+   - tests.html : filtre temporel
+   - importer.html : messages de succès/erreur
+   - test_detail.html : nouveau template avec courbe IRT (Chart.js)
+4. Design system : Déjà aligné sur #2563EB dans tous les templates

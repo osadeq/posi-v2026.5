@@ -1,0 +1,42 @@
+# Validation du paramétrage IRT
+
+Suite à la lecture de [q-dev-chat-2026-03-26.md](file:///c:/Users/sadeq/Desktop/posi-v2026.5/q-dev-chat-2026-03-26.md), le recalibrage des questions a été validé par la création et l'exécution d'un jeu d'essai complet ([test_irt_scenarios.py](file:///c:/Users/sadeq/Desktop/posi-v2026.5/test_irt_scenarios.py)).
+
+## Scénarios simulés et validés
+
+| Profil Initial | Stratégie de réponse | Theta Final | Positionnement Résultant |
+| :--- | :--- | :--- | :--- |
+| **Novice** | N/A | -2.0 | Novice / **EXCEL-INIT** |
+| **Débutant** | Tout faux | -3.0 | Novice / **EXCEL-INIT** |
+| **Débutant** | Tout juste | 0.43 | Intermédiaire / **EXCEL-PERF** |
+| **Débutant** | Juste sur Q Faciles | -0.15 | Débutant / **EXCEL-INTER** |
+| **Intermédiaire**| Tout faux | -0.99 | Novice / **EXCEL-INIT** |
+| **Intermédiaire**| Tout juste | 1.37 | Avancé / **CERTIFICATION_TOSA_EXPERT** |
+| **Intermédiaire**| Juste sur Q Faciles | -0.11 | Débutant / **EXCEL-INTER** |
+| **Perfectionnement**| Tout faux | 0.17 | Intermédiaire / **EXCEL-PERF** |
+| **Perfectionnement**| Tout juste | 1.93 | Avancé / **CERTIFICATION_TOSA_EXPERT** |
+| **Perfectionnement**| Juste sur Q Difficiles | 1.93 | Avancé / **CERTIFICATION_TOSA_EXPERT** |
+
+## Conclusion
+Le changement de la logique de positionnement dans [get_level()](file:///c:/Users/sadeq/Desktop/posi-v2026.5/webapp/app.py#128-144) de l'application web, couplé avec le recalibrage des niveaux d'information/difficulté des 30 questions paramétrées dans le répertoire `db/questions/`.
+
+Le positionnement réagit maintenant dynamiquement et fidèlement pour tous les cas de tests !
+# Refonte de l'Auto-Positionnement (v2.0)
+
+L'interface d'auto-positionnement a été entièrement révisée pour offrir une expérience premium et automatisée.
+
+## Améliorations UI/UX
+- **Sélecteurs Matriciels** : Remplacement des boutons radios standards par des cercles de progression colorés (Acquis : Rouge/Jaune/Vert ; Besoin : Noir/Blanc).
+- **Contrôle Global par Domaine** : Ajout de boutons d'action sur les en-têtes de catégorie permettant de piloter toutes les compétences enfants d'un seul clic.
+- **Interactivité Cascade Asymétrique** : 
+    - Modifier l'Acquisition pré-remplit intelligemment le Besoin.
+    - Modifier le Besoin manuellement préserve l'Acquisition déclarée (liberté totale pour le candidat).
+
+## Robustification et Confidentialité
+- **Réflexivité du Formulaire** : Les saisies (nom, email, objectifs, choix de formation et compétences) sont désormais conservées en session. En cas de retour arrière ou de rafraîchissement, le candidat retrouve son travail.
+- **Protection de la Confidentialité** : 
+    - Purge automatique de la session lors du démarrage d'une nouvelle identification.
+    - Bouton "Effacer mes saisies" pour un nettoyage manuel.
+    - Purge serveur au retour à l'accueil.
+
+Le système est désormais prêt pour les environnements de test partagés tout en garantissant une saisie fluide.

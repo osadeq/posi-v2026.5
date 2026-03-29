@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier Programme - Dashboard TOSA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2563EB; --primary-dark: #1D4ED8; --secondary: #10B981; --danger: #EF4444; --bg-main: #F8FAFC; --bg-card: #FFFFFF; --bg-gray: #F1F5F9; --text-main: #1E293B; --text-muted: #64748B; --border: #E2E8F0; --radius: 0.5rem; --radius-lg: 0.75rem; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-main); color: var(--text-main); min-height: 100vh; }
+        .header { background: var(--bg-card); border-bottom: 1px solid var(--border); padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
+        .header-inner { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .logo-icon { width: 36px; height: 36px; background: var(--primary); color: white; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-weight: 700; }
+        .nav { display: flex; gap: 1rem; }
+        .nav a { color: var(--text-muted); text-decoration: none; padding: 0.5rem 1rem; border-radius: var(--radius); font-weight: 500; }
+        .nav a:hover, .nav a.active { background: var(--bg-gray); color: var(--primary); }
+        .main-content { padding: 2rem 0; }
+        h1 { font-size: 1.875rem; margin-bottom: 1.5rem; }
+        .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+        .card-body { padding: 2rem; }
+        .form-group { margin-bottom: 1.5rem; }
+        .form-label { display: block; font-weight: 500; margin-bottom: 0.5rem; }
+        .form-input { width: 100%; padding: 0.75rem; border: 1px solid var(--border); border-radius: var(--radius); font-size: 1rem; font-family: inherit; }
+        .form-input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1); }
+        .info-box { background: var(--bg-gray); padding: 1rem; border-radius: var(--radius); margin-bottom: 1.5rem; }
+        .info-label { font-size: 0.875rem; color: var(--text-muted); }
+        .info-value { font-weight: 600; }
+        .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; font-weight: 600; border: none; border-radius: var(--radius); cursor: pointer; text-decoration: none; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-dark); }
+        .btn-secondary { background: var(--bg-gray); color: var(--text-main); }
+        .btn-group { display: flex; gap: 1rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="/" class="logo">
+                <div class="logo-icon">D</div>
+                <span>Dashboard TOSA</span>
+            </a>
+            <nav class="nav">
+                <a href="/">Accueil</a>
+                <a href="/candidats">Candidats</a>
+                <a href="/tests">Tests</a>
+                <a href="/programmes">Programmes</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="main-content">
+        <div class="container">
+            <h1>Modifier Programme</h1>
+            
+            {% if programme %}
+            <div class="card">
+                <div class="card-body">
+                    <div class="info-box">
+                        <div class="form-row">
+                            <div>
+                                <div class="info-label">Candidat</div>
+                                <div class="info-value">{{ programme.candidat.nom|default('') }} {{ programme.candidat.prenom|default('') }}</div>
+                            </div>
+                            <div>
+                                <div class="info-label">Formation</div>
+                                <div class="info-value">{{ programme.formation|upper }}</div>
+                            </div>
+                            <div>
+                                <div class="info-label">Programme</div>
+                                <div class="info-value">{{ programme.programme_nom|default('-') }}</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form method="post">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Durée estimée (heures)</label>
+                                <input type="number" name="duree_estimee" class="form-input" value="{{ programme.duree_estimee|default(0) }}" step="0.5" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Coût estimé (€)</label>
+                                <input type="number" name="cout_estime" class="form-input" value="{{ programme.cout_estime|default(0) }}" step="0.01" min="0">
+                            </div>
+                        </div>
+                        
+                        <div class="btn-group">
+                            <button type="submit" class="btn btn-primary">Enregistrer</button>
+                            <a href="/programmes" class="btn btn-secondary">Annuler</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            {% else %}
+            <div class="card">
+                <div class="card-body">
+                    <p>Programme non trouvé.</p>
+                    <a href="/programmes" class="btn btn-primary" style="margin-top: 1rem;">Retour aux programmes</a>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </main>
+</body>
+</html>

@@ -128,14 +128,14 @@ class IRTEngine:
     
     def get_level(self):
         """Convertit THETA en niveau TOSA"""
-        # Theta range: -5 (very low) to 5 (very high)
-        # Map to N1/N2/N3
-        if self.theta < -1.5:
-            return "n1", "Initiation"
-        elif self.theta < 1.5:
+        if self.theta < -0.8:
+            return "n0", "Novice"
+        elif self.theta < 0:
+            return "n1", "Débutant"
+        elif self.theta < 1:
             return "n2", "Intermédiaire"
         else:
-            return "n3", "Perfectionnement"
+            return "n3", "Avancé"
     
     def get_results(self):
         """Retourne les résultats du test"""

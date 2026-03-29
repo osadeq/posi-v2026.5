@@ -542,7 +542,49 @@ L'interface affiche en temps reel :
 
 ---
 
-*Document genere le 24 mars 2026*
-*Version 1.2 - Calibrage IRT corrige et regle de positionnement unifiee*
+## 11. Historique des Versions
+
+### Version 1.4 (28 mars 2026) - CRUD et Améliorations UI
+
+#### Webapp
+- Affichage du niveau de la question (Débutant/Intermédiaire/Avancé) au lieu du %
+- Niveau IRT corrigé : Novice (< -0.8), Débutant (-0.8 à 0), Intermédiaire (0 à 1), Avancé (≥ 1)
+
+#### Dashboard Admin
+- **CRUD Complet** :
+  - Candidats : créer, modifier, supprimer
+  - Tests : créer, modifier, supprimer
+  - Programmes : créer, modifier, supprimer, dupliquer
+- **Programme auto-généré** : génération automatique à l'analyse du test
+- **Affichage détaillé du programme** :
+  - Ligne 1 : Titre du programme
+  - Ligne 2 : Durée, Coût, Nombre de thèmes
+  - Détail : Thème + Durée + Besoin (FORT/MOYEN/FAIBLE) + Compétences + Activités
+- **Niveaux lisibles** : Affichage "Novice", "Débutant", "Intermédiaire", "Avancé" avec descriptif pédagogique
+- **Objectifs candidat** : affichés dans le test et le programme
+- **Dates** : affichage date/heure (YYYY-MM-DD HH:MM:SS)
+
+### Version 1.3 (28 mars 2026) - Améliorations Dashboard
+
+#### Webapp
+- Ajout du champ `objectifs` dans les données candidat
+- Transmission du candidat vers le test adaptatif pour sauvegarde finale
+
+#### Dashboard Admin
+- **Intégration des données** : connexion automatique au fichier `tests_soumis.json`
+- **Répartition des Besoins** : graphique-barres avec pourcentages (Fort/Moyen/Faible)
+- **Filtre temporel** : navigation par période (mois/année) sur la liste des tests
+- **Import CSV** : fonction robuste avec gestion d'erreurs
+- **Génération PDF** : export HTML du programme de formation
+- **Génération Excel** : export CSV du programme de formation
+- **Vue détaillée des tests** : page avec courbe d'évolution IRT (Chart.js)
+- **Design system** : cohérence avec les couleurs définies (#2563EB)
+
+---
+
+*Document généré le 24 mars 2026*
+*Version 1.4 - CRUD et améliorations UI*
+*Version 1.3 - Améliorations Dashboard et intégration webapp*
+*Version 1.2 - Calibrage IRT corrigé et règle de positionnement unifiée*
 *Version 1.1 - Ajout du test adaptatif IRT*
 *Version 1.0*

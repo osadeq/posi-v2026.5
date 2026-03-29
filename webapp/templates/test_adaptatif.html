@@ -177,11 +177,19 @@
                 <!-- Question -->
                 <form id="test-form">
                     <div class="question-card">
+                        {% set diff = question.difficulty|default(50) %}
+                        {% if diff < 46 %}
+                        <div class="difficulty-badge" style="background: #DBEAFE; color: #1E40AF; margin-bottom: 1rem; display: inline-block;">Niveau : Débutant</div>
+                        {% elif diff < 58 %}
+                        <div class="difficulty-badge" style="background: #D1FAE5; color: #065F46; margin-bottom: 1rem; display: inline-block;">Niveau : Intermédiaire</div>
+                        {% else %}
+                        <div class="difficulty-badge" style="background: #FEF3C7; color: #92400E; margin-bottom: 1rem; display: inline-block;">Niveau : Avancé</div>
+                        {% endif %}
+                        
                         <div class="question-text">
                             <span class="question-number">{{ progress + 1 }}</span>
                             <span>{{ question.question | safe }}</span>
                         </div>
-                        <span class="difficulty-badge">Difficulté: {{ question.difficulty }}%</span>
                         
                         <div class="question-answers mt-lg">
                             {% for key, value in question.reponses.items() %}

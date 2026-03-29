@@ -28,24 +28,37 @@ python app.py
   - `/auto-positionnement` - Auto-évaluation
   - `/confirmation` - Confirmation après soumission
 
-## Nouveautés Visuelles et Outils de QA (v1.3)
-- L'évaluation affiche désormais la progression du niveau (Novice -> Expert) en direct via une **courbe tracée par Chart.js**.
-- Les points de la courbe sont colorisés en temps réel selon la justesse de la réponse (Vert / Rouge).
-- **Mode Debug intégré** : Les bonnes réponses et retours pédagogiques s'affichent sous chaque question QCM dans un encart jaune spécifique pour permettre la validation de l'algorithme sans chercher les solutions.
+## Niveaux IRT (v1.4)
+Le test adaptatif détecte 4 niveaux :
+- **Novice** : theta < -0.8 (Aucune connaissance du logiciel)
+- **Débutant** : -0.8 ≤ theta < 0 (Connaît les bases essentielles)
+- **Intermédiaire** : 0 ≤ theta < 1 (Maîtrise les fonctions courantes)
+- **Avancé** : theta ≥ 1 (Expert, certification recommandée)
 
-## Moteur IRT et Banque de Questions (v1.4)
-- **Algorithme Aléatoire Pondéré** : Le moteur IRT choisit désormais les questions au hasard parmi les 5 meilleures questions adaptées au niveau actuel du candidat. Fin des examens monotones.
-- **Débridage de la Note Maximale** : Le seuil de chute mathématique lié à la convergence a été corrigé pour laisser la possibilité naturelle d'accéder à la `CERTIFICATION_TOSA_EXPERT` avec un parcours parfait.
-- **Base de 111 questions** : La base locale JSON compte 111 questions qui maillent l'intégralité des secteurs d'expertise (Calculs, Données, Mise en Forme, Environnement) du Novice à l'Expert.
+## Moteur IRT et Banque de Questions
+- **Algorithme Aléatoire Pondéré** : Le moteur IRT choisit les questions au hasard parmi les 5 meilleures adaptées au niveau.
+- **Affichage du niveau** : Le badge au-dessus de la question affiche "Débutant", "Intermédiaire" ou "Avancé" (au lieu du % de difficulté).
+- **Base de 111 questions** : Questions sur Calculs, Données, Mise en Forme, Environnement.
 
-## Auto-Positionnement et Génération (v2.1)
-- **UI Matricielle Premium** : Navigation par accordéons avec sélecteurs circulaires colorés (Rouge, Jaune, Vert pour l'Acquis / Noir pour le Besoin).
-- **Cascade Asymétrique** : Automatisme intelligent de l'Acquisition vers le Besoin (override autorisé sans casser la déclaration initiale).
-- **Réflexivité & Sécurité** : Conservation des saisies en session Flask (anti-rafraîchissement) et purge automatique inter-candidats pour la confidentialité.
-- **Générateur JSON Structuré** : Compilation d'un plan de formation complet avec devis (45€/h) et durées, mappé sur `programmes.json`.
+## Nouveautés Visuelles et Outils de QA
+- L'évaluation affiche la progression du niveau (Novice -> Expert) via une **courbe Chart.js**.
+- Les points sont colorisés selon la justesse (Vert / Rouge).
+- **Mode Debug intégré** : Bonnes réponses et feedbacks sous chaque question.
+
+## Auto-Positionnement et Génération
+- **UI Matricielle Premium** : Sélecteurs circulaires colorés.
+- **Générateur JSON** : Plan de formation complet avec devis (45€/h).
+
+## Format d'envoi des résultats
+Les résultats sont sauvegardés dans `../tests_soumis.json` avec :
+- candidat (nom, prénom, email, objectifs)
+- formation, niveau, type
+- réponses
+- theta, level (n0/n1/n2/n3)
+- timestamp
 
 ## Configuration pour Vercel
-Déployer sur Vercel en'ajoutant un fichier `vercel.json`:
+Déployer sur Vercel en ajoutant un fichier `vercel.json`:
 ```json
 {
   "build": {
@@ -59,7 +72,3 @@ Déployer sur Vercel en'ajoutant un fichier `vercel.json`:
   ]
 }
 ```
-
-## Format d'envoi des résultats
-Les résultats sont sauvegardés dans `../tests_soumis.json`
-(déplacé vers le dashboard pour analyse)

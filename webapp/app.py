@@ -276,7 +276,8 @@ def test_adaptatif():
                           correct_history=ch,
                           correct_count=correct_count,
                           wrong_count=wrong_count,
-                          confidence=max(0, min(100, round((1 - irt.se / 5) * 100))))
+                          confidence=max(0, min(100, round((1 - irt.se / 5) * 100))),
+                          candidat=session.get('candidat', {}))
 
 @app.route('/api/answer', methods=['POST'])
 def api_answer():
@@ -316,9 +317,38 @@ def resultats():
     
     irt = IRTEngine.from_dict(irt_data, QUESTIONS_PATH)
     results = irt.get_results()
+    
+    candidat = session.get('candidat', {})
+    
+    test_data = {
+        'id': f"TEST-{datetime.now().strftime('%Y%m%d-%H%M%S')}",
+        'candidat': {
+            'nom': candidat.get('nom', ''),
+            'prenom': candidat.get('prenom', ''),
+            'email': candidat.get('email', ''),
+            'objectifs': candidat.get('objectifs', '')
+        },
+        'formation': candidat.get('formation', 'excel'),
+        'niveau': candidat.get('niveau', 'debutant'),
+        'type': 'testPositionnement',
+        'reponses': [{'questionId': qid, 'reponse': ans.get('answer', '')} for qid, ans in irt.answers.items()],
+        'theta': results.get('theta', 0),
+        'level': results.get('level', 'n1'),
+        'timestamp': datetime.now().isoformat()
+    }
+    
+    tests_file = os.path.join(BASE_DIR, 'tests_soumis.json')
+    tests = []
+    if os.path.exists(tests_file):
+        with open(tests_file, 'r', encoding='utf-8') as f:
+            tests = json.load(f)
+    tests.append(test_data)
+    with open(tests_file, 'w', encoding='utf-8') as f:
+        json.dump(tests, f, ensure_ascii=False, indent=2)
+    
     return render_template('resultats.html', 
                         results=results, 
-                        candidat=session.get('candidat', {}))
+                        candidat=candidat)
 
 @app.route('/api/niveaux/<formation_id>')
 def api_niveaux(formation_id):

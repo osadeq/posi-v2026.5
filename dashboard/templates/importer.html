@@ -59,6 +59,16 @@
             
             <div class="card">
                 <div class="card-body">
+                    {% if message %}
+                    <div class="alert alert-success" style="background: #D1FAE5; color: #065F46; margin-bottom: 1rem;">
+                        {{ message }}
+                    </div>
+                    {% endif %}
+                    {% if error %}
+                    <div class="alert alert-error" style="background: #FEE2E2; color: #991B1B; margin-bottom: 1rem;">
+                        {{ error }}
+                    </div>
+                    {% endif %}
                     <div class="alert alert-info">
                         <strong>Format CSV attendu :</strong><br>
                         colonnes: nom, prenom, email, formation, niveau, type_test, reponse_1, reponse_2, ...

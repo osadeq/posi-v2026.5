@@ -27,31 +27,50 @@ python main.py
 - Nombre de tests reçus
 - Nombre de candidats
 - Nombre de programmes générés
+- **Répartition des Besoins** : graphique-barres Fort/Moyen/Faible avec pourcentages
 
-### Gestion des candidats
+### Gestion des candidats (CRUD)
 - Liste des candidats
-- Rechercher par nom/email
+- **Créer** : nouveau candidat avec nom, prénom, email, téléphone, entreprise, objectifs
+- **Modifier** : éditer les informations
+- **Supprimer** : supprimer un candidat
 
-### Tests reçus
+### Tests reçus (CRUD)
 - Liste des tests soumis via la webapp
-- Bouton "Charger les tests" pour importer
-- Analyser un test → générer un programme
+- **Filtre temporel** : navigation par mois/année
+- Bouton "Charger les tests" pour importer depuis `tests_soumis.json`
+- **Créer** : nouveau test manuellement
+- **Analyser** : voir détails + programme auto-généré avec courbe IRT
+- **Modifier / Supprimer**
+- Niveau détecté affiché : Novice, Débutant, Intermédiaire, Avancé
+- Objectifs du candidat affichés
+- Dates : affichage date/heure
 
-### Programmes générés
+### Programmes générés (CRUD)
 - Liste des programmes personnalisés
-- Génération PDF
-- Génération Excel
-- Détail: durée estimée, coût estimé, thèmes
+- **Génération auto** : à l'analyse du test
+- **Génération PDF** (format HTML)
+- **Génération Excel** (format CSV)
+- **Modifier** : durée, coût
+- **Dupliquer** : copier un programme
+- **Supprimer**
+- Détail du programme :
+  - Ligne 1 : Titre du programme
+  - Ligne 2 : Durée, Coût, Nombre de thèmes
+  - Détail : Thème + Durée + Besoin (FORT/MOYEN/FAIBLE) + Compétences + Activités
 
 ### Import CSV
 - Importer des tests saisis hors webapp
-- Format attendu: nom,prenom,email,formation,niveau,reponses
+- Format attendu: nom,prenom,email,formation,niveau,type_test,reponses...
+- Gestion des erreurs robuste
 
 ## Données
 Les données sont stockées dans `data/data.json`:
 - candidats
 - tests_recus
 - programmes_generes
+
+Les tests sont automatiquement chargés depuis `../tests_soumis.json` (webapp).
 
 ## Configuration
 Modifier `data/data.json` pour changer:

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails du Test - Dashboard TOSA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root { --primary: #2563EB; --primary-dark: #1D4ED8; --secondary: #10B981; --bg-main: #F8FAFC; --bg-card: #FFFFFF; --bg-gray: #F1F5F9; --text-main: #1E293B; --text-muted: #64748B; --border: #E2E8F0; --radius: 0.5rem; --radius-lg: 0.75rem; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-main); color: var(--text-main); min-height: 100vh; }
+        .header { background: var(--bg-card); border-bottom: 1px solid var(--border); padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem; }
+        .header-inner { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.25rem; color: var(--primary); text-decoration: none; }
+        .logo-icon { width: 36px; height: 36px; background: var(--primary); color: white; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-weight: 700; }
+        .nav { display: flex; gap: 1rem; }
+        .nav a { color: var(--text-muted); text-decoration: none; padding: 0.5rem 1rem; border-radius: var(--radius); font-weight: 500; }
+        .nav a:hover, .nav a.active { background: var(--bg-gray); color: var(--primary); }
+        .main-content { padding: 2rem 0; }
+        h1 { font-size: 1.875rem; margin-bottom: 1rem; }
+        h2 { font-size: 1.25rem; margin: 1.5rem 0 1rem; }
+        .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+        .card-header { padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); font-weight: 600; }
+        .card-body { padding: 1.5rem; }
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+        .info-item { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.5rem; }
+        .info-label { color: var(--text-muted); font-size: 0.875rem; margin-bottom: 0.5rem; }
+        .info-value { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; font-weight: 600; border: none; border-radius: var(--radius); cursor: pointer; text-decoration: none; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-dark); }
+        .btn-secondary { background: var(--secondary); color: white; }
+        .chart-container { position: relative; height: 400px; margin: 1.5rem 0; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--border); }
+        th { background: var(--bg-gray); font-weight: 600; color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; }
+        .badge { display: inline-block; padding: 0.25rem 0.75rem; font-size: 0.75rem; font-weight: 600; border-radius: 9999px; }
+        .badge-correct { background: #D1FAE5; color: #065F46; }
+        .badge-wrong { background: #FEE2E2; color: #991B1B; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="/" class="logo">
+                <div class="logo-icon">D</div>
+                <span>Dashboard TOSA</span>
+            </a>
+            <nav class="nav">
+                <a href="/">Accueil</a>
+                <a href="/tests">Tests</a>
+                <a href="/programmes">Programmes</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="main-content">
+        <div class="container">
+            <h1>Test #{{ test.id }}</h1>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-label">Candidat</div>
+                    <div class="info-value" style="font-size: 1.25rem;">{{ test.candidat.nom|default('-') }} {{ test.candidat.prenom|default('') }}</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Formation</div>
+                    <div class="info-value" style="font-size: 1.25rem;">{{ test.formation|upper }}</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Niveau détecté</div>
+                    {% set lvl = test.level|default(test.niveau) %}
+                    {% if lvl == 'n0' %}
+                    <div class="info-value" style="font-size: 1.25rem; color: #991B1B;">Novice</div>
+                    <div style="font-size: 0.75rem; color: #991B1B;">Aucune connaissance du logiciel</div>
+                    {% elif lvl == 'n1' %}
+                    <div class="info-value" style="font-size: 1.25rem; color: #1E40AF;">Débutant</div>
+                    <div style="font-size: 0.75rem; color: #1E40AF;">Connaît les bases essentielles</div>
+                    {% elif lvl == 'n2' %}
+                    <div class="info-value" style="font-size: 1.25rem; color: #065F46;">Intermédiaire</div>
+                    <div style="font-size: 0.75rem; color: #065F46;">Maîtrise les fonctions courantes</div>
+                    {% elif lvl == 'n3' %}
+                    <div class="info-value" style="font-size: 1.25rem; color: #92400E;">Avancé</div>
+                    <div style="font-size: 0.75rem; color: #92400E;">Expert, certification recommandée</div>
+                    {% else %}
+                    <div class="info-value" style="font-size: 1.25rem;">{{ lvl|upper }}</div>
+                    {% endif %}
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Theta</div>
+                    <div class="info-value" style="font-size: 1.25rem;">{{ test.theta|default(0) }}</div>
+                </div>
+            </div>
+            
+            {% if programme %}
+            <div class="card" style="margin-top: 2rem;">
+                <div class="card-header">Programme de Formation</div>
+                <div class="card-body" style="padding: 0;">
+                    {# Ligne 1: Titre #}
+                    <div style="padding: 1.5rem; border-bottom: 1px solid var(--border);">
+                        {{ programme.programme_nom|default('-') }}
+                    </div>
+                    
+                    {# Objectifs #}
+                    {% if programme.objectifs %}
+                    <div style="padding: 1rem 1.5rem; background: #FEF9C3; border-bottom: 1px solid #FDE047;">
+                        <strong style="color: #713F12;">Objectifs du candidat :</strong>
+                        <p style="margin-top: 0.5rem; color: #713F12; font-size: 0.875rem;">{{ programme.objectifs }}</p>
+                    </div>
+                    {% endif %}
+                    
+                    {# Ligne 2: Résumé #}
+                    <div style="padding: 1rem 1.5rem; background: var(--bg-gray); display: flex; gap: 2rem;">
+                        <div><strong>Durée:</strong> {{ programme.duree_estimee|default(0) }}h</div>
+                        <div><strong>Coût:</strong> {{ programme.cout_estime|default(0) }}€</div>
+                        <div><strong>Thèmes:</strong> {{ programme.themes|length if programme.themes else 0 }}</div>
+                    </div>
+                    
+                    {# Lignes thèmes détaillés #}
+                    {% if programme.themes %}
+                    <div style="padding: 1.5rem;">
+                        {% for theme in programme.themes %}
+                        <div style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border);">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <strong style="font-size: 1.1rem;">{{ theme.nom }}</strong>
+                                <span style="background: {% if theme.niveau_besoin|default('moyen') == 'fort' %}#FEE2E2{% elif theme.niveau_besoin|default('moyen') == 'moyen' %}#FEF3C7{% else %}#D1FAE5{% endif %}; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600;">
+                                    Besoin: {{ theme.niveau_besoin|default('moyen')|upper }}
+                                </span>
+                            </div>
+                            <div style="color: var(--text-muted); font-size: 0.875rem; margin-bottom: 0.75rem;">
+                                Durée: {{ theme.duree_estimee|default(0) }}h | {{ theme.nb_questions|default(0) }} compétences à acquérir
+                            </div>
+                            
+                            {# Compétences #}
+                            {% if theme.competences_noms %}
+                            <div style="margin-bottom: 0.75rem;">
+                                <strong style="font-size: 0.875rem;">Compétences à acquérir:</strong>
+                                <ul style="margin: 0.5rem 0 0 1.5rem; font-size: 0.875rem;">
+                                    {% for comp in theme.competences_noms %}
+                                    <li>{{ comp }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            {% endif %}
+                            
+                            {# Activités #}
+                            {% if theme.contenu_programme %}
+                            <div style="margin-top: 0.75rem;">
+                                <strong style="font-size: 0.875rem;">Activités:</strong>
+                                <ul style="margin: 0.5rem 0 0 1.5rem; font-size: 0.875rem; color: var(--text-muted);">
+                                    {% for activite in theme.contenu_programme[:5] %}
+                                    <li>{{ activite }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+            
+            {% if theta_history %}
+            <div class="card">
+                <div class="card-header">Courbe d'Évolution IRT</div>
+                <div class="card-body">
+                    <div class="chart-container">
+                        <canvas id="irtChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            
+            <div class="card" style="margin-top: 2rem;">
+                <div class="card-header">Réponses ({{ test.reponses|length }} questions)</div>
+                <div class="card-body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Question</th>
+                                <th>Réponse</th>
+                                <th>Statut</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for rep in test.reponses %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td>{{ rep.questionId }}</td>
+                                <td>{{ rep.reponse }}</td>
+                                <td>
+                                    {% if rep.correct %}
+                                    <span class="badge badge-correct">Correct</span>
+                                    {% else %}
+                                    <span class="badge badge-wrong">Incorrect</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                <a href="/tests" class="btn btn-primary">Retour aux tests</a>
+                {% if programme %}
+                <a href="/generer-pdf/{{ programme.id }}" class="btn btn-secondary">📄 PDF</a>
+                <a href="/generer-excel/{{ programme.id }}" class="btn btn-accent">📊 Excel</a>
+                {% endif %}
+            </div>
+        </div>
+    </main>
+    
+    {% if theta_history %}
+    <script>
+        const ctx = document.getElementById('irtChart').getContext('2d');
+        const thetaData = {{ theta_history|tojson }};
+        const correctData = {{ correct_history|tojson }};
+        
+        const colors = correctData.map(c => c === true ? '#10B981' : (c === false ? '#EF4444' : '#2563EB'));
+        
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: thetaData.map((_, i) => i + 1),
+                datasets: [{
+                    label: 'Theta (Niveau)',
+                    data: thetaData,
+                    borderColor: '#2563EB',
+                    backgroundColor: 'rgba(37, 99, 235, 0.1)',
+                    fill: true,
+                    tension: 0.3,
+                    pointBackgroundColor: colors,
+                    pointRadius: 6,
+                    pointHoverRadius: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        min: -3,
+                        max: 3,
+                        ticks: {
+                            callback: function(value) {
+                                if (value === -2) return 'Novice';
+                                if (value === -0.8) return 'Débutant';
+                                if (value === 0) return 'Intermédiaire';
+                                if (value === 1) return 'Avancé';
+                                if (value === 2) return 'Expert';
+                                return value;
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: { display: false }
+                }
+            }
+        });
+    </script>
+    {% endif %}
+</body>
+</html>

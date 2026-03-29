@@ -1,7 +1,2936 @@
 {
   "candidats": [],
-  "tests_recus": [],
-  "programmes_generes": [],
+  "tests_recus": [
+    {
+      "id": "TEST-20260324-214533",
+      "candidat": {
+        "nom": "O",
+        "prenom": "H",
+        "email": "o@gmail.com"
+      },
+      "formation": "excel",
+      "niveau": "n1",
+      "type": "testPositionnement",
+      "reponses": [
+        {
+          "questionId": "EXCEL-N1-ENV-C01-Q01",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C02-Q02",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C05-Q03",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C13-Q04",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C15-Q05",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-C22-Q06",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-C21-Q07",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-MFORME-C30-Q08",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-GDONNEES-C39-Q09",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-GDONNEES-C41-Q10",
+          "reponse": "A"
+        }
+      ],
+      "score": 0,
+      "timestamp": "2026-03-24T21:45:33.217590"
+    },
+    {
+      "id": "TEST-20260324-214737",
+      "candidat": {
+        "nom": "O",
+        "prenom": "A",
+        "email": "oa@gmail.com"
+      },
+      "formation": "excel",
+      "niveau": "n3",
+      "type": "testPositionnement",
+      "reponses": [
+        {
+          "questionId": "EXCEL-N3-ENV-C14-Q01",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N3-ENV-C17-Q02",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N3-CALCUL-C08-Q03",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N3-CALCUL-C03-Q04",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N3-CALCUL-C09-Q05",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N3-MFORME-C06-Q06",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N3-CALCUL-C06-Q07",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N3-CALCUL-C11-Q08",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N3-GDONNEES-C08-Q09",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N3-GDONNEES-C06-Q10",
+          "reponse": "B"
+        }
+      ],
+      "score": 0,
+      "timestamp": "2026-03-24T21:47:37.132574"
+    },
+    {
+      "id": "TEST-20260328-125019",
+      "candidat": {
+        "nom": "Sadeq",
+        "prenom": "O",
+        "email": "os@mail.com",
+        "objectifs": "Revoir les bases"
+      },
+      "formation": "excel",
+      "niveau": "debutant",
+      "type": "testPositionnement",
+      "reponses": [
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-02",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-03",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-04",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-05",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-08",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-09",
+          "reponse": "E"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-10",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-11",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-12",
+          "reponse": "E"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-13",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-15",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-16",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-17",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-18",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-19",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-20",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-24",
+          "reponse": "E"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-C21-Q07",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-C22-Q06",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-BQ-01",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C01-Q01",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C02-Q02",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C05-Q03",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C13-Q04",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C15-Q05",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-GDONNEES-C39-Q09",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N1-GDONNEES-C41-Q10",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-MFORME-C30-Q08",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N2-CALCUL-BQ-25",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N2-ENV-C01-Q01",
+          "reponse": "D"
+        }
+      ],
+      "theta": -1.67,
+      "level": "n0",
+      "timestamp": "2026-03-28T12:50:19.019878"
+    },
+    {
+      "id": "TEST-20260328-125205",
+      "candidat": {
+        "nom": "Sadeq",
+        "prenom": "O",
+        "email": "os@mail.com",
+        "objectifs": "Revoir les bases"
+      },
+      "formation": "excel",
+      "niveau": "debutant",
+      "type": "testPositionnement",
+      "reponses": [
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-02",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-03",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-04",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-05",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-08",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-09",
+          "reponse": "E"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-10",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-11",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-12",
+          "reponse": "E"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-13",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-15",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-16",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-17",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-18",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-19",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-20",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-BQ-24",
+          "reponse": "E"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-C21-Q07",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-CALCUL-C22-Q06",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-BQ-01",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C01-Q01",
+          "reponse": "C"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C02-Q02",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C05-Q03",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C13-Q04",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-ENV-C15-Q05",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N1-GDONNEES-C39-Q09",
+          "reponse": "A"
+        },
+        {
+          "questionId": "EXCEL-N1-GDONNEES-C41-Q10",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N1-MFORME-C30-Q08",
+          "reponse": "D"
+        },
+        {
+          "questionId": "EXCEL-N2-CALCUL-BQ-25",
+          "reponse": "B"
+        },
+        {
+          "questionId": "EXCEL-N2-ENV-C01-Q01",
+          "reponse": "D"
+        }
+      ],
+      "theta": -1.67,
+      "level": "n0",
+      "timestamp": "2026-03-28T12:52:05.808858"
+    }
+  ],
+  "programmes_generes": [
+    {
+      "id": "PROG-20260328-132134",
+      "test_id": "TEST-20260324-214533",
+      "candidat": {
+        "nom": "O",
+        "prenom": "H",
+        "email": "o@gmail.com"
+      },
+      "formation": "excel",
+      "niveau": "n1",
+      "theta": 0,
+      "score": 0,
+      "programme_id": "EXCEL-INTER",
+      "programme_nom": "Exploiter les fonctionnalités de Microsoft Excel pour la gestion et l'analyse des données (Tosa) - Intermédiaire",
+      "themes": [
+        {
+          "id_theme": "T01",
+          "nom": "Environnement Excel / Interface",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.5,
+          "nb_questions": 3,
+          "contenu_programme": [
+            "Personnaliser les onglets du ruban",
+            "Utiliser les principaux raccourcis clavier",
+            "Créer et utiliser les commentaires",
+            "Synchroniser avec OneDrive",
+            "Modifier les options d'affichage"
+          ],
+          "description": "Personnalisation du ruban et raccourcis clavier",
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-ENV-C01]",
+            "[EXCEL-N2-ENV-C02]",
+            "[EXCEL-N2-ENV-C03]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-ENV-C01",
+            "EXCEL-N2-ENV-C02",
+            "EXCEL-N2-ENV-C03"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N2-ENV-C01",
+                "EXCEL-N2-ENV-C02",
+                "EXCEL-N2-ENV-C03"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T02",
+          "nom": "Gestion des fichiers",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.0,
+          "nb_questions": 2,
+          "contenu_programme": [
+            "Gérer les classeurs : les renommer, les déplacer, les dupliquer"
+          ],
+          "description": "Gestion des classeurs",
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-ENV-C04]",
+            "[EXCEL-N2-ENV-C05]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-ENV-C04",
+            "EXCEL-N2-ENV-C05"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N2-ENV-C04",
+                "EXCEL-N2-ENV-C05"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T03",
+          "nom": "Mise en forme de tableaux",
+          "niveau_besoin": "fort",
+          "duree_estimee": 3.5,
+          "nb_questions": 7,
+          "contenu_programme": [
+            "Appliquer une trame de fond, une bordure",
+            "Reproduire la mise en forme",
+            "Retour à la ligne automatique",
+            "Formater les dates, monnaie, pourcentages",
+            "Appliquer différents styles prédéfinis",
+            "Créer des formats personnalisés"
+          ],
+          "description": "Mise en forme avancée",
+          "domaine_tosa": [
+            "D3"
+          ],
+          "domaine_noms": [
+            "Mise en forme"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-MFORME-C20]",
+            "[EXCEL-N2-MFORME-C21]",
+            "[EXCEL-N2-MFORME-C22]",
+            "[EXCEL-N2-MFORME-C24]",
+            "[EXCEL-N2-MFORME-C25]",
+            "[EXCEL-N2-MFORME-C26]",
+            "[EXCEL-N2-MFORME-C27]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-MFORME-C20",
+            "EXCEL-N2-MFORME-C21",
+            "EXCEL-N2-MFORME-C22",
+            "EXCEL-N2-MFORME-C24",
+            "EXCEL-N2-MFORME-C25",
+            "EXCEL-N2-MFORME-C26",
+            "EXCEL-N2-MFORME-C27"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D3",
+              "nom_domaine": "Mise en forme",
+              "competences": [
+                "EXCEL-N2-MFORME-C20",
+                "EXCEL-N2-MFORME-C21",
+                "EXCEL-N2-MFORME-C22",
+                "EXCEL-N2-MFORME-C24",
+                "EXCEL-N2-MFORME-C25",
+                "EXCEL-N2-MFORME-C26",
+                "EXCEL-N2-MFORME-C27"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T04",
+          "nom": "Gérer les feuilles de calcul",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.0,
+          "nb_questions": 2,
+          "contenu_programme": [
+            "Insérer une nouvelle feuille, supprimer une feuille",
+            "Copier, déplacer, renommer une feuille"
+          ],
+          "description": "Opérations sur les feuilles",
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-ENV-C04]",
+            "[EXCEL-N2-ENV-C05]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-ENV-C04",
+            "EXCEL-N2-ENV-C05"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N2-ENV-C04",
+                "EXCEL-N2-ENV-C05"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T05",
+          "nom": "Créer des formules de calcul",
+          "niveau_besoin": "fort",
+          "duree_estimee": 3.5,
+          "nb_questions": 7,
+          "contenu_programme": [
+            "Utiliser l'auto-complétion",
+            "Utiliser les références relatives et absolues",
+            "Organiser les formules",
+            "Utiliser les fonctions statistiques",
+            "Utiliser les fonctions conditionnelles et logiques",
+            "Utiliser les fonctions de temps",
+            "Utiliser les fonctions de recherche",
+            "Extraire et analyser les données"
+          ],
+          "description": "Fonctions avancées",
+          "domaine_tosa": [
+            "D2"
+          ],
+          "domaine_noms": [
+            "Calculs & Formules"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-CALCUL-C13]",
+            "[EXCEL-N2-CALCUL-C14]",
+            "[EXCEL-N2-CALCUL-C15]",
+            "[EXCEL-N2-CALCUL-C16]",
+            "[EXCEL-N2-CALCUL-C17]",
+            "[EXCEL-N2-CALCUL-C18]",
+            "[EXCEL-N2-CALCUL-C19]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-CALCUL-C13",
+            "EXCEL-N2-CALCUL-C14",
+            "EXCEL-N2-CALCUL-C15",
+            "EXCEL-N2-CALCUL-C16",
+            "EXCEL-N2-CALCUL-C17",
+            "EXCEL-N2-CALCUL-C18",
+            "EXCEL-N2-CALCUL-C19"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D2",
+              "nom_domaine": "Calculs & Formules",
+              "competences": [
+                "EXCEL-N2-CALCUL-C13",
+                "EXCEL-N2-CALCUL-C14",
+                "EXCEL-N2-CALCUL-C15",
+                "EXCEL-N2-CALCUL-C16",
+                "EXCEL-N2-CALCUL-C17",
+                "EXCEL-N2-CALCUL-C18",
+                "EXCEL-N2-CALCUL-C19"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T06",
+          "nom": "Mettre en page et Impression",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.0,
+          "nb_questions": 2,
+          "contenu_programme": [
+            "Utiliser les en-têtes et les pieds de page, les marges",
+            "Numéroter les pages",
+            "Mise en page de données volumineuses"
+          ],
+          "description": "Impression avancée",
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-ENV-C11]",
+            "[EXCEL-N2-ENV-C12]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-ENV-C11",
+            "EXCEL-N2-ENV-C12"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N2-ENV-C11",
+                "EXCEL-N2-ENV-C12"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T07",
+          "nom": "Utiliser des objets graphiques",
+          "niveau_besoin": "fort",
+          "duree_estimee": 3.5,
+          "nb_questions": 7,
+          "contenu_programme": [
+            "Ajouter, redimensionner et mettre en forme des objets graphiques",
+            "Créer différents types de graphiques",
+            "Personnaliser l'apparence des graphiques",
+            "Mettre à jour manuellement les graphiques"
+          ],
+          "description": "Graphiques avancés",
+          "domaine_tosa": [
+            "D4",
+            "D3"
+          ],
+          "domaine_noms": [
+            "Gestion des données",
+            "Mise en forme"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-MFORME-C28]",
+            "[EXCEL-N2-MFORME-C29]",
+            "[EXCEL-N2-MFORME-C30]",
+            "[EXCEL-N2-MFORME-C31]",
+            "[EXCEL-N2-MFORME-C32]",
+            "[EXCEL-N2-GDONNEES-C33]",
+            "[EXCEL-N2-GDONNEES-C34]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-MFORME-C28",
+            "EXCEL-N2-MFORME-C29",
+            "EXCEL-N2-MFORME-C30",
+            "EXCEL-N2-MFORME-C31",
+            "EXCEL-N2-MFORME-C32",
+            "EXCEL-N2-GDONNEES-C33",
+            "EXCEL-N2-GDONNEES-C34"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D4",
+              "nom_domaine": "Gestion des données",
+              "competences": [
+                "EXCEL-N2-GDONNEES-C33",
+                "EXCEL-N2-GDONNEES-C34"
+              ]
+            },
+            {
+              "id_domaine": "D3",
+              "nom_domaine": "Mise en forme",
+              "competences": [
+                "EXCEL-N2-MFORME-C28",
+                "EXCEL-N2-MFORME-C29",
+                "EXCEL-N2-MFORME-C30",
+                "EXCEL-N2-MFORME-C31",
+                "EXCEL-N2-MFORME-C32"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T08",
+          "nom": "Utiliser les outils de gestion de données",
+          "niveau_besoin": "fort",
+          "duree_estimee": 4.0,
+          "nb_questions": 8,
+          "contenu_programme": [
+            "Créer des mises en forme conditionnelles basées sur des formules",
+            "Créer et utiliser les options des tableaux de données",
+            "Effectuer des opérations simples sur les tableaux",
+            "Importer et exporter des données",
+            "Utiliser des filtres avancés et des tris à plusieurs niveaux"
+          ],
+          "description": "Gestion de données avancée",
+          "domaine_tosa": [
+            "D4",
+            "D3"
+          ],
+          "domaine_noms": [
+            "Gestion des données",
+            "Mise en forme"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-MFORME-C23]",
+            "[EXCEL-N2-GDONNEES-C37]",
+            "[EXCEL-N2-GDONNEES-C38]",
+            "[EXCEL-N2-GDONNEES-C39]",
+            "[EXCEL-N2-GDONNEES-C40]",
+            "[EXCEL-N2-GDONNEES-C41]",
+            "[EXCEL-N2-GDONNEES-C42]",
+            "[EXCEL-N2-GDONNEES-C43]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-MFORME-C23",
+            "EXCEL-N2-GDONNEES-C37",
+            "EXCEL-N2-GDONNEES-C38",
+            "EXCEL-N2-GDONNEES-C39",
+            "EXCEL-N2-GDONNEES-C40",
+            "EXCEL-N2-GDONNEES-C41",
+            "EXCEL-N2-GDONNEES-C42",
+            "EXCEL-N2-GDONNEES-C43"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D4",
+              "nom_domaine": "Gestion des données",
+              "competences": [
+                "EXCEL-N2-GDONNEES-C37",
+                "EXCEL-N2-GDONNEES-C38",
+                "EXCEL-N2-GDONNEES-C39",
+                "EXCEL-N2-GDONNEES-C40",
+                "EXCEL-N2-GDONNEES-C41",
+                "EXCEL-N2-GDONNEES-C42",
+                "EXCEL-N2-GDONNEES-C43"
+              ]
+            },
+            {
+              "id_domaine": "D3",
+              "nom_domaine": "Mise en forme",
+              "competences": [
+                "EXCEL-N2-MFORME-C23"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T09",
+          "nom": "Tableau croisé dynamique",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.5,
+          "nb_questions": 3,
+          "contenu_programme": [
+            "Créer des tableaux croisés dynamiques pour analyser des données complexes",
+            "Utiliser des filtres et des tris pour explorer les données"
+          ],
+          "description": "TCD avancés",
+          "domaine_tosa": [
+            "D4"
+          ],
+          "domaine_noms": [
+            "Gestion des données"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-GDONNEES-C35]",
+            "[EXCEL-N2-GDONNEES-C36]",
+            "[EXCEL-N2-GDONNEES-C37]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-GDONNEES-C35",
+            "EXCEL-N2-GDONNEES-C36",
+            "EXCEL-N2-GDONNEES-C37"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D4",
+              "nom_domaine": "Gestion des données",
+              "competences": [
+                "EXCEL-N2-GDONNEES-C35",
+                "EXCEL-N2-GDONNEES-C36",
+                "EXCEL-N2-GDONNEES-C37"
+              ]
+            }
+          ]
+        }
+      ],
+      "themes_par_domaine": [
+        {
+          "id_domaine": "D1",
+          "nom_domaine": "Environnement / Méthodes",
+          "themes": [
+            {
+              "id_theme": "T01",
+              "nom": "Environnement Excel / Interface",
+              "niveau_besoin": "fort",
+              "duree_estimee": 1.5,
+              "nb_questions": 3,
+              "contenu_programme": [
+                "Personnaliser les onglets du ruban",
+                "Utiliser les principaux raccourcis clavier",
+                "Créer et utiliser les commentaires",
+                "Synchroniser avec OneDrive",
+                "Modifier les options d'affichage"
+              ],
+              "description": "Personnalisation du ruban et raccourcis clavier",
+              "domaine_tosa": [
+                "D1"
+              ],
+              "domaine_noms": [
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-ENV-C01]",
+                "[EXCEL-N2-ENV-C02]",
+                "[EXCEL-N2-ENV-C03]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-ENV-C01",
+                "EXCEL-N2-ENV-C02",
+                "EXCEL-N2-ENV-C03"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N2-ENV-C01",
+                    "EXCEL-N2-ENV-C02",
+                    "EXCEL-N2-ENV-C03"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T02",
+              "nom": "Gestion des fichiers",
+              "niveau_besoin": "fort",
+              "duree_estimee": 1.0,
+              "nb_questions": 2,
+              "contenu_programme": [
+                "Gérer les classeurs : les renommer, les déplacer, les dupliquer"
+              ],
+              "description": "Gestion des classeurs",
+              "domaine_tosa": [
+                "D1"
+              ],
+              "domaine_noms": [
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-ENV-C04]",
+                "[EXCEL-N2-ENV-C05]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-ENV-C04",
+                "EXCEL-N2-ENV-C05"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N2-ENV-C04",
+                    "EXCEL-N2-ENV-C05"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T04",
+              "nom": "Gérer les feuilles de calcul",
+              "niveau_besoin": "fort",
+              "duree_estimee": 1.0,
+              "nb_questions": 2,
+              "contenu_programme": [
+                "Insérer une nouvelle feuille, supprimer une feuille",
+                "Copier, déplacer, renommer une feuille"
+              ],
+              "description": "Opérations sur les feuilles",
+              "domaine_tosa": [
+                "D1"
+              ],
+              "domaine_noms": [
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-ENV-C04]",
+                "[EXCEL-N2-ENV-C05]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-ENV-C04",
+                "EXCEL-N2-ENV-C05"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N2-ENV-C04",
+                    "EXCEL-N2-ENV-C05"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T06",
+              "nom": "Mettre en page et Impression",
+              "niveau_besoin": "fort",
+              "duree_estimee": 1.0,
+              "nb_questions": 2,
+              "contenu_programme": [
+                "Utiliser les en-têtes et les pieds de page, les marges",
+                "Numéroter les pages",
+                "Mise en page de données volumineuses"
+              ],
+              "description": "Impression avancée",
+              "domaine_tosa": [
+                "D1"
+              ],
+              "domaine_noms": [
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-ENV-C11]",
+                "[EXCEL-N2-ENV-C12]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-ENV-C11",
+                "EXCEL-N2-ENV-C12"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N2-ENV-C11",
+                    "EXCEL-N2-ENV-C12"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_domaine": "D3",
+          "nom_domaine": "Mise en forme",
+          "themes": [
+            {
+              "id_theme": "T03",
+              "nom": "Mise en forme de tableaux",
+              "niveau_besoin": "fort",
+              "duree_estimee": 3.5,
+              "nb_questions": 7,
+              "contenu_programme": [
+                "Appliquer une trame de fond, une bordure",
+                "Reproduire la mise en forme",
+                "Retour à la ligne automatique",
+                "Formater les dates, monnaie, pourcentages",
+                "Appliquer différents styles prédéfinis",
+                "Créer des formats personnalisés"
+              ],
+              "description": "Mise en forme avancée",
+              "domaine_tosa": [
+                "D3"
+              ],
+              "domaine_noms": [
+                "Mise en forme"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-MFORME-C20]",
+                "[EXCEL-N2-MFORME-C21]",
+                "[EXCEL-N2-MFORME-C22]",
+                "[EXCEL-N2-MFORME-C24]",
+                "[EXCEL-N2-MFORME-C25]",
+                "[EXCEL-N2-MFORME-C26]",
+                "[EXCEL-N2-MFORME-C27]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-MFORME-C20",
+                "EXCEL-N2-MFORME-C21",
+                "EXCEL-N2-MFORME-C22",
+                "EXCEL-N2-MFORME-C24",
+                "EXCEL-N2-MFORME-C25",
+                "EXCEL-N2-MFORME-C26",
+                "EXCEL-N2-MFORME-C27"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D3",
+                  "nom_domaine": "Mise en forme",
+                  "competences": [
+                    "EXCEL-N2-MFORME-C20",
+                    "EXCEL-N2-MFORME-C21",
+                    "EXCEL-N2-MFORME-C22",
+                    "EXCEL-N2-MFORME-C24",
+                    "EXCEL-N2-MFORME-C25",
+                    "EXCEL-N2-MFORME-C26",
+                    "EXCEL-N2-MFORME-C27"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T07",
+              "nom": "Utiliser des objets graphiques",
+              "niveau_besoin": "fort",
+              "duree_estimee": 3.5,
+              "nb_questions": 7,
+              "contenu_programme": [
+                "Ajouter, redimensionner et mettre en forme des objets graphiques",
+                "Créer différents types de graphiques",
+                "Personnaliser l'apparence des graphiques",
+                "Mettre à jour manuellement les graphiques"
+              ],
+              "description": "Graphiques avancés",
+              "domaine_tosa": [
+                "D4",
+                "D3"
+              ],
+              "domaine_noms": [
+                "Gestion des données",
+                "Mise en forme"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-MFORME-C28]",
+                "[EXCEL-N2-MFORME-C29]",
+                "[EXCEL-N2-MFORME-C30]",
+                "[EXCEL-N2-MFORME-C31]",
+                "[EXCEL-N2-MFORME-C32]",
+                "[EXCEL-N2-GDONNEES-C33]",
+                "[EXCEL-N2-GDONNEES-C34]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-MFORME-C28",
+                "EXCEL-N2-MFORME-C29",
+                "EXCEL-N2-MFORME-C30",
+                "EXCEL-N2-MFORME-C31",
+                "EXCEL-N2-MFORME-C32",
+                "EXCEL-N2-GDONNEES-C33",
+                "EXCEL-N2-GDONNEES-C34"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D4",
+                  "nom_domaine": "Gestion des données",
+                  "competences": [
+                    "EXCEL-N2-GDONNEES-C33",
+                    "EXCEL-N2-GDONNEES-C34"
+                  ]
+                },
+                {
+                  "id_domaine": "D3",
+                  "nom_domaine": "Mise en forme",
+                  "competences": [
+                    "EXCEL-N2-MFORME-C28",
+                    "EXCEL-N2-MFORME-C29",
+                    "EXCEL-N2-MFORME-C30",
+                    "EXCEL-N2-MFORME-C31",
+                    "EXCEL-N2-MFORME-C32"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T08",
+              "nom": "Utiliser les outils de gestion de données",
+              "niveau_besoin": "fort",
+              "duree_estimee": 4.0,
+              "nb_questions": 8,
+              "contenu_programme": [
+                "Créer des mises en forme conditionnelles basées sur des formules",
+                "Créer et utiliser les options des tableaux de données",
+                "Effectuer des opérations simples sur les tableaux",
+                "Importer et exporter des données",
+                "Utiliser des filtres avancés et des tris à plusieurs niveaux"
+              ],
+              "description": "Gestion de données avancée",
+              "domaine_tosa": [
+                "D4",
+                "D3"
+              ],
+              "domaine_noms": [
+                "Gestion des données",
+                "Mise en forme"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-MFORME-C23]",
+                "[EXCEL-N2-GDONNEES-C37]",
+                "[EXCEL-N2-GDONNEES-C38]",
+                "[EXCEL-N2-GDONNEES-C39]",
+                "[EXCEL-N2-GDONNEES-C40]",
+                "[EXCEL-N2-GDONNEES-C41]",
+                "[EXCEL-N2-GDONNEES-C42]",
+                "[EXCEL-N2-GDONNEES-C43]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-MFORME-C23",
+                "EXCEL-N2-GDONNEES-C37",
+                "EXCEL-N2-GDONNEES-C38",
+                "EXCEL-N2-GDONNEES-C39",
+                "EXCEL-N2-GDONNEES-C40",
+                "EXCEL-N2-GDONNEES-C41",
+                "EXCEL-N2-GDONNEES-C42",
+                "EXCEL-N2-GDONNEES-C43"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D4",
+                  "nom_domaine": "Gestion des données",
+                  "competences": [
+                    "EXCEL-N2-GDONNEES-C37",
+                    "EXCEL-N2-GDONNEES-C38",
+                    "EXCEL-N2-GDONNEES-C39",
+                    "EXCEL-N2-GDONNEES-C40",
+                    "EXCEL-N2-GDONNEES-C41",
+                    "EXCEL-N2-GDONNEES-C42",
+                    "EXCEL-N2-GDONNEES-C43"
+                  ]
+                },
+                {
+                  "id_domaine": "D3",
+                  "nom_domaine": "Mise en forme",
+                  "competences": [
+                    "EXCEL-N2-MFORME-C23"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_domaine": "D2",
+          "nom_domaine": "Calculs & Formules",
+          "themes": [
+            {
+              "id_theme": "T05",
+              "nom": "Créer des formules de calcul",
+              "niveau_besoin": "fort",
+              "duree_estimee": 3.5,
+              "nb_questions": 7,
+              "contenu_programme": [
+                "Utiliser l'auto-complétion",
+                "Utiliser les références relatives et absolues",
+                "Organiser les formules",
+                "Utiliser les fonctions statistiques",
+                "Utiliser les fonctions conditionnelles et logiques",
+                "Utiliser les fonctions de temps",
+                "Utiliser les fonctions de recherche",
+                "Extraire et analyser les données"
+              ],
+              "description": "Fonctions avancées",
+              "domaine_tosa": [
+                "D2"
+              ],
+              "domaine_noms": [
+                "Calculs & Formules"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-CALCUL-C13]",
+                "[EXCEL-N2-CALCUL-C14]",
+                "[EXCEL-N2-CALCUL-C15]",
+                "[EXCEL-N2-CALCUL-C16]",
+                "[EXCEL-N2-CALCUL-C17]",
+                "[EXCEL-N2-CALCUL-C18]",
+                "[EXCEL-N2-CALCUL-C19]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-CALCUL-C13",
+                "EXCEL-N2-CALCUL-C14",
+                "EXCEL-N2-CALCUL-C15",
+                "EXCEL-N2-CALCUL-C16",
+                "EXCEL-N2-CALCUL-C17",
+                "EXCEL-N2-CALCUL-C18",
+                "EXCEL-N2-CALCUL-C19"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D2",
+                  "nom_domaine": "Calculs & Formules",
+                  "competences": [
+                    "EXCEL-N2-CALCUL-C13",
+                    "EXCEL-N2-CALCUL-C14",
+                    "EXCEL-N2-CALCUL-C15",
+                    "EXCEL-N2-CALCUL-C16",
+                    "EXCEL-N2-CALCUL-C17",
+                    "EXCEL-N2-CALCUL-C18",
+                    "EXCEL-N2-CALCUL-C19"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_domaine": "D4",
+          "nom_domaine": "Gestion des données",
+          "themes": [
+            {
+              "id_theme": "T07",
+              "nom": "Utiliser des objets graphiques",
+              "niveau_besoin": "fort",
+              "duree_estimee": 3.5,
+              "nb_questions": 7,
+              "contenu_programme": [
+                "Ajouter, redimensionner et mettre en forme des objets graphiques",
+                "Créer différents types de graphiques",
+                "Personnaliser l'apparence des graphiques",
+                "Mettre à jour manuellement les graphiques"
+              ],
+              "description": "Graphiques avancés",
+              "domaine_tosa": [
+                "D4",
+                "D3"
+              ],
+              "domaine_noms": [
+                "Gestion des données",
+                "Mise en forme"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-MFORME-C28]",
+                "[EXCEL-N2-MFORME-C29]",
+                "[EXCEL-N2-MFORME-C30]",
+                "[EXCEL-N2-MFORME-C31]",
+                "[EXCEL-N2-MFORME-C32]",
+                "[EXCEL-N2-GDONNEES-C33]",
+                "[EXCEL-N2-GDONNEES-C34]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-MFORME-C28",
+                "EXCEL-N2-MFORME-C29",
+                "EXCEL-N2-MFORME-C30",
+                "EXCEL-N2-MFORME-C31",
+                "EXCEL-N2-MFORME-C32",
+                "EXCEL-N2-GDONNEES-C33",
+                "EXCEL-N2-GDONNEES-C34"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D4",
+                  "nom_domaine": "Gestion des données",
+                  "competences": [
+                    "EXCEL-N2-GDONNEES-C33",
+                    "EXCEL-N2-GDONNEES-C34"
+                  ]
+                },
+                {
+                  "id_domaine": "D3",
+                  "nom_domaine": "Mise en forme",
+                  "competences": [
+                    "EXCEL-N2-MFORME-C28",
+                    "EXCEL-N2-MFORME-C29",
+                    "EXCEL-N2-MFORME-C30",
+                    "EXCEL-N2-MFORME-C31",
+                    "EXCEL-N2-MFORME-C32"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T08",
+              "nom": "Utiliser les outils de gestion de données",
+              "niveau_besoin": "fort",
+              "duree_estimee": 4.0,
+              "nb_questions": 8,
+              "contenu_programme": [
+                "Créer des mises en forme conditionnelles basées sur des formules",
+                "Créer et utiliser les options des tableaux de données",
+                "Effectuer des opérations simples sur les tableaux",
+                "Importer et exporter des données",
+                "Utiliser des filtres avancés et des tris à plusieurs niveaux"
+              ],
+              "description": "Gestion de données avancée",
+              "domaine_tosa": [
+                "D4",
+                "D3"
+              ],
+              "domaine_noms": [
+                "Gestion des données",
+                "Mise en forme"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-MFORME-C23]",
+                "[EXCEL-N2-GDONNEES-C37]",
+                "[EXCEL-N2-GDONNEES-C38]",
+                "[EXCEL-N2-GDONNEES-C39]",
+                "[EXCEL-N2-GDONNEES-C40]",
+                "[EXCEL-N2-GDONNEES-C41]",
+                "[EXCEL-N2-GDONNEES-C42]",
+                "[EXCEL-N2-GDONNEES-C43]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-MFORME-C23",
+                "EXCEL-N2-GDONNEES-C37",
+                "EXCEL-N2-GDONNEES-C38",
+                "EXCEL-N2-GDONNEES-C39",
+                "EXCEL-N2-GDONNEES-C40",
+                "EXCEL-N2-GDONNEES-C41",
+                "EXCEL-N2-GDONNEES-C42",
+                "EXCEL-N2-GDONNEES-C43"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D4",
+                  "nom_domaine": "Gestion des données",
+                  "competences": [
+                    "EXCEL-N2-GDONNEES-C37",
+                    "EXCEL-N2-GDONNEES-C38",
+                    "EXCEL-N2-GDONNEES-C39",
+                    "EXCEL-N2-GDONNEES-C40",
+                    "EXCEL-N2-GDONNEES-C41",
+                    "EXCEL-N2-GDONNEES-C42",
+                    "EXCEL-N2-GDONNEES-C43"
+                  ]
+                },
+                {
+                  "id_domaine": "D3",
+                  "nom_domaine": "Mise en forme",
+                  "competences": [
+                    "EXCEL-N2-MFORME-C23"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T09",
+              "nom": "Tableau croisé dynamique",
+              "niveau_besoin": "fort",
+              "duree_estimee": 1.5,
+              "nb_questions": 3,
+              "contenu_programme": [
+                "Créer des tableaux croisés dynamiques pour analyser des données complexes",
+                "Utiliser des filtres et des tris pour explorer les données"
+              ],
+              "description": "TCD avancés",
+              "domaine_tosa": [
+                "D4"
+              ],
+              "domaine_noms": [
+                "Gestion des données"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-GDONNEES-C35]",
+                "[EXCEL-N2-GDONNEES-C36]",
+                "[EXCEL-N2-GDONNEES-C37]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-GDONNEES-C35",
+                "EXCEL-N2-GDONNEES-C36",
+                "EXCEL-N2-GDONNEES-C37"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D4",
+                  "nom_domaine": "Gestion des données",
+                  "competences": [
+                    "EXCEL-N2-GDONNEES-C35",
+                    "EXCEL-N2-GDONNEES-C36",
+                    "EXCEL-N2-GDONNEES-C37"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "duree_estimee": 20.5,
+      "cout_estime": 922.5,
+      "objectifs": "",
+      "timestamp": "2026-03-28T13:21:34.602143"
+    },
+    {
+      "id": "PROG-20260328-132144",
+      "test_id": "TEST-20260324-214737",
+      "candidat": {
+        "nom": "O",
+        "prenom": "A",
+        "email": "oa@gmail.com"
+      },
+      "formation": "excel",
+      "niveau": "n3",
+      "theta": 0,
+      "score": 0,
+      "programme_id": "EXCEL-ATELIER",
+      "programme_nom": "Exploiter les fonctionnalités de Microsoft Excel pour la gestion et l'analyse des données (Tosa) - Atelier tutoré individualisé",
+      "themes": [
+        {
+          "id_theme": "T01",
+          "nom": "Environnement Excel / Interface",
+          "niveau_besoin": "fort",
+          "duree_estimee": 2.0,
+          "nb_questions": 4,
+          "contenu_programme": [
+            "Présentation de l'interface et de ses zones (barre d'accès rapide, onglets, ruban, groupes)",
+            "Personnaliser les onglets du ruban",
+            "Créer et utiliser les commentaires",
+            "Modifier les options d'affichage (grilles, lignes de grille)",
+            "Gérer la compatibilité des fichiers entre versions"
+          ],
+          "description": "Présentation de l'interface et de ses zones, personnalisation du ruban, commentaires, options d'affichage",
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C04]",
+            "[EXCEL-N2-ENV-C01]",
+            "[EXCEL-N2-ENV-C02]",
+            "[EXCEL-N3-ENV-C10]"
+          ],
+          "competences_noms": [
+            "EXCEL-N1-ENV-C04",
+            "EXCEL-N2-ENV-C01",
+            "EXCEL-N2-ENV-C02",
+            "EXCEL-N3-ENV-C10"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N1-ENV-C04",
+                "EXCEL-N2-ENV-C01",
+                "EXCEL-N2-ENV-C02",
+                "EXCEL-N3-ENV-C10"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T02",
+          "nom": "Gestion des fichiers",
+          "niveau_besoin": "fort",
+          "duree_estimee": 2.0,
+          "nb_questions": 4,
+          "contenu_programme": [
+            "Ouvrir et fermer l'application et les classeurs",
+            "Gérer les classeurs : renommer, déplacer, dupliquer"
+          ],
+          "description": "Ouvrir, fermer, gérer les classeurs",
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C01]",
+            "[EXCEL-N1-ENV-C02]",
+            "[EXCEL-N1-ENV-C03]",
+            "[EXCEL-N2-ENV-C04]"
+          ],
+          "competences_noms": [
+            "EXCEL-N1-ENV-C01",
+            "EXCEL-N1-ENV-C02",
+            "EXCEL-N1-ENV-C03",
+            "EXCEL-N2-ENV-C04"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N1-ENV-C01",
+                "EXCEL-N1-ENV-C02",
+                "EXCEL-N1-ENV-C03",
+                "EXCEL-N2-ENV-C04"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T03",
+          "nom": "Mise en forme de tableaux",
+          "niveau_besoin": "fort",
+          "duree_estimee": 7.0,
+          "nb_questions": 14,
+          "contenu_programme": [
+            "Couper, copier, coller",
+            "Utiliser la poignée de recopie (séries incrémentées)",
+            "Insérer ou supprimer des lignes/colonnes ; ajuster largeurs/hauteurs ; masquer",
+            "Formater les nombres (décimales, milliers, dates, monnaie, pourcentages)",
+            "Police, taille, couleurs de remplissage",
+            "Alignements, orientation, fusion de cellules",
+            "Styles prédéfinis, trames, bordures",
+            "Reproduire la mise en forme",
+            "Retour à la ligne automatique ; formats personnalisés"
+          ],
+          "description": "Outils de base et avancés pour la mise en forme",
+          "domaine_tosa": [
+            "D3",
+            "D1"
+          ],
+          "domaine_noms": [
+            "Mise en forme",
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C08]",
+            "[EXCEL-N1-ENV-C09]",
+            "[EXCEL-N1-ENV-C10]",
+            "[EXCEL-N1-MFORME-C19]",
+            "[EXCEL-N1-MFORME-C20]",
+            "[EXCEL-N1-MFORME-C21]",
+            "[EXCEL-N1-MFORME-C22]",
+            "[EXCEL-N1-MFORME-C23]",
+            "[EXCEL-N1-MFORME-C24]",
+            "[EXCEL-N1-MFORME-C25]",
+            "[EXCEL-N1-MFORME-C26]",
+            "[EXCEL-N2-MFORME-C20]",
+            "[EXCEL-N2-MFORME-C21]",
+            "[EXCEL-N2-MFORME-C22]"
+          ],
+          "competences_noms": [
+            "EXCEL-N1-ENV-C08",
+            "EXCEL-N1-ENV-C09",
+            "EXCEL-N1-ENV-C10",
+            "EXCEL-N1-MFORME-C19",
+            "EXCEL-N1-MFORME-C20",
+            "EXCEL-N1-MFORME-C21",
+            "EXCEL-N1-MFORME-C22",
+            "EXCEL-N1-MFORME-C23",
+            "EXCEL-N1-MFORME-C24",
+            "EXCEL-N1-MFORME-C25",
+            "EXCEL-N1-MFORME-C26",
+            "EXCEL-N2-MFORME-C20",
+            "EXCEL-N2-MFORME-C21",
+            "EXCEL-N2-MFORME-C22"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D3",
+              "nom_domaine": "Mise en forme",
+              "competences": [
+                "EXCEL-N1-MFORME-C19",
+                "EXCEL-N1-MFORME-C20",
+                "EXCEL-N1-MFORME-C21",
+                "EXCEL-N1-MFORME-C22",
+                "EXCEL-N1-MFORME-C23",
+                "EXCEL-N1-MFORME-C24",
+                "EXCEL-N1-MFORME-C25",
+                "EXCEL-N1-MFORME-C26",
+                "EXCEL-N2-MFORME-C20",
+                "EXCEL-N2-MFORME-C21",
+                "EXCEL-N2-MFORME-C22"
+              ]
+            },
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N1-ENV-C08",
+                "EXCEL-N1-ENV-C09",
+                "EXCEL-N1-ENV-C10"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T04",
+          "nom": "Mise en page et impression",
+          "niveau_besoin": "fort",
+          "duree_estimee": 2.0,
+          "nb_questions": 4,
+          "contenu_programme": [
+            "Centrer un tableau dans la page",
+            "Ajuster pour l'impression ; zone d'impression",
+            "En-têtes et pieds de page, marges",
+            "Mise en page de données volumineuses (plusieurs pages)"
+          ],
+          "description": "Paramètres d'impression et mise en page",
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C06]",
+            "[EXCEL-N1-ENV-C07]",
+            "[EXCEL-N2-ENV-C11]",
+            "[EXCEL-N2-ENV-C12]"
+          ],
+          "competences_noms": [
+            "EXCEL-N1-ENV-C06",
+            "EXCEL-N1-ENV-C07",
+            "EXCEL-N2-ENV-C11",
+            "EXCEL-N2-ENV-C12"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N1-ENV-C06",
+                "EXCEL-N1-ENV-C07",
+                "EXCEL-N2-ENV-C11",
+                "EXCEL-N2-ENV-C12"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T05",
+          "nom": "Gérer les feuilles de calcul",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.0,
+          "nb_questions": 2,
+          "contenu_programme": [
+            "Insérer, supprimer, copier, déplacer, renommer une feuille"
+          ],
+          "description": "Opérations sur les feuilles",
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-ENV-C04]",
+            "[EXCEL-N2-ENV-C05]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-ENV-C04",
+            "EXCEL-N2-ENV-C05"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N2-ENV-C04",
+                "EXCEL-N2-ENV-C05"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T06",
+          "nom": "Mise en forme conditionnelle",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.5,
+          "nb_questions": 3,
+          "contenu_programme": [
+            "Règles simples",
+            "Règles basées sur des formules",
+            "Copier/rechercher/supprimer les mises en forme conditionnelles"
+          ],
+          "description": "Règles de mise en forme avancées",
+          "domaine_tosa": [
+            "D3"
+          ],
+          "domaine_noms": [
+            "Mise en forme"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-MFORME-C23]",
+            "[EXCEL-N2-MFORME-C23]",
+            "[EXCEL-N3-MFORME-C34]"
+          ],
+          "competences_noms": [
+            "EXCEL-N1-MFORME-C23",
+            "EXCEL-N2-MFORME-C23",
+            "EXCEL-N3-MFORME-C34"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D3",
+              "nom_domaine": "Mise en forme",
+              "competences": [
+                "EXCEL-N1-MFORME-C23",
+                "EXCEL-N2-MFORME-C23",
+                "EXCEL-N3-MFORME-C34"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T07",
+          "nom": "Affichage",
+          "niveau_besoin": "fort",
+          "duree_estimee": 1.5,
+          "nb_questions": 3,
+          "contenu_programme": [
+            "Afficher/Masquer le quadrillage",
+            "Utiliser les différents modes d'affichage",
+            "Personnaliser le zoom"
+          ],
+          "description": "Modes d'affichage et options",
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-ENV-C05]",
+            "[EXCEL-N3-ENV-C01]",
+            "[EXCEL-N3-ENV-C02]"
+          ],
+          "competences_noms": [
+            "EXCEL-N1-ENV-C05",
+            "EXCEL-N3-ENV-C01",
+            "EXCEL-N3-ENV-C02"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N1-ENV-C05",
+                "EXCEL-N3-ENV-C01",
+                "EXCEL-N3-ENV-C02"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T08",
+          "nom": "Créer des formules de calcul",
+          "niveau_besoin": "fort",
+          "duree_estimee": 11.5,
+          "nb_questions": 23,
+          "contenu_programme": [
+            "Bonnes pratiques (références de cellules, opérateurs, parenthèses)",
+            "Identifier les erreurs (#NOM?, #DIV/0!, #####)",
+            "Références relatives et absolues",
+            "Fonctions : statistiques, conditionnelles, logiques, temps, recherche, texte, base de données",
+            "Arrondis, remplacement, nombres aléatoires",
+            "Documenter les formules avec des commentaires"
+          ],
+          "description": "Formules simples et avancées",
+          "domaine_tosa": [
+            "D2"
+          ],
+          "domaine_noms": [
+            "Calculs & Formules"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-CALCUL-C12]",
+            "[EXCEL-N1-CALCUL-C13]",
+            "[EXCEL-N1-CALCUL-C14]",
+            "[EXCEL-N1-CALCUL-C15]",
+            "[EXCEL-N1-CALCUL-C16]",
+            "[EXCEL-N1-CALCUL-C17]",
+            "[EXCEL-N2-CALCUL-C13]",
+            "[EXCEL-N2-CALCUL-C14]",
+            "[EXCEL-N2-CALCUL-C15]",
+            "[EXCEL-N2-CALCUL-C16]",
+            "[EXCEL-N2-CALCUL-C17]",
+            "[EXCEL-N2-CALCUL-C18]",
+            "[EXCEL-N2-CALCUL-C19]",
+            "[EXCEL-N3-CALCUL-C15]",
+            "[EXCEL-N3-CALCUL-C16]",
+            "[EXCEL-N3-CALCUL-C17]",
+            "[EXCEL-N3-CALCUL-C18]",
+            "[EXCEL-N3-CALCUL-C20]",
+            "[EXCEL-N3-CALCUL-C21]",
+            "[EXCEL-N3-CALCUL-C22]",
+            "[EXCEL-N3-CALCUL-C23]",
+            "[EXCEL-N3-CALCUL-C24]",
+            "[EXCEL-N3-CALCUL-C28]"
+          ],
+          "competences_noms": [
+            "EXCEL-N1-CALCUL-C12",
+            "EXCEL-N1-CALCUL-C13",
+            "EXCEL-N1-CALCUL-C14",
+            "EXCEL-N1-CALCUL-C15",
+            "EXCEL-N1-CALCUL-C16",
+            "EXCEL-N1-CALCUL-C17",
+            "EXCEL-N2-CALCUL-C13",
+            "EXCEL-N2-CALCUL-C14",
+            "EXCEL-N2-CALCUL-C15",
+            "EXCEL-N2-CALCUL-C16",
+            "EXCEL-N2-CALCUL-C17",
+            "EXCEL-N2-CALCUL-C18",
+            "EXCEL-N2-CALCUL-C19",
+            "EXCEL-N3-CALCUL-C15",
+            "EXCEL-N3-CALCUL-C16",
+            "EXCEL-N3-CALCUL-C17",
+            "EXCEL-N3-CALCUL-C18",
+            "EXCEL-N3-CALCUL-C20",
+            "EXCEL-N3-CALCUL-C21",
+            "EXCEL-N3-CALCUL-C22",
+            "EXCEL-N3-CALCUL-C23",
+            "EXCEL-N3-CALCUL-C24",
+            "EXCEL-N3-CALCUL-C28"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D2",
+              "nom_domaine": "Calculs & Formules",
+              "competences": [
+                "EXCEL-N1-CALCUL-C12",
+                "EXCEL-N1-CALCUL-C13",
+                "EXCEL-N1-CALCUL-C14",
+                "EXCEL-N1-CALCUL-C15",
+                "EXCEL-N1-CALCUL-C16",
+                "EXCEL-N1-CALCUL-C17",
+                "EXCEL-N2-CALCUL-C13",
+                "EXCEL-N2-CALCUL-C14",
+                "EXCEL-N2-CALCUL-C15",
+                "EXCEL-N2-CALCUL-C16",
+                "EXCEL-N2-CALCUL-C17",
+                "EXCEL-N2-CALCUL-C18",
+                "EXCEL-N2-CALCUL-C19",
+                "EXCEL-N3-CALCUL-C15",
+                "EXCEL-N3-CALCUL-C16",
+                "EXCEL-N3-CALCUL-C17",
+                "EXCEL-N3-CALCUL-C18",
+                "EXCEL-N3-CALCUL-C20",
+                "EXCEL-N3-CALCUL-C21",
+                "EXCEL-N3-CALCUL-C22",
+                "EXCEL-N3-CALCUL-C23",
+                "EXCEL-N3-CALCUL-C24",
+                "EXCEL-N3-CALCUL-C28"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T09",
+          "nom": "Fonctions avancées",
+          "niveau_besoin": "fort",
+          "duree_estimee": 2.5,
+          "nb_questions": 5,
+          "contenu_programme": [
+            "Comprendre et utiliser les collages spéciaux",
+            "Appliquer les styles personnalisés",
+            "Créer et gérer des formats personnalisés",
+            "Auto-complétion avancée",
+            "Protéger une feuille ou un classeur"
+          ],
+          "description": "Collages spéciaux, formats personnalisés, protection",
+          "domaine_tosa": [
+            "D1"
+          ],
+          "domaine_noms": [
+            "Environnement / Méthodes"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N2-ENV-C06]",
+            "[EXCEL-N2-ENV-C07]",
+            "[EXCEL-N2-ENV-C08]",
+            "[EXCEL-N3-ENV-C12]",
+            "[EXCEL-N3-ENV-C13]"
+          ],
+          "competences_noms": [
+            "EXCEL-N2-ENV-C06",
+            "EXCEL-N2-ENV-C07",
+            "EXCEL-N2-ENV-C08",
+            "EXCEL-N3-ENV-C12",
+            "EXCEL-N3-ENV-C13"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D1",
+              "nom_domaine": "Environnement / Méthodes",
+              "competences": [
+                "EXCEL-N2-ENV-C06",
+                "EXCEL-N2-ENV-C07",
+                "EXCEL-N2-ENV-C08",
+                "EXCEL-N3-ENV-C12",
+                "EXCEL-N3-ENV-C13"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T10",
+          "nom": "Graphiques et objets graphiques",
+          "niveau_besoin": "fort",
+          "duree_estimee": 4.0,
+          "nb_questions": 8,
+          "contenu_programme": [
+            "Créer et modifier des objets graphiques",
+            "Créer des graphiques de base",
+            "Personnaliser les couleurs, étiquettes et axes",
+            "Concevoir un graphique à deux axes"
+          ],
+          "description": "Création et personnalisation de graphiques",
+          "domaine_tosa": [
+            "D4"
+          ],
+          "domaine_noms": [
+            "Gestion des données"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-GDONNEES-C28]",
+            "[EXCEL-N1-GDONNEES-C29]",
+            "[EXCEL-N1-GDONNEES-C30]",
+            "[EXCEL-N1-GDONNEES-C31]",
+            "[EXCEL-N2-GDONNEES-C33]",
+            "[EXCEL-N3-GDONNEES-C58]",
+            "[EXCEL-N3-GDONNEES-C59]",
+            "[EXCEL-N3-GDONNEES-C60]"
+          ],
+          "competences_noms": [
+            "EXCEL-N1-GDONNEES-C28",
+            "EXCEL-N1-GDONNEES-C29",
+            "EXCEL-N1-GDONNEES-C30",
+            "EXCEL-N1-GDONNEES-C31",
+            "EXCEL-N2-GDONNEES-C33",
+            "EXCEL-N3-GDONNEES-C58",
+            "EXCEL-N3-GDONNEES-C59",
+            "EXCEL-N3-GDONNEES-C60"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D4",
+              "nom_domaine": "Gestion des données",
+              "competences": [
+                "EXCEL-N1-GDONNEES-C28",
+                "EXCEL-N1-GDONNEES-C29",
+                "EXCEL-N1-GDONNEES-C30",
+                "EXCEL-N1-GDONNEES-C31",
+                "EXCEL-N2-GDONNEES-C33",
+                "EXCEL-N3-GDONNEES-C58",
+                "EXCEL-N3-GDONNEES-C59",
+                "EXCEL-N3-GDONNEES-C60"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T11",
+          "nom": "Exploiter une plage, liste ou tableau de données",
+          "niveau_besoin": "fort",
+          "duree_estimee": 9.5,
+          "nb_questions": 19,
+          "contenu_programme": [
+            "Comprendre les plages, listes et tableaux structurés",
+            "Filtres et tris",
+            "Figer les volets",
+            "Nettoyage",
+            "Validation des données",
+            "Sous-totaux"
+          ],
+          "description": "Gestion et analyse de données",
+          "domaine_tosa": [
+            "D4"
+          ],
+          "domaine_noms": [
+            "Gestion des données"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-GDONNEES-C27]",
+            "[EXCEL-N1-GDONNEES-C32]",
+            "[EXCEL-N1-GDONNEES-C33]",
+            "[EXCEL-N1-GDONNEES-C34]",
+            "[EXCEL-N2-GDONNEES-C37]",
+            "[EXCEL-N2-GDONNEES-C38]",
+            "[EXCEL-N2-GDONNEES-C39]",
+            "[EXCEL-N2-GDONNEES-C40]",
+            "[EXCEL-N2-GDONNEES-C41]",
+            "[EXCEL-N2-GDONNEES-C42]",
+            "[EXCEL-N2-GDONNEES-C43]",
+            "[EXCEL-N3-GDONNEES-C49]",
+            "[EXCEL-N3-GDONNEES-C50]",
+            "[EXCEL-N3-GDONNEES-C51]",
+            "[EXCEL-N3-GDONNEES-C52]",
+            "[EXCEL-N3-GDONNEES-C55]",
+            "[EXCEL-N3-GDONNEES-C56]",
+            "[EXCEL-N3-GDONNEES-C57]",
+            "[EXCEL-N3-GDONNEES-C67]"
+          ],
+          "competences_noms": [
+            "EXCEL-N1-GDONNEES-C27",
+            "EXCEL-N1-GDONNEES-C32",
+            "EXCEL-N1-GDONNEES-C33",
+            "EXCEL-N1-GDONNEES-C34",
+            "EXCEL-N2-GDONNEES-C37",
+            "EXCEL-N2-GDONNEES-C38",
+            "EXCEL-N2-GDONNEES-C39",
+            "EXCEL-N2-GDONNEES-C40",
+            "EXCEL-N2-GDONNEES-C41",
+            "EXCEL-N2-GDONNEES-C42",
+            "EXCEL-N2-GDONNEES-C43",
+            "EXCEL-N3-GDONNEES-C49",
+            "EXCEL-N3-GDONNEES-C50",
+            "EXCEL-N3-GDONNEES-C51",
+            "EXCEL-N3-GDONNEES-C52",
+            "EXCEL-N3-GDONNEES-C55",
+            "EXCEL-N3-GDONNEES-C56",
+            "EXCEL-N3-GDONNEES-C57",
+            "EXCEL-N3-GDONNEES-C67"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D4",
+              "nom_domaine": "Gestion des données",
+              "competences": [
+                "EXCEL-N1-GDONNEES-C27",
+                "EXCEL-N1-GDONNEES-C32",
+                "EXCEL-N1-GDONNEES-C33",
+                "EXCEL-N1-GDONNEES-C34",
+                "EXCEL-N2-GDONNEES-C37",
+                "EXCEL-N2-GDONNEES-C38",
+                "EXCEL-N2-GDONNEES-C39",
+                "EXCEL-N2-GDONNEES-C40",
+                "EXCEL-N2-GDONNEES-C41",
+                "EXCEL-N2-GDONNEES-C42",
+                "EXCEL-N2-GDONNEES-C43",
+                "EXCEL-N3-GDONNEES-C49",
+                "EXCEL-N3-GDONNEES-C50",
+                "EXCEL-N3-GDONNEES-C51",
+                "EXCEL-N3-GDONNEES-C52",
+                "EXCEL-N3-GDONNEES-C55",
+                "EXCEL-N3-GDONNEES-C56",
+                "EXCEL-N3-GDONNEES-C57",
+                "EXCEL-N3-GDONNEES-C67"
+              ]
+            }
+          ]
+        },
+        {
+          "id_theme": "T12",
+          "nom": "Tableau croisé dynamique",
+          "niveau_besoin": "fort",
+          "duree_estimee": 4.5,
+          "nb_questions": 9,
+          "contenu_programme": [
+            "Créer des TCD",
+            "Ajouter/supprimer champs",
+            "Segments",
+            "Graphique croisé dynamique",
+            "Actualiser les données"
+          ],
+          "description": "Création et analyse avec TCD",
+          "domaine_tosa": [
+            "D4"
+          ],
+          "domaine_noms": [
+            "Gestion des données"
+          ],
+          "competences_tosa": [
+            "[EXCEL-N1-GDONNEES-C30]",
+            "[EXCEL-N2-GDONNEES-C35]",
+            "[EXCEL-N2-GDONNEES-C36]",
+            "[EXCEL-N2-GDONNEES-C37]",
+            "[EXCEL-N3-GDONNEES-C63]",
+            "[EXCEL-N3-GDONNEES-C64]",
+            "[EXCEL-N3-GDONNEES-C65]",
+            "[EXCEL-N3-GDONNEES-C66]",
+            "[EXCEL-N3-GDONNEES-C53]"
+          ],
+          "competences_noms": [
+            "EXCEL-N1-GDONNEES-C30",
+            "EXCEL-N2-GDONNEES-C35",
+            "EXCEL-N2-GDONNEES-C36",
+            "EXCEL-N2-GDONNEES-C37",
+            "EXCEL-N3-GDONNEES-C63",
+            "EXCEL-N3-GDONNEES-C64",
+            "EXCEL-N3-GDONNEES-C65",
+            "EXCEL-N3-GDONNEES-C66",
+            "EXCEL-N3-GDONNEES-C53"
+          ],
+          "comp_par_domaine": [
+            {
+              "id_domaine": "D4",
+              "nom_domaine": "Gestion des données",
+              "competences": [
+                "EXCEL-N1-GDONNEES-C30",
+                "EXCEL-N2-GDONNEES-C35",
+                "EXCEL-N2-GDONNEES-C36",
+                "EXCEL-N2-GDONNEES-C37",
+                "EXCEL-N3-GDONNEES-C63",
+                "EXCEL-N3-GDONNEES-C64",
+                "EXCEL-N3-GDONNEES-C65",
+                "EXCEL-N3-GDONNEES-C66",
+                "EXCEL-N3-GDONNEES-C53"
+              ]
+            }
+          ]
+        }
+      ],
+      "themes_par_domaine": [
+        {
+          "id_domaine": "D1",
+          "nom_domaine": "Environnement / Méthodes",
+          "themes": [
+            {
+              "id_theme": "T01",
+              "nom": "Environnement Excel / Interface",
+              "niveau_besoin": "fort",
+              "duree_estimee": 2.0,
+              "nb_questions": 4,
+              "contenu_programme": [
+                "Présentation de l'interface et de ses zones (barre d'accès rapide, onglets, ruban, groupes)",
+                "Personnaliser les onglets du ruban",
+                "Créer et utiliser les commentaires",
+                "Modifier les options d'affichage (grilles, lignes de grille)",
+                "Gérer la compatibilité des fichiers entre versions"
+              ],
+              "description": "Présentation de l'interface et de ses zones, personnalisation du ruban, commentaires, options d'affichage",
+              "domaine_tosa": [
+                "D1"
+              ],
+              "domaine_noms": [
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-ENV-C04]",
+                "[EXCEL-N2-ENV-C01]",
+                "[EXCEL-N2-ENV-C02]",
+                "[EXCEL-N3-ENV-C10]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-ENV-C04",
+                "EXCEL-N2-ENV-C01",
+                "EXCEL-N2-ENV-C02",
+                "EXCEL-N3-ENV-C10"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N1-ENV-C04",
+                    "EXCEL-N2-ENV-C01",
+                    "EXCEL-N2-ENV-C02",
+                    "EXCEL-N3-ENV-C10"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T02",
+              "nom": "Gestion des fichiers",
+              "niveau_besoin": "fort",
+              "duree_estimee": 2.0,
+              "nb_questions": 4,
+              "contenu_programme": [
+                "Ouvrir et fermer l'application et les classeurs",
+                "Gérer les classeurs : renommer, déplacer, dupliquer"
+              ],
+              "description": "Ouvrir, fermer, gérer les classeurs",
+              "domaine_tosa": [
+                "D1"
+              ],
+              "domaine_noms": [
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-ENV-C01]",
+                "[EXCEL-N1-ENV-C02]",
+                "[EXCEL-N1-ENV-C03]",
+                "[EXCEL-N2-ENV-C04]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-ENV-C01",
+                "EXCEL-N1-ENV-C02",
+                "EXCEL-N1-ENV-C03",
+                "EXCEL-N2-ENV-C04"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N1-ENV-C01",
+                    "EXCEL-N1-ENV-C02",
+                    "EXCEL-N1-ENV-C03",
+                    "EXCEL-N2-ENV-C04"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T03",
+              "nom": "Mise en forme de tableaux",
+              "niveau_besoin": "fort",
+              "duree_estimee": 7.0,
+              "nb_questions": 14,
+              "contenu_programme": [
+                "Couper, copier, coller",
+                "Utiliser la poignée de recopie (séries incrémentées)",
+                "Insérer ou supprimer des lignes/colonnes ; ajuster largeurs/hauteurs ; masquer",
+                "Formater les nombres (décimales, milliers, dates, monnaie, pourcentages)",
+                "Police, taille, couleurs de remplissage",
+                "Alignements, orientation, fusion de cellules",
+                "Styles prédéfinis, trames, bordures",
+                "Reproduire la mise en forme",
+                "Retour à la ligne automatique ; formats personnalisés"
+              ],
+              "description": "Outils de base et avancés pour la mise en forme",
+              "domaine_tosa": [
+                "D3",
+                "D1"
+              ],
+              "domaine_noms": [
+                "Mise en forme",
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-ENV-C08]",
+                "[EXCEL-N1-ENV-C09]",
+                "[EXCEL-N1-ENV-C10]",
+                "[EXCEL-N1-MFORME-C19]",
+                "[EXCEL-N1-MFORME-C20]",
+                "[EXCEL-N1-MFORME-C21]",
+                "[EXCEL-N1-MFORME-C22]",
+                "[EXCEL-N1-MFORME-C23]",
+                "[EXCEL-N1-MFORME-C24]",
+                "[EXCEL-N1-MFORME-C25]",
+                "[EXCEL-N1-MFORME-C26]",
+                "[EXCEL-N2-MFORME-C20]",
+                "[EXCEL-N2-MFORME-C21]",
+                "[EXCEL-N2-MFORME-C22]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-ENV-C08",
+                "EXCEL-N1-ENV-C09",
+                "EXCEL-N1-ENV-C10",
+                "EXCEL-N1-MFORME-C19",
+                "EXCEL-N1-MFORME-C20",
+                "EXCEL-N1-MFORME-C21",
+                "EXCEL-N1-MFORME-C22",
+                "EXCEL-N1-MFORME-C23",
+                "EXCEL-N1-MFORME-C24",
+                "EXCEL-N1-MFORME-C25",
+                "EXCEL-N1-MFORME-C26",
+                "EXCEL-N2-MFORME-C20",
+                "EXCEL-N2-MFORME-C21",
+                "EXCEL-N2-MFORME-C22"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D3",
+                  "nom_domaine": "Mise en forme",
+                  "competences": [
+                    "EXCEL-N1-MFORME-C19",
+                    "EXCEL-N1-MFORME-C20",
+                    "EXCEL-N1-MFORME-C21",
+                    "EXCEL-N1-MFORME-C22",
+                    "EXCEL-N1-MFORME-C23",
+                    "EXCEL-N1-MFORME-C24",
+                    "EXCEL-N1-MFORME-C25",
+                    "EXCEL-N1-MFORME-C26",
+                    "EXCEL-N2-MFORME-C20",
+                    "EXCEL-N2-MFORME-C21",
+                    "EXCEL-N2-MFORME-C22"
+                  ]
+                },
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N1-ENV-C08",
+                    "EXCEL-N1-ENV-C09",
+                    "EXCEL-N1-ENV-C10"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T04",
+              "nom": "Mise en page et impression",
+              "niveau_besoin": "fort",
+              "duree_estimee": 2.0,
+              "nb_questions": 4,
+              "contenu_programme": [
+                "Centrer un tableau dans la page",
+                "Ajuster pour l'impression ; zone d'impression",
+                "En-têtes et pieds de page, marges",
+                "Mise en page de données volumineuses (plusieurs pages)"
+              ],
+              "description": "Paramètres d'impression et mise en page",
+              "domaine_tosa": [
+                "D1"
+              ],
+              "domaine_noms": [
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-ENV-C06]",
+                "[EXCEL-N1-ENV-C07]",
+                "[EXCEL-N2-ENV-C11]",
+                "[EXCEL-N2-ENV-C12]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-ENV-C06",
+                "EXCEL-N1-ENV-C07",
+                "EXCEL-N2-ENV-C11",
+                "EXCEL-N2-ENV-C12"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N1-ENV-C06",
+                    "EXCEL-N1-ENV-C07",
+                    "EXCEL-N2-ENV-C11",
+                    "EXCEL-N2-ENV-C12"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T05",
+              "nom": "Gérer les feuilles de calcul",
+              "niveau_besoin": "fort",
+              "duree_estimee": 1.0,
+              "nb_questions": 2,
+              "contenu_programme": [
+                "Insérer, supprimer, copier, déplacer, renommer une feuille"
+              ],
+              "description": "Opérations sur les feuilles",
+              "domaine_tosa": [
+                "D1"
+              ],
+              "domaine_noms": [
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-ENV-C04]",
+                "[EXCEL-N2-ENV-C05]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-ENV-C04",
+                "EXCEL-N2-ENV-C05"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N2-ENV-C04",
+                    "EXCEL-N2-ENV-C05"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T07",
+              "nom": "Affichage",
+              "niveau_besoin": "fort",
+              "duree_estimee": 1.5,
+              "nb_questions": 3,
+              "contenu_programme": [
+                "Afficher/Masquer le quadrillage",
+                "Utiliser les différents modes d'affichage",
+                "Personnaliser le zoom"
+              ],
+              "description": "Modes d'affichage et options",
+              "domaine_tosa": [
+                "D1"
+              ],
+              "domaine_noms": [
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-ENV-C05]",
+                "[EXCEL-N3-ENV-C01]",
+                "[EXCEL-N3-ENV-C02]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-ENV-C05",
+                "EXCEL-N3-ENV-C01",
+                "EXCEL-N3-ENV-C02"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N1-ENV-C05",
+                    "EXCEL-N3-ENV-C01",
+                    "EXCEL-N3-ENV-C02"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T09",
+              "nom": "Fonctions avancées",
+              "niveau_besoin": "fort",
+              "duree_estimee": 2.5,
+              "nb_questions": 5,
+              "contenu_programme": [
+                "Comprendre et utiliser les collages spéciaux",
+                "Appliquer les styles personnalisés",
+                "Créer et gérer des formats personnalisés",
+                "Auto-complétion avancée",
+                "Protéger une feuille ou un classeur"
+              ],
+              "description": "Collages spéciaux, formats personnalisés, protection",
+              "domaine_tosa": [
+                "D1"
+              ],
+              "domaine_noms": [
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N2-ENV-C06]",
+                "[EXCEL-N2-ENV-C07]",
+                "[EXCEL-N2-ENV-C08]",
+                "[EXCEL-N3-ENV-C12]",
+                "[EXCEL-N3-ENV-C13]"
+              ],
+              "competences_noms": [
+                "EXCEL-N2-ENV-C06",
+                "EXCEL-N2-ENV-C07",
+                "EXCEL-N2-ENV-C08",
+                "EXCEL-N3-ENV-C12",
+                "EXCEL-N3-ENV-C13"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N2-ENV-C06",
+                    "EXCEL-N2-ENV-C07",
+                    "EXCEL-N2-ENV-C08",
+                    "EXCEL-N3-ENV-C12",
+                    "EXCEL-N3-ENV-C13"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_domaine": "D3",
+          "nom_domaine": "Mise en forme",
+          "themes": [
+            {
+              "id_theme": "T03",
+              "nom": "Mise en forme de tableaux",
+              "niveau_besoin": "fort",
+              "duree_estimee": 7.0,
+              "nb_questions": 14,
+              "contenu_programme": [
+                "Couper, copier, coller",
+                "Utiliser la poignée de recopie (séries incrémentées)",
+                "Insérer ou supprimer des lignes/colonnes ; ajuster largeurs/hauteurs ; masquer",
+                "Formater les nombres (décimales, milliers, dates, monnaie, pourcentages)",
+                "Police, taille, couleurs de remplissage",
+                "Alignements, orientation, fusion de cellules",
+                "Styles prédéfinis, trames, bordures",
+                "Reproduire la mise en forme",
+                "Retour à la ligne automatique ; formats personnalisés"
+              ],
+              "description": "Outils de base et avancés pour la mise en forme",
+              "domaine_tosa": [
+                "D3",
+                "D1"
+              ],
+              "domaine_noms": [
+                "Mise en forme",
+                "Environnement / Méthodes"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-ENV-C08]",
+                "[EXCEL-N1-ENV-C09]",
+                "[EXCEL-N1-ENV-C10]",
+                "[EXCEL-N1-MFORME-C19]",
+                "[EXCEL-N1-MFORME-C20]",
+                "[EXCEL-N1-MFORME-C21]",
+                "[EXCEL-N1-MFORME-C22]",
+                "[EXCEL-N1-MFORME-C23]",
+                "[EXCEL-N1-MFORME-C24]",
+                "[EXCEL-N1-MFORME-C25]",
+                "[EXCEL-N1-MFORME-C26]",
+                "[EXCEL-N2-MFORME-C20]",
+                "[EXCEL-N2-MFORME-C21]",
+                "[EXCEL-N2-MFORME-C22]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-ENV-C08",
+                "EXCEL-N1-ENV-C09",
+                "EXCEL-N1-ENV-C10",
+                "EXCEL-N1-MFORME-C19",
+                "EXCEL-N1-MFORME-C20",
+                "EXCEL-N1-MFORME-C21",
+                "EXCEL-N1-MFORME-C22",
+                "EXCEL-N1-MFORME-C23",
+                "EXCEL-N1-MFORME-C24",
+                "EXCEL-N1-MFORME-C25",
+                "EXCEL-N1-MFORME-C26",
+                "EXCEL-N2-MFORME-C20",
+                "EXCEL-N2-MFORME-C21",
+                "EXCEL-N2-MFORME-C22"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D3",
+                  "nom_domaine": "Mise en forme",
+                  "competences": [
+                    "EXCEL-N1-MFORME-C19",
+                    "EXCEL-N1-MFORME-C20",
+                    "EXCEL-N1-MFORME-C21",
+                    "EXCEL-N1-MFORME-C22",
+                    "EXCEL-N1-MFORME-C23",
+                    "EXCEL-N1-MFORME-C24",
+                    "EXCEL-N1-MFORME-C25",
+                    "EXCEL-N1-MFORME-C26",
+                    "EXCEL-N2-MFORME-C20",
+                    "EXCEL-N2-MFORME-C21",
+                    "EXCEL-N2-MFORME-C22"
+                  ]
+                },
+                {
+                  "id_domaine": "D1",
+                  "nom_domaine": "Environnement / Méthodes",
+                  "competences": [
+                    "EXCEL-N1-ENV-C08",
+                    "EXCEL-N1-ENV-C09",
+                    "EXCEL-N1-ENV-C10"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T06",
+              "nom": "Mise en forme conditionnelle",
+              "niveau_besoin": "fort",
+              "duree_estimee": 1.5,
+              "nb_questions": 3,
+              "contenu_programme": [
+                "Règles simples",
+                "Règles basées sur des formules",
+                "Copier/rechercher/supprimer les mises en forme conditionnelles"
+              ],
+              "description": "Règles de mise en forme avancées",
+              "domaine_tosa": [
+                "D3"
+              ],
+              "domaine_noms": [
+                "Mise en forme"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-MFORME-C23]",
+                "[EXCEL-N2-MFORME-C23]",
+                "[EXCEL-N3-MFORME-C34]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-MFORME-C23",
+                "EXCEL-N2-MFORME-C23",
+                "EXCEL-N3-MFORME-C34"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D3",
+                  "nom_domaine": "Mise en forme",
+                  "competences": [
+                    "EXCEL-N1-MFORME-C23",
+                    "EXCEL-N2-MFORME-C23",
+                    "EXCEL-N3-MFORME-C34"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_domaine": "D2",
+          "nom_domaine": "Calculs & Formules",
+          "themes": [
+            {
+              "id_theme": "T08",
+              "nom": "Créer des formules de calcul",
+              "niveau_besoin": "fort",
+              "duree_estimee": 11.5,
+              "nb_questions": 23,
+              "contenu_programme": [
+                "Bonnes pratiques (références de cellules, opérateurs, parenthèses)",
+                "Identifier les erreurs (#NOM?, #DIV/0!, #####)",
+                "Références relatives et absolues",
+                "Fonctions : statistiques, conditionnelles, logiques, temps, recherche, texte, base de données",
+                "Arrondis, remplacement, nombres aléatoires",
+                "Documenter les formules avec des commentaires"
+              ],
+              "description": "Formules simples et avancées",
+              "domaine_tosa": [
+                "D2"
+              ],
+              "domaine_noms": [
+                "Calculs & Formules"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-CALCUL-C12]",
+                "[EXCEL-N1-CALCUL-C13]",
+                "[EXCEL-N1-CALCUL-C14]",
+                "[EXCEL-N1-CALCUL-C15]",
+                "[EXCEL-N1-CALCUL-C16]",
+                "[EXCEL-N1-CALCUL-C17]",
+                "[EXCEL-N2-CALCUL-C13]",
+                "[EXCEL-N2-CALCUL-C14]",
+                "[EXCEL-N2-CALCUL-C15]",
+                "[EXCEL-N2-CALCUL-C16]",
+                "[EXCEL-N2-CALCUL-C17]",
+                "[EXCEL-N2-CALCUL-C18]",
+                "[EXCEL-N2-CALCUL-C19]",
+                "[EXCEL-N3-CALCUL-C15]",
+                "[EXCEL-N3-CALCUL-C16]",
+                "[EXCEL-N3-CALCUL-C17]",
+                "[EXCEL-N3-CALCUL-C18]",
+                "[EXCEL-N3-CALCUL-C20]",
+                "[EXCEL-N3-CALCUL-C21]",
+                "[EXCEL-N3-CALCUL-C22]",
+                "[EXCEL-N3-CALCUL-C23]",
+                "[EXCEL-N3-CALCUL-C24]",
+                "[EXCEL-N3-CALCUL-C28]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-CALCUL-C12",
+                "EXCEL-N1-CALCUL-C13",
+                "EXCEL-N1-CALCUL-C14",
+                "EXCEL-N1-CALCUL-C15",
+                "EXCEL-N1-CALCUL-C16",
+                "EXCEL-N1-CALCUL-C17",
+                "EXCEL-N2-CALCUL-C13",
+                "EXCEL-N2-CALCUL-C14",
+                "EXCEL-N2-CALCUL-C15",
+                "EXCEL-N2-CALCUL-C16",
+                "EXCEL-N2-CALCUL-C17",
+                "EXCEL-N2-CALCUL-C18",
+                "EXCEL-N2-CALCUL-C19",
+                "EXCEL-N3-CALCUL-C15",
+                "EXCEL-N3-CALCUL-C16",
+                "EXCEL-N3-CALCUL-C17",
+                "EXCEL-N3-CALCUL-C18",
+                "EXCEL-N3-CALCUL-C20",
+                "EXCEL-N3-CALCUL-C21",
+                "EXCEL-N3-CALCUL-C22",
+                "EXCEL-N3-CALCUL-C23",
+                "EXCEL-N3-CALCUL-C24",
+                "EXCEL-N3-CALCUL-C28"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D2",
+                  "nom_domaine": "Calculs & Formules",
+                  "competences": [
+                    "EXCEL-N1-CALCUL-C12",
+                    "EXCEL-N1-CALCUL-C13",
+                    "EXCEL-N1-CALCUL-C14",
+                    "EXCEL-N1-CALCUL-C15",
+                    "EXCEL-N1-CALCUL-C16",
+                    "EXCEL-N1-CALCUL-C17",
+                    "EXCEL-N2-CALCUL-C13",
+                    "EXCEL-N2-CALCUL-C14",
+                    "EXCEL-N2-CALCUL-C15",
+                    "EXCEL-N2-CALCUL-C16",
+                    "EXCEL-N2-CALCUL-C17",
+                    "EXCEL-N2-CALCUL-C18",
+                    "EXCEL-N2-CALCUL-C19",
+                    "EXCEL-N3-CALCUL-C15",
+                    "EXCEL-N3-CALCUL-C16",
+                    "EXCEL-N3-CALCUL-C17",
+                    "EXCEL-N3-CALCUL-C18",
+                    "EXCEL-N3-CALCUL-C20",
+                    "EXCEL-N3-CALCUL-C21",
+                    "EXCEL-N3-CALCUL-C22",
+                    "EXCEL-N3-CALCUL-C23",
+                    "EXCEL-N3-CALCUL-C24",
+                    "EXCEL-N3-CALCUL-C28"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_domaine": "D4",
+          "nom_domaine": "Gestion des données",
+          "themes": [
+            {
+              "id_theme": "T10",
+              "nom": "Graphiques et objets graphiques",
+              "niveau_besoin": "fort",
+              "duree_estimee": 4.0,
+              "nb_questions": 8,
+              "contenu_programme": [
+                "Créer et modifier des objets graphiques",
+                "Créer des graphiques de base",
+                "Personnaliser les couleurs, étiquettes et axes",
+                "Concevoir un graphique à deux axes"
+              ],
+              "description": "Création et personnalisation de graphiques",
+              "domaine_tosa": [
+                "D4"
+              ],
+              "domaine_noms": [
+                "Gestion des données"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-GDONNEES-C28]",
+                "[EXCEL-N1-GDONNEES-C29]",
+                "[EXCEL-N1-GDONNEES-C30]",
+                "[EXCEL-N1-GDONNEES-C31]",
+                "[EXCEL-N2-GDONNEES-C33]",
+                "[EXCEL-N3-GDONNEES-C58]",
+                "[EXCEL-N3-GDONNEES-C59]",
+                "[EXCEL-N3-GDONNEES-C60]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-GDONNEES-C28",
+                "EXCEL-N1-GDONNEES-C29",
+                "EXCEL-N1-GDONNEES-C30",
+                "EXCEL-N1-GDONNEES-C31",
+                "EXCEL-N2-GDONNEES-C33",
+                "EXCEL-N3-GDONNEES-C58",
+                "EXCEL-N3-GDONNEES-C59",
+                "EXCEL-N3-GDONNEES-C60"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D4",
+                  "nom_domaine": "Gestion des données",
+                  "competences": [
+                    "EXCEL-N1-GDONNEES-C28",
+                    "EXCEL-N1-GDONNEES-C29",
+                    "EXCEL-N1-GDONNEES-C30",
+                    "EXCEL-N1-GDONNEES-C31",
+                    "EXCEL-N2-GDONNEES-C33",
+                    "EXCEL-N3-GDONNEES-C58",
+                    "EXCEL-N3-GDONNEES-C59",
+                    "EXCEL-N3-GDONNEES-C60"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T11",
+              "nom": "Exploiter une plage, liste ou tableau de données",
+              "niveau_besoin": "fort",
+              "duree_estimee": 9.5,
+              "nb_questions": 19,
+              "contenu_programme": [
+                "Comprendre les plages, listes et tableaux structurés",
+                "Filtres et tris",
+                "Figer les volets",
+                "Nettoyage",
+                "Validation des données",
+                "Sous-totaux"
+              ],
+              "description": "Gestion et analyse de données",
+              "domaine_tosa": [
+                "D4"
+              ],
+              "domaine_noms": [
+                "Gestion des données"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-GDONNEES-C27]",
+                "[EXCEL-N1-GDONNEES-C32]",
+                "[EXCEL-N1-GDONNEES-C33]",
+                "[EXCEL-N1-GDONNEES-C34]",
+                "[EXCEL-N2-GDONNEES-C37]",
+                "[EXCEL-N2-GDONNEES-C38]",
+                "[EXCEL-N2-GDONNEES-C39]",
+                "[EXCEL-N2-GDONNEES-C40]",
+                "[EXCEL-N2-GDONNEES-C41]",
+                "[EXCEL-N2-GDONNEES-C42]",
+                "[EXCEL-N2-GDONNEES-C43]",
+                "[EXCEL-N3-GDONNEES-C49]",
+                "[EXCEL-N3-GDONNEES-C50]",
+                "[EXCEL-N3-GDONNEES-C51]",
+                "[EXCEL-N3-GDONNEES-C52]",
+                "[EXCEL-N3-GDONNEES-C55]",
+                "[EXCEL-N3-GDONNEES-C56]",
+                "[EXCEL-N3-GDONNEES-C57]",
+                "[EXCEL-N3-GDONNEES-C67]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-GDONNEES-C27",
+                "EXCEL-N1-GDONNEES-C32",
+                "EXCEL-N1-GDONNEES-C33",
+                "EXCEL-N1-GDONNEES-C34",
+                "EXCEL-N2-GDONNEES-C37",
+                "EXCEL-N2-GDONNEES-C38",
+                "EXCEL-N2-GDONNEES-C39",
+                "EXCEL-N2-GDONNEES-C40",
+                "EXCEL-N2-GDONNEES-C41",
+                "EXCEL-N2-GDONNEES-C42",
+                "EXCEL-N2-GDONNEES-C43",
+                "EXCEL-N3-GDONNEES-C49",
+                "EXCEL-N3-GDONNEES-C50",
+                "EXCEL-N3-GDONNEES-C51",
+                "EXCEL-N3-GDONNEES-C52",
+                "EXCEL-N3-GDONNEES-C55",
+                "EXCEL-N3-GDONNEES-C56",
+                "EXCEL-N3-GDONNEES-C57",
+                "EXCEL-N3-GDONNEES-C67"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D4",
+                  "nom_domaine": "Gestion des données",
+                  "competences": [
+                    "EXCEL-N1-GDONNEES-C27",
+                    "EXCEL-N1-GDONNEES-C32",
+                    "EXCEL-N1-GDONNEES-C33",
+                    "EXCEL-N1-GDONNEES-C34",
+                    "EXCEL-N2-GDONNEES-C37",
+                    "EXCEL-N2-GDONNEES-C38",
+                    "EXCEL-N2-GDONNEES-C39",
+                    "EXCEL-N2-GDONNEES-C40",
+                    "EXCEL-N2-GDONNEES-C41",
+                    "EXCEL-N2-GDONNEES-C42",
+                    "EXCEL-N2-GDONNEES-C43",
+                    "EXCEL-N3-GDONNEES-C49",
+                    "EXCEL-N3-GDONNEES-C50",
+                    "EXCEL-N3-GDONNEES-C51",
+                    "EXCEL-N3-GDONNEES-C52",
+                    "EXCEL-N3-GDONNEES-C55",
+                    "EXCEL-N3-GDONNEES-C56",
+                    "EXCEL-N3-GDONNEES-C57",
+                    "EXCEL-N3-GDONNEES-C67"
+                  ]
+                }
+              ]
+            },
+            {
+              "id_theme": "T12",
+              "nom": "Tableau croisé dynamique",
+              "niveau_besoin": "fort",
+              "duree_estimee": 4.5,
+              "nb_questions": 9,
+              "contenu_programme": [
+                "Créer des TCD",
+                "Ajouter/supprimer champs",
+                "Segments",
+                "Graphique croisé dynamique",
+                "Actualiser les données"
+              ],
+              "description": "Création et analyse avec TCD",
+              "domaine_tosa": [
+                "D4"
+              ],
+              "domaine_noms": [
+                "Gestion des données"
+              ],
+              "competences_tosa": [
+                "[EXCEL-N1-GDONNEES-C30]",
+                "[EXCEL-N2-GDONNEES-C35]",
+                "[EXCEL-N2-GDONNEES-C36]",
+                "[EXCEL-N2-GDONNEES-C37]",
+                "[EXCEL-N3-GDONNEES-C63]",
+                "[EXCEL-N3-GDONNEES-C64]",
+                "[EXCEL-N3-GDONNEES-C65]",
+                "[EXCEL-N3-GDONNEES-C66]",
+                "[EXCEL-N3-GDONNEES-C53]"
+              ],
+              "competences_noms": [
+                "EXCEL-N1-GDONNEES-C30",
+                "EXCEL-N2-GDONNEES-C35",
+                "EXCEL-N2-GDONNEES-C36",
+                "EXCEL-N2-GDONNEES-C37",
+                "EXCEL-N3-GDONNEES-C63",
+                "EXCEL-N3-GDONNEES-C64",
+                "EXCEL-N3-GDONNEES-C65",
+                "EXCEL-N3-GDONNEES-C66",
+                "EXCEL-N3-GDONNEES-C53"
+              ],
+              "comp_par_domaine": [
+                {
+                  "id_domaine": "D4",
+                  "nom_domaine": "Gestion des données",
+                  "competences": [
+                    "EXCEL-N1-GDONNEES-C30",
+                    "EXCEL-N2-GDONNEES-C35",
+                    "EXCEL-N2-GDONNEES-C36",
+                    "EXCEL-N2-GDONNEES-C37",
+                    "EXCEL-N3-GDONNEES-C63",
+                    "EXCEL-N3-GDONNEES-C64",
+                    "EXCEL-N3-GDONNEES-C65",
+                    "EXCEL-N3-GDONNEES-C66",
+                    "EXCEL-N3-GDONNEES-C53"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "duree_estimee": 49.0,
+      "cout_estime": 2205.0,
+      "objectifs": "",
+      "timestamp": "2026-03-28T13:21:44.388371"
+    }
+  ],
   "config": {
     "tarif_horaire_defaut": 45,
     "email_organisation": "contact@formation-tosa.fr",

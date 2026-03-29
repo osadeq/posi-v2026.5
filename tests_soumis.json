@@ -108,5 +108,279 @@
     ],
     "score": 0,
     "timestamp": "2026-03-24T21:47:37.132574"
+  },
+  {
+    "id": "TEST-20260328-125019",
+    "candidat": {
+      "nom": "Sadeq",
+      "prenom": "O",
+      "email": "os@mail.com",
+      "objectifs": "Revoir les bases"
+    },
+    "formation": "excel",
+    "niveau": "debutant",
+    "type": "testPositionnement",
+    "reponses": [
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-02",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-03",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-04",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-05",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-08",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-09",
+        "reponse": "E"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-10",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-11",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-12",
+        "reponse": "E"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-13",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-15",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-16",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-17",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-18",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-19",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-20",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-24",
+        "reponse": "E"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-C21-Q07",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-C22-Q06",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-BQ-01",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C01-Q01",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C02-Q02",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C05-Q03",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C13-Q04",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C15-Q05",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-GDONNEES-C39-Q09",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N1-GDONNEES-C41-Q10",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-MFORME-C30-Q08",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N2-CALCUL-BQ-25",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N2-ENV-C01-Q01",
+        "reponse": "D"
+      }
+    ],
+    "theta": -1.67,
+    "level": "n0",
+    "timestamp": "2026-03-28T12:50:19.019878"
+  },
+  {
+    "id": "TEST-20260328-125205",
+    "candidat": {
+      "nom": "Sadeq",
+      "prenom": "O",
+      "email": "os@mail.com",
+      "objectifs": "Revoir les bases"
+    },
+    "formation": "excel",
+    "niveau": "debutant",
+    "type": "testPositionnement",
+    "reponses": [
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-02",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-03",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-04",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-05",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-08",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-09",
+        "reponse": "E"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-10",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-11",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-12",
+        "reponse": "E"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-13",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-15",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-16",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-17",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-18",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-19",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-20",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-BQ-24",
+        "reponse": "E"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-C21-Q07",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-CALCUL-C22-Q06",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-BQ-01",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C01-Q01",
+        "reponse": "C"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C02-Q02",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C05-Q03",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C13-Q04",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-ENV-C15-Q05",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N1-GDONNEES-C39-Q09",
+        "reponse": "A"
+      },
+      {
+        "questionId": "EXCEL-N1-GDONNEES-C41-Q10",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N1-MFORME-C30-Q08",
+        "reponse": "D"
+      },
+      {
+        "questionId": "EXCEL-N2-CALCUL-BQ-25",
+        "reponse": "B"
+      },
+      {
+        "questionId": "EXCEL-N2-ENV-C01-Q01",
+        "reponse": "D"
+      }
+    ],
+    "theta": -1.67,
+    "level": "n0",
+    "timestamp": "2026-03-28T12:52:05.808858"
   }
 ]
